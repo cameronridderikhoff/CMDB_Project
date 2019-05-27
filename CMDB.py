@@ -1,26 +1,22 @@
-import tkinter as tk
-import classes
+#tkinters classes
+import tkinter
+from tkinter import Frame
+from tkinter import Button
+from tkinter import Label
+from tkinter import Entry
+from tkinter import Listbox
+from tkinter import Toplevel
 
-class Application(tk.Frame):
-    def __init__(self, master=None):
-        super().__init__(master)
-        self.master = master
-        self.pack()
-        self.create_widgets()
+#my classes
+from classes import Window
 
-    def create_widgets(self):
-        self.hi_there = tk.Button(self)
-        self.hi_there["text"] = "Hello World\n(click me)"
-        self.hi_there["command"] = self.say_hi
-        self.hi_there.pack(side="top")
+root1 = tkinter.Tk()
+root2 = Toplevel(root1)
+root3 = Toplevel(root1)
+window_lookup = Window(master=root1)
+window_main = Window(master=root2)
+window_edit = Window(master=root3)
 
-        self.quit = tk.Button(self, text="QUIT", fg="red",
-                              command=self.master.destroy)
-        self.quit.pack(side="bottom")
 
-    def say_hi(self):
-        print("hi there, everyone!")
 
-root = tk.Tk()
-app = Application(master=root)
-app.mainloop()
+root1.mainloop()
