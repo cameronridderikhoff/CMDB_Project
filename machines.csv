@@ -1,0 +1,1187 @@
+1 NAME|3 IP||4 OS, 5 OS version|6 CATEGORY|2 ROOM|18 RACKINFO|12 SERIAL NUMBER|9 BARCODE||7 OWNER|8 AUTHORITY|14 HOST STATUS|10 DESCRIPTION: Machine Company| Processor| RAM| HDD||
+586239-cs|||Windows, 8.1 Enterprise|laptop|ATH413||QB08009497|586239||yang|yang|CLEAN||Intel i7 4500U @ 1.8 GHz|8|1000||
+604047-cs|||Windows, 7 Enterprise|laptop|CSC247||R8-B2F4M|604047||ackerl|ackerl|CLEAN|ThinkPad T410i|Intel i3 M370 @ 2.4 GHz|4|250||
+abyssus|129.128.184.23||Linux, Ubuntu 14.04|regular|CSC351||||||athess|NOP||||||
+acme|||Linux, Ubuntu 14.04|regular|CSC205||1FS5WK1|543298|||hasell,zaiane|NOP||Intel Q9400 @2.66GHz|8|||
+adair-crk|129.128.184.8||Linux, Ubuntu 16.04|regular|CSC217||1.07E+11|604055||hayward|hayward|NOP||Intel i7 6700|32|1000||
+admin-fw1-inside|129.128.16.252||OpenBSD, 4.5|alias|admin-fw1|||||dept|tst|CLEAN||||||
+admin-fw1|129.128.22.241||OpenBSD, 4.5|regular|CSC231|B|F0YQN91|||dept|tst|CLEAN|Dell PowerEdge 850|Intel Pentium 4 80547 @ 2.66GHz|512MB|||
+admin-fw2-inside|129.128.16.253||OpenBSD, 4.5|alias|admin-fw2|||||dept|tst|CLEAN||||||
+admin-fw2|129.128.22.242||OpenBSD, 4.5|regular|CSC231|B|B0YQN91|||dept|tst|CLEAN|Dell PowerEdge 850|Intel Pentium 4 80547 @ 2.66GHz|512MB|||
+admin-fw|129.128.22.240||, |public carp|CSC231||floating||||tst|NA|Dell PowerEdge 850|Intel Pentium 4 80547 @ 2.66GHz|512MB|||
+ag-control|129.128.159.197||Windows, |regular|CSC363||no-serial||||pierreb|DIRTY||Xeon X2||||
+ahs3|129.128.184.33||Linux, |regular|CSC205|||||ackerl|jiaji,jharder1|NOP||||||
+aicml2|129.128.184.32||Linux, Ubuntu|regular|CSC205||||||hasell,zaiane|NOP||||||
+aicml10|129.128.184.97||Linux, Ubuntu|regular|CSC205||||||hasell|||||||
+aicml-med|129.128.184.29||Linux, Ubuntu|regular|CSC205||14027046P3|505406|||hasell,zaiane|NOP||Intel Core2 6600 @2.4GHz|2|||
+aicml-poker|||Linux, Ubuntu|regular|CSC211||ACS04006||||hasell,zaiane|NOP||AMD MP2400|2|||
+amii-prn|129.128.23.177||, |printer|CSC247|||||roik|zaiane|CLEAN|HP|MFP M426fdn||||
+amii-prn2|129.128.23.14||, |printer|CSC247|||||roik|zaiane|CLEAN|Brother|HL-5470DW||||
+aicml-srv|129.128.184.30||, |regular|CSC247||14197553P|586258|||hasell,zaiane|NOP||Intel i7 4771 @ 3.50GHz|16|||
+airdrie|129.128.23.32||Windows, 7|regular|ATH206||2FS5WK1|543290|||hasell,zaiane|CLEAN||Intel Q9400 @ 2.66GHz|8|||
+akasu-lk|||MacOS, 10.8|regular|ATH441||C02JXRCXDNCR|586224||mn|dept|CLEAN|Apple iMac 21.5" A1418|||||
+akenside|129.128.16.176||Windows, XP Pro 5.1.2600|regular|CSC247||ACS04496|461635||balaski|zaiane|CLEAN||AMD XP3200|2|||
+akinsdale|129.128.23.143||Linux, WPS Ubuntu 16.04|regular|CSC243||3FS5WK1|543295|||hasell,zaiane|CLEAN||Intel Q9400 @ 2.66GHz|8|||
+akuinu-riv|||Windows, 7|regular|CSC205||ACS06970|||ackerl|zaiane|CLEAN||AMD PN710x3|8|||
+alcomdale|129.128.16.191||MacOS, 10.8|regular|ATH220||C02JXPNLDNCR|586222||dept|dept|CLEAN|Apple iMac 21.5" A1418|||||
+alcurve|||MacOS, 10.8|regular|ATH342||C02JXD3QDNCR|586225||mn|dept|CLEAN|Apple iMac 21.5" A1418|||||
+alder-flats|129.128.23.173||, |regular|CSC205||C7L1TF1|473419|||zaiane|||Intel Core2 Duo E6550|2|||
+algar-lake|129.128.16.196||MacOS, 10.8|regular|CCIS1083||C02JXRFLDNCR|586226||dept|dept|CLEAN|Apple iMac 21.5" A1418|||||
+alhambra|129.128.16.160||Windows, XP Pro|regular|ATH241||ACS03576|527279|||dept,dchoi|CLEAN|Dell OptiPlex 755|Intel Core2 @ 2.66GHz|2|||
+alix|129.128.16.197||MacOS, 10.8|regular|ATH220||C02JXFX2DNCR|586227||dept|dept|CLEAN|Apple iMac 21.5" A1418|||||
+alliance|129.128.16.161||Windows, XP Pro|regular|ATH252B||ACS03577|527273|||dept,jsheppar|CLEAN|Dell OptiPlex 755|Intel Core2 @ 2.66GHz|2|||
+alpen|129.128.22.56||, ||CSC315|||||||||||||
+alsike|||MacOS, 10.8|regular|ATH304||C02JXRE8DNCR|586228||mn|dept|CLEAN|Apple iMac 21.5" A1418|||||
+altario|129.128.16.162||Windows, XP Pro|regular|ATH233|||527277|||dept,britta|CLEAN|Dell OptiPlex 755|||||
+amadou|129.128.16.172||Windows, XP Pro|regular|ATH252A||ACS03580||||dept|CLEAN|Dell OptiPlex 755|Intel Core2 @ 2.66GHz|2|||
+amber-rv|129.128.23.182||Linux, Ubuntu 14.04|regular|CSC205||6FS5WK1|543288|||hasell,zaiane|CLEAN||Intel Q9400 @ 2.66GHz|8|||
+amelia|||MacOS, 10.8|regular|Off Campus||C02JXREBDNCR|586220||dept|sunrose|CLEAN|Apple iMac 21.5" A1418|||||
+amii-laptop01|||Windows, 10 Education|laptop|CSC247||PF0GQRFZ|||zaiane|zaiane|CLEAN||Intel Core i7 6700HQ @ 2.6 GHz|8|1||
+amii1|129.128.184.31||Linux, Ubuntu 16.04|regular|CSC205||F482HH2|704915|||zaiane|NOP|Dell OptiPlex 7050|||||
+amiidemo|129.128.184.131||Linux, Ubuntu 16.04|regular|CSC205||||||zaiane|NOP||||||
+amisk|129.128.243.77||Linux, openSUSE 13.1|regular|GSB175|F14|FMTZ3J1|537335||dept|tst|CLEAN|Dell PowerEdge R300|||||
+ammi40|||Windows, 10|regular|ATH405||14273782S|707571||||||Intel Core i7||||
+ammi-emily|129.128.25.86||, |regular|CSC363?||GS1000B09415009||||pierreb|NOP||Intel Q9400 @ 2.66GHz|4|||
+ammi-fw|129.128.184.4||OpenBSD, 4.5|regular|CSC329||CNSWFX1|586203||pierreb|pierreb|NOP|Dell Poweredge R320|||||
+ammi-tr-ag|129.128.25.196||, |regular|CSC363?||37452|474201|||pierreb|NOP||Intel Q9400 @ 3GHz|2|||
+amundson|129.128.184.72||Linux, Ubuntu 14.04|regular|CSC205||RC371KKN31151400274||||greiner|NOP|Cooler Master Custom PC|||||
+ana|129.128.184.140||Linux, Ubuntu 14.04|regular|ATH430||5NTPWH1|no-tag|||mn,yannis|NOP||Intel Core2 E8400 @ 3.0GHz|4|||
+andrew|129.128.23.213||MacOS, 10.5.8|regular|ATH315||W86330D3WRQ|493097|||sutton,balaski|CLEAN|Apple iMac| @ 1.83GHz|1|||
+anton-lake|129.128.23.208||Linux, Scientific 4.4 (Beryllium)|regular|CSC205||ACS04178|456682|||hasell,zaiane|DIRTY||AMD XP3000|2|||
+anzac|129.128.16.198||MacOS, 10.8|regular|ATH220||C02JXRD6DNCR|586221||dept|dept|CLEAN|Apple iMac 21.5" A1418|||||
+arcadia|129.128.23.204||, |||||||||||||||
+ard1|129.128.184.76||Linux, Ubuntu 10.04 LTS (stand alone)|wildwest|CSC323||8J05S41|474596|||stroulia|NA|Dell OptiPlex GX270|Intel Pentium 4 @ 2.8GHz|2|||
+ard2|129.128.184.77||Linux, Ubuntu 10.04 LTS (stand alone)|wildwest|CSC323||JV05S41|474248|||stroulia|NA|Dell OptiPlex GX270|Intel Pentium 4 @ 2.8GHz|2|||
+ardmore|129.128.4.81||, |||||||||||||||
+ardrossan|129.128.23.77||Linux, WPS Ubuntu 16.04|regular|CSC205||F484HH2|||zaiane|zaiane|CLEAN||Intel Core i7 7700||||
+armena|129.128.4.154||MacOS, 10.6.4|regular|ATH420||G873022GUPZ|||mesquita|Denilson|CLEAN|Apple MacPro|Xeon @ 2.66GHz|4|||
+aspasia|129.128.184.45||Windows, 7|regular|ATH450||ACS07025|||serranos|stroulia|NOP||Inte lQ9550 @ 2.83GHz|4|||
+astotin|||MacOS, 10.12|regular|ATH207||C02JXRFKDNCR|586219||dept|dept|CLEAN|Apple iMac 21.5" A1418|||||
+atari|129.128.23.138||, |unknown|ATH338|||||bulitko|bulitko|NOP|Microsoft Xbox 360|||||
+ath224-cpy|129.128.23.61||, |printer|ATH224||XEH488891|||ath224-cpy|tst|CLEAN|Xerox|WorkCentre 5755||||
+ath234-clr|129.128.23.11||, |printer|ATH234||CNTCH33614|||ath234-clr|tst,dept|CLEAN|HP|Color Laserjet 3600dn|128MB|||
+ath245-cpy|129.128.23.62||, |printer|ATH245||XEH488917|||ath245-cpy|tst|CLEAN|Xerox|WorkCentre 5755||||
+ath326-cpy|129.128.4.130||, |printer|ATH326||XEH583587N|||ath326-cpy|tst|CLEAN|Xerox|WorkCentre 5755||||
+ath427-cpy|129.128.4.43||, |printer|ATH427||XEH583557N|||ath427-cpy|tst|CLEAN|Xerox|WorkCentre 5755||||
+athlone|129.128.16.195||MacOS, 10.8|regular|ATH220||C02JXFLQDNCR|586223||dept|dept|CLEAN|Apple|iMac 21.5" A1418||||
+atikameg|129.128.16.163||Windows, XP Pro|regular|ATH243||ACS04836|528141|||dept,sunrose|CLEAN|Dell OptiPlex 755|Intel Core2 @ 2.66GHz|2|||
+atlee|129.128.23.46||MacOS, 10.1|regular|ATH335||C02JXRAUDNCR|586218||dept|sadaf|CLEAN|Apple|iMac 21.5" A1418||||
+atmore|129.128.184.13||Linux, CentOS 6.7|regular|CSC137||||||steve|NOP||||||
+audet-lk|129.128.25.122||MacOS, 10.8|regular|CSC351||C02K82X3DNCV|||zhang||CLEAN|Apple|iMac 27" A1419||||
+aurora|129.128.22.49||Linux, WPS Ubuntu 16.04|regular|CSC329|E|||||zhang|CLEAN||Intel Xeon X5687 x2|148|||
+badden|129.128.23.221||, |||||||||||||||
+baranow|129.128.23.15||, |||||||||||||||
+barich|129.128.23.197||Windows, 10|regular|CSC225||JD7VW52|361515|||lin,anup|CLEAN||Intel i7 4790 @ 3.6GHz|16|||
+barnegat|129.128.25.138||Linux, Scientific 5.1 (Boron)|regular|CSC327||PTS860X034802099802700||||dwishart|DIRTY||Intel Q6600 @ 2.4GHz|3|||
+barrhead|129.128.4.39||MacOS, 10.6.4|regular|ATH419|||||wfb|wfb|CLEAN||||||
+battle-riv|129.128.184.24||Windows, 7|regular|CSC225||BB0418|586182|||nrossol,anup|CLEAN||Intel Quad Core i7 @ 3.4GHz|8|||
+baytree|129.128.25.161||Windows, 2000 Pro|regular|CSC363A?||CPS04592|411819|||wfb|NOP||Intel Pentium III||||
+bbw-grid1|129.128.25.191||, |network|CSC363A||125-000-5413??|||BBW|pierreb|CLEAN||||||
+bbw-grid2|129.128.25.192||, |network|CSC361||683-592-8117|||BBW|pierreb|CLEAN||||||
+bbw-grid3|129.128.25.193||, |network|CSC361||265-875-8772|||BBW|pierreb|CLEAN||||||
+bbw-grid4|129.128.25.194||, |network|CSC363A||serial??|||BBW|pierreb|CLEAN||||||
+bbw-grid5|129.128.25.195||, |network|CSC363A||serial??|||BBW|pierreb|CLEAN||||||
+bellis|129.128.23.142||Linux, WPS Ubuntu 16.04|regular|CSC205||9CQNPL1|no-tag||zaiane|zaiane|CLEAN|Dell Vostro 430|Intel i7 860 @ 2.8GHz|8|||
+bentley|129.128.25.162||Linux, WPS Ubuntu 16.04|regular|CSC311||FQQ18G1||||ghlin|CLEAN||Intel Core2 Duo E6850 @ 3.0GHz|4|||
+berwyn|129.128.25.165||, |alias|cs353ptr||4F4F8D1|||jag?|jag|CLEAN|Dell|1720dn||||
+bezanson|129.128.184.78||Linux, Ubuntu 10.04 LTS (stand alone)|wildwest|CSC357||3QCGLS1|||yifeng|paullu,ghlin|NOP|Dell XPS 8300|Intel i7 2600 @ 3.4GHz|12|||
+bi-print-8620|129.128.25.7||, |printer|CSC327||CN559FK1DS||||aguo|CLEAN|HP|OfficeJet Pro 8620||||
+bickerdike|129.128.25.163||Linux, WPS Ubuntu 16.04|regular|CSC311||PTSHAP201715004BC49201||||ghlin|CLEAN|Acer Aspire AM3970-EB12P|Intel i7 2500 @ 3.40GHz|8|||
+bighorn|129.128.25.96||Linux, Fedora 13|regular|CSC353||serial-no|444197||zichen2|jag|CLEAN|Xeon|X350qc|4|||
+bioqa|129.128.184.61||, |unknown|CSC327|||||cknox,apon,jgrant2|dwishart|NOP||||||
+bitumount|129.128.25.104||Linux, Ubuntu 12.04|regular|CSC351||0ACS05466|512157|||mpolak,zhang|CLEAN||Intel Pentium4 @ 3.4GHz|1|||
+blackfoot|129.128.184.6||Linux, Ubuntu 16.04|regular|CSC217||ACS0538|||cgao3|hayward|NOP||Intel i7 7700|32|||
+blogs-dev|129.128.22.149||Linux, Slackware 12.2.0|alias|launch-dev|||||dept|tst|CLEAN||||||
+bmiserver|129.128.184.20||Windows, |regular|ATH123||4130400037|588738|||ziqi2|||Intel i7 3770||||
+bodo1|129.128.4.119||Linux, Fedora 7 (Moonshine)|regular|ATH337?||serial||||mburo|DIRTY||AMD MP2400|1|||
+boian|129.128.184.44||, |unknown|ATH419||90PEAB009974|||wfb|wfb|NOP|Asus EeeBoxEB 1006||1|||
+bonanza|129.128.22.18||Linux, WPS Ubuntu 16.04|regular|CSC329|F|4X7S5P1|no-tag||dept|tst|CLEAN|Dell PowerEdge 815|AMD Opteron 6134|98|||
+bondiss|129.128.25.52||Linux, Fedora 13|regular|CSC353||ACS03808|448715||zichen2|jag|NOP||AMD Opteron 170 @ 2GHz|2|||
+bonnyville|129.128.25.70||Linux, WPS Ubuntu 16.04|regular|CSC311||GQQ18G1||||ghlin|CLEAN|Dell Optiplex 755|Intel Core2 Duo E6850 @ 3GHz|4|||
+bon-accord|129.128.25.80||Windows, 10|regular|CSC327||8DN3DP1||||dwishart|CLEAN|Dell Vostro 460|Intel i5 2400 @ 3.1GHz|8|||
+botha1|129.128.184.7||Linux, CentOS 5.5|regular|CSC251A||636ZMF1||||paullu|NOP|Dell PowerEdge 2950|Xeon 5150|8|||
+botha1|||Linux, RHEL WS 3 (Taroon Update 2)|regular|CSC329|E|XG043057933|474740|||paullu|NA|Sun V20z|AMD Opteron DP248|2|||
+botha10|129.128.22.140||Linux, Fedora Core 6 (Zod)|unknown|CSC251A||HKK9QC1|508544|||paullu|CLEAN|DellPowerEdge 2950|Xeon 5150|8|||
+bowden|nat||Linux, openSUSE 13.2|regular|CSC211|||586216|||bulitko|CLEAN||Intel i7 950 @ 3.7GHz|6|||
+bowhay|129.128.23.29||Linux, Ubuntu 14.04|regular|CSC211||14011622P|524807||bowling|bowling|CLEAN||AMD DC4800|2|||
+boyne|129.128.23.27||Linux, Ubuntu 14.04|regular|CSC211||14195708p|586254|||bulitko|NOP||Intel i5 4670 @ 3.4GHz|8|||
+braeburn-uws-nat|||, ||CSC205||9CPTOL1|no-tag|||hasell,zaiane|NOP||||||
+braeburn|129.128.23.12||Windows, 7|regular|CSC205||9CPSPL1||||hasell,zaiane|CLEAN|Dell Vostro 430|Intel i7 860 @ 2.8GHz|4|||
+brazeau|129.128.4.13||Linux, WPS Ubuntu 16.04|regular|CSC329|B|KP-2L607||||jonathan|CLEAN||AMD Opteron 248|2|||
+bremmer|129.128.23.117||, |||||||||||||||
+breton|129.128.25.14||Windows, XP - 64 bit|regular|||9368144-51775||||pierreb|NA||Xeon X5560|12|||
+breynat|129.128.25.170||Linux, Scientific 5.0 (Boron)|regular|CSC311||PTSC..1235D2701||||ghlin,paullu|NOP|Acer QC8200| @ 2.33GHz|8|||
+brownfield|129.128.25.106||, |||||||||||||||
+brule|129.128.23.114||Linux, RHEL Server 5.11|regular|CSC329|F|ACS05264|497707|||paullu|CLEAN||AMD Opteron 244|2|||
+bucklake|129.128.25.128||Linux, Ubuntu 14|regular|CSC353||2209159|||zichen2|jag|CLEAN||Intel Core2 Quad @ 2.4GHz|4|||
+busby3|129.128.22.33||Linux, Ubuntu 12.04|regular|CSC251A||ACS05761|510063|||paullu,dwishart|CLEAN||AMD Opteron DP250|4|||
+busby4|129.128.22.34||Linux, Ubuntu 12.04|regular|CSC251A||ACS05764|510064|||paullu,dwishart|CLEAN||AMD Opteron DP250|4|||
+busby9|129.128.22.141||Linux, Fedora Core 6 (Zod)|unknown|CSC251A||serial-no|508557|||paullu,dwishart|CLEAN||Xeon 5160|8|||
+cadogan|129.128.23.220||, |||||||||||||||
+cadotte|129.128.21.241||Linux, WPS Ubuntu 16.04|regular|GSB175|F14|ACS04728||||bulitko|CLEAN||AMD Opteron DP246|6|||
+calmar|129.128.23.13||Windows, 7|regular|ATH452||B2J5LM1|||guana|stroulia|NOP|Dell 8100|Intel i5 @ 3.2GHz|8|||
+calumet-lk|129.128.25.120||MacOS, 10.8|regular|CSC351||C02K8A7KDNCV||||rmaiti|CLEAN|Apple iMac 27" A1419|||||
+cambria|129.128.23.145||, |||||||||||||||
+caneta|129.128.4.23||MacOS, 10.11.3|regular|ATH451||F5KR407RF9VN|||denilson|denilson|||Xeon Quad-Core E5|32|||
+carcajou|129.128.184.55||MacOS, 10.5|regular|ATH232||XC4502D741Y|221067|||dept|CLEAN|Apple Power Macintosh 6100| @ 66MHz||||
+card|||Linux, Ubuntu 14.04|regular|CSC205||8FS5WK1|543292|||hasell,zaiane|NOP|Dell D540| Intel Core2 Quad Q9400 @ 2.66 GHz|8|||
+carvel|129.128.23.151||, |||||||||||||||
+ccis|129.128.22.30||Linux, Fedora Core 5|regular|CSC329|F|||||steve|DIRTY||||||
+charcot|129.128.184.50||, ||CSC329|C||||||||||||
+chard|129.128.25.100||Windows, 7|regular|CSC315A||ACS05774|||||||AMD Athlon 64 Dual 4400+ @ 2.2GHz|4|||
+chauvin|129.128.184.91||Linux, Ubuntu 12.04|regular|CSC329|D|ACS04596|469353||gkondrak|gkondrak|NOP||Xeon E5 1650v2|32|||
+checkmylab|129.128.21.208||Linux, Ubuntu 16.04|virtual|IST VM|||NA||||CLEAN||||||
+checkmylabtest|129.128.21.209||Linux, Ubuntu 16.04|virtual|IST VM|||NA||||CLEAN||||||
+cherhill|129.128.4.55||Linux, Ubuntu 10.04 LTS|regular|CSC311||ACS04305|468224||ghlin|ghlin|CLEAN||AMD MP2400|2|||
+chinook-c01|||, |cluster|CSC329|B|||||steve|NOP||||||
+chinook-c02|||, |cluster|CSC329|B|||||steve|NOP||||||
+chinook-c03|||, |cluster|CSC329|B|||||steve|NOP||||||
+chinook-c04|||, |cluster|CSC329|B|||||steve|NOP||||||
+chinook|129.128.23.85||Linux, Red Hat 7.1 (Seawolf)|cluster|CSC329|B|ACS03085|438787|||jonathan|CLEAN||AMD 1.5GD|2|||
+chiplk|129.128.28.250||Linux, openSUSE 13.1|alias|nojack|||||dept|tst|CLEAN||||||
+chipman|129.128.25.119||, |||||||||||||||
+chirp|129.128.25.37||Linux, Ubuntu 14|regular|CSC301||||||jag|CLEAN||Intel Dual|4|||
+chisholm|129.128.23.82||, |||||||||||||||
+cims-bw|129.128.25.93||, |printer|CSC351||PHGFD37605|||cs351|mpolak,zhang|CLEAN|HP|LaserJet Pro 400 M401dne||||
+cline28|129.128.28.248||Linux, Slackware 12.2.0|alias|cline|||||dept|tst|CLEAN||||||
+cline|129.128.21.10||Linux, Slackware 12.2.0|regular|GSB175|F17|SM42230|543323||dept|tst|CLEAN||AMD Opteron 2350|4|||
+clive|129.128.25.148||, |||||||||||||||
+cmpt497-nat|129.128.41.251||, |regular|||||||tst|NA||||||
+coldlake|129.128.184.54||, |unknown|CSC251A|||||steve|paullu|NOP||||||
+coleco|129.128.23.137||, |unknown|ATH338|||||bulitko|bulitko|NOP|Sony PlayStation 3|||||
+cons1|129.128.41.226||Linux, WPS Ubuntu 14.04|regular|CSC139||3K6TPC1|512139||dept|tst|CLEAN|Dell OptiPlex 745|||||
+cons2|129.128.23.229||Linux, WPS Ubuntu 14.04|regular|CSC231||2G6TPC1|512412||dept|tst|CLEAN|Dell OptiPlex 745|||||
+cons3|129.128.25.238||Linux, WPS Ubuntu 14.04|regular|CSC329||696TPC1|512132||dept|tst|CLEAN|Dell OptiPlex 745|||||
+cons4|129.128.22.55||Linux, WPS Ubuntu 14.04|regular|CAB311A||6D6TPC1|512133||dept|tst|CLEAN|Dell OptiPlex 745|||||
+console|129.128.21.15||Linux, RHEL Server 5.11|regular|GSB175|F17|H1LYYC1|510095||dept|tst|CLEAN|Dell PowerEdge 2950(2)|||||
+consort|129.128.243.69||Linux, Slackware 12.2.0|regular|GSB175|F17|GK491C1|510056||dept|tst|CLEAN|Dell PowerEdge 2950|||||
+coronado|129.128.25.115||Windows, 10|regular|CSC327||8DN4DP1||||dwishart|CLEAN|Dell Vostro 460|Intel i5-2400 @ 3.1GHz|8|||
+coronation|129.128.21.210||Linux, WPS Ubuntu 16.04|regular|ECHA|P3R3|BXLG1T2|no-tag||dept|tst|CLEAN||||||
+crescer|129.128.184.27||, |wildwest|ATH437||J9WN5J1||||stroulia|NOP|Dell R7425|||||
+crestomere|129.128.25.114||, ||||||||||Dell OptiPlex 360|||||
+cross-lake|129.128.243.169||Linux, CentOS 6|regular|GSB175|F18|SM68390|586892||hoehn|joerg,steve|CLEAN|Rackform iServ R485 Storform D55J.v2|||||
+cs147ptr|129.128.25.110||, |printer|CSC147||SCNG1X09522|543286||cs147|wfb|CLEAN|HP|P3005dn||||
+cs259ptr|129.128.23.125||, |||||||||||||||
+cs353ptr|129.128.25.165||, |printer|CSC353||4F4F8D1|||jag?|jag|CLEAN|Dell|1720dn||||
+cs363ptr|129.128.184.52||, |printer|CSC363||CNB9085905||||wfb|CLEAN|HP|LJ2055dn||||
+csc105-w01|129.128.235.151||Windows, 7|regular|CSC105||33JQXF1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+csc105-w02|129.128.235.152||Windows, 7|regular|CSC105||34JQXF1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+csc105-w03|129.128.235.153||Windows, 7|regular|CSC105||HCKQXF1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+csc105-w04|129.128.235.154||Windows, 7|regular|CSC105||2CKQXF1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+csc105-w05|129.128.235.155||Windows, 7|regular|CSC105||BDKQXF1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+csc105-w06|129.128.235.156||Windows, 7|regular|CSC105||76JQXF1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+csc105-w07|129.128.235.157||Windows, 7|regular|CSC105||4DKQXF1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+csc105-w08|129.128.235.158||Windows, 7|regular|CSC105||95JQXF1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+csc105-w09|129.128.235.159||Windows, 7|regular|CSC105||G3JQXF1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+csc105-w10|129.128.235.160||Windows, 7|regular|CSC105||F4JQXF1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+csc105-w11|129.128.235.161||Windows, 7|regular|CSC105||55JQXF1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+csc105-w12|129.128.235.99||Windows, 7|regular|CSC105||GCKQXF1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+csc105-w13|129.128.235.163||Windows, 7|regular|CSC105||F5JQXF1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+csc105-w14|129.128.235.164||Windows, 7|regular|CSC105||FCKQXF1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+csc105-w15|129.128.235.165||Windows, 7|regular|CSC105||HDKQXF1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+csc105-w16|129.128.235.98||Windows, 7|regular|CSC105||FDKQXF1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+csc105-w17|129.128.235.167||Windows, 7|regular|CSC105||46JQXF1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+csc105-w18|129.128.235.168||Windows, 7|regular|CSC105||5CKQXF1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+csc105-w19|129.128.235.169||Windows, 7|regular|CSC105||5DKQXF1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+csc105-w20|129.128.235.170||Windows, 7|regular|CSC105||CDKQXF1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+csc105-w21|129.128.235.171||Windows, 7|regular|CSC105||54JQXF1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+csc105-w22|129.128.235.172||Windows, 7|regular|CSC105||94JQXF1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+csc167-in1|129.128.235.150||Windows, 8.1|regular|CSC167||MG00FMYQ|||dept|tst|CLEAN|Lenovo ThinkCentre M93p|||||
+csc167-w01|129.128.235.130||Windows, 8.1|regular|CSC167||MG00FMY5|||dept|tst|CLEAN|Lenovo ThinkCentre M93p|||||
+csc167-w02|129.128.235.131||Windows, 8.1|regular|CSC167||MG00FMY1|||dept|tst|CLEAN|Lenovo ThinkCentre M93p|||||
+csc167-w03|129.128.235.132||Windows, 8.1|regular|CSC167||MG00FMY6|||dept|tst|CLEAN|Lenovo ThinkCentre M93p|||||
+csc167-w04|129.128.235.133||Windows, 8.1|regular|CSC167||MG00FMXZ|||dept|tst|CLEAN|Lenovo ThinkCentre M93p|||||
+csc167-w05|129.128.235.134||Windows, 8.1|regular|CSC167||MG00FMY0|||dept|tst|CLEAN|Lenovo ThinkCentre M93p|||||
+csc167-w06|129.128.235.135||Windows, 8.1|regular|CSC167||MG00FMZG|||dept|tst|CLEAN|Lenovo ThinkCentre M93p|||||
+csc167-w07|129.128.235.136||Windows, 8.1|regular|CSC167||MG00FMZ6|||dept|tst|CLEAN|Lenovo ThinkCentre M93p|||||
+csc167-w08|129.128.235.137||Windows, 8.1|regular|CSC167||MG00FMZK|||dept|tst|CLEAN|Lenovo ThinkCentre M93p|||||
+csc167-w09|129.128.235.138||Windows, 8.1|regular|CSC167||MG00FMYN|||dept|tst|CLEAN|Lenovo ThinkCentre M93p|||||
+csc167-w10|129.128.235.139||Windows, 8.1|regular|CSC167||MG00FMY2|||dept|tst|CLEAN|Lenovo ThinkCentre M93p|||||
+csc167-w11|129.128.235.140||Windows, 8.1|regular|CSC167||MG00FMZF|||dept|tst|CLEAN|Lenovo ThinkCentre M93p|||||
+csc167-w12|129.128.235.141||Windows, 8.1|regular|CSC167||MG00FMZ5|||dept|tst|CLEAN|Lenovo ThinkCentre M93p|||||
+csc167-w13|129.128.235.142||Windows, 8.1|regular|CSC167||MG00FMZH|||dept|tst|CLEAN|Lenovo ThinkCentre M93p|||||
+csc167-w14|129.128.235.143||Windows, 8.1|regular|CSC167||MG00FMZJ|||dept|tst|CLEAN|Lenovo ThinkCentre M93p|||||
+csc167-w15|129.128.235.144||Windows, 8.1|regular|CSC167||MG00FMYR|||dept|tst|CLEAN|Lenovo ThinkCentre M93p|||||
+csc167-w16|129.128.235.145||Windows, 8.1|regular|CSC167||MG00FMYK|||dept|tst|CLEAN|Lenovo ThinkCentre M93p|||||
+csc167-w17|129.128.235.146||Windows, 8.1|regular|CSC167||MG00FMZ0|||dept|tst|CLEAN|Lenovo ThinkCentre M93p|||||
+csc167-w18|129.128.235.147||Windows, 8.1|regular|CSC167||MG00FMYJ|||dept|tst|CLEAN|Lenovo ThinkCentre M93p|||||
+csc167-w19|129.128.235.148||Windows, 8.1|regular|CSC167||MG00FMYG|||dept|tst|CLEAN|Lenovo ThinkCentre M93p|||||
+csc167-w20|129.128.235.149||Windows, 8.1|regular|CSC167||MG00FMZD|||dept|tst|CLEAN|Lenovo ThinkCentre M93p|||||
+csc228-cpy|129.128.23.64||, |printer|CSC228||XEH767329|||cs228-cpy|tst|CLEAN|Xerox|WorkCentre 5755||||
+csora-app|129.128.21.37||Linux, CentOS 7.3|virtual|IST VM|||NA|||AppHosting|CLEAN||||||
+csora-db1|129.128.21.36||Linux, RHEL Server 7.4|virtual|IST VM|||NA|||AppHosting|CLEAN||||||
+csora-tst|129.128.21.38||Linux, RHEL Server 7.4|virtual|IST VM|||NA|||AppHosting|CLEAN||||||
+cs-537152|||MacOS, 10.1|laptop|ATH315||W8915BJC8QT|537152||balaski|balaski|CLEAN|Apple MacBook|Intel Core2 Duo @ 2.4 GHz|4|250||
+cs-549679|||Windows, 10 Education|laptop|ATH354||CFJS5R1|549679||you|you|CLEAN|Dell XPS 14Z|Intel i5 2430M|6|320||
+cs-549828|||MacOS, 10.12|laptop|CSC327||C02HL2X2DV33|549828||dwishart|aguo|CLEAN||Intel i7 @ 2.3 GHz|4| 500||
+cs-586240|||Windows, 10 Edu|laptop|ATH354||DCN0CX019464499|586240||you|you|CLEAN||Intel i5 4200U @ 1.6 GHz|6|500||
+cs-717284|||MacOS, |laptop|ATH451||C02VV076JJ3F|717284||denilson|denilson|CLEAN||Intel i5 @ 3.1 GHz|16|512||
+cs-722629|||Windows, 10 Education|laptop|ATH359||PC-0YPJYV|722629||greiner|greiner|CLEAN|ThinkPad X280|Intel i5 7200U|8|500||
+cups|129.128.21.81||Linux, Ubuntu 16.04|virtual|IST VM|||NA|||SA1|CLEAN||||||
+cupsr-4|129.128.4.210||Linux, Ubuntu 16.04|regular|CSC231||899GJS1|549749||dept|tst|NOP|Dell PowerEdge R310|||||
+cybera-airport-2-59c|129.128.184.94||, |regular|CSC259c||||||cybera|NOP||||||
+cybera-airport-3-43|129.128.184.93||, |regular|CSC343||||||cybera|NOP||||||
+cyberdyne|129.128.23.140||dual-boot, Windows 10 + Ubuntu 16.04|regular|ATH338||14255237P|606167||bulitko|bulitko|NOP||Intel i7 6900K @ 3.2 GHz|128|2500||
+czar|129.128.21.204||Linux, openSUSE 42.3|regular|GSB175|F14|4R2WFN1|554346||dept|tst|CLEAN|Dell R410|||||
+dalmuir|129.128.25.232||Linux, WPS Ubuntu 16.04|regular|ATH430||JMTPWH1|no-tag|||mn|CLEAN|Dell Optiplex|Intel Core2 Duo E8400|4|||
+dapp1|129.128.21.250||Linux, WPS Ubuntu 16.04|regular|GSB175|F14|SM45235|538422|||drafiei|CLEAN|Silicon Mechanics|||||
+dapp2|129.128.21.251||Linux, WPS Ubuntu 16.04|regular|GSB175|F14|SM45232|538423|||drafiei|CLEAN|Silicon Mechanics|||||
+dapp3|129.128.21.252||Linux, WPS Ubuntu 16.04|regular|GSB175|F14|SM45233|538424|||drafiei|CLEAN|Silicon Mechanics|||||
+dapp4|129.128.21.253||Linux, WPS Ubuntu 16.04|regular|GSB175|F14|SM45234|538425|||drafiei|CLEAN|Silicon Mechanics|||||
+darwell|129.128.25.231||Linux, WPS Ubuntu 16.04|regular|ATH430||4NTPWH1|no-tag|||mn|CLEAN|Dell Optiplex|Intel Core2 Duo E8400|4|||
+daysland|129.128.29.244||Linux, Gentoo (stand alone)|regular|ATH200||serial-no|510091||johnb|johnb,rod|CLEAN||AMD Opteron 165|4|||
+dc-ah126|129.128.22.251||, |network|ATH126||d68S741||||steve|CLEAN|Dell 3348|||||
+dc-ah224|129.128.22.247||, |network|ATH224A||HN424??||||steve|CLEAN|Dell 3324|||||
+dc-ah326|129.128.22.248||, |network|ATH326||HN424??||||steve|CLEAN|Dell 3348|||||
+dc-cs263|129.128.22.252||, |network|CSC263||7741451||||steve|CLEAN|Dell 3348|||||
+dc-cs361|129.128.22.249||, |network|CSC361||HN42451|482833|||steve|CLEAN|Dell 3348|||||
+deadwood|129.128.21.12||Linux, openSUSE 42.3|regular|GSB175|T27|G1NKXF1|538411||dept|tst|CLEAN|Dell PowerEdge 2950(3)|||||
+debolt|129.128.25.236||Linux, WPS Ubuntu 16.04|regular|ATH430||65S2KH1|537355|||mn|CLEAN|Dell Optiplex|Intel Core2 E8400|4|||
+deer-mtn|129.128.25.61||Linux, WPS Ubuntu 16.04|regular|ATH430||6NTPWH1|no-tag|||mn|CLEAN|Dell Optiplex|Intel Core2 E8400|4|||
+demay-lk|129.128.25.47||Linux, WPS Ubuntu 16.04|regular|ATH430||95J2KH1|537356|||joerg|CLEAN|Dell Optiplex|Intel Core2 E8400|4|||
+denard|129.128.184.18||Windows, 10|regular|ATH430||8PVRNW1|586172|||joerg,mario|CLEAN|Dell Vostro 470|Intel i7 3770|32|750||
+denilson-time-capsule|129.128.4.26||, |unknown|ATH451||||||denilson|NOP|Apple Time Capsule|||||
+derwent|129.128.25.213||Linux, WPS Ubuntu 16.04|regular|ATH430||85J2KH1|537357|||mn|CLEAN|Dell Optiplex|Intel Core2 E8400|4|||
+desktop-uou9u44|129.128.4.93||Windows, 10 Edu|regular|ATH411|||||pierreb|pierreb|CLEAN||||||
+devenish|||Linux, Ubuntu 16.04|regular|CSC205||5FS5WK1|543293|||hasell,zaiane|NOP|Dell|Intel Core2 Q9400 @ 2.66GHz|8|||
+dev-stage2|129.128.21.19||Linux, Ubuntu 16.04|virtual|IST VM|||NA|||gordon|CLEAN||||||
+dev-stage|129.128.21.16||Linux, Ubuntu 16.04|virtual|IST VM|||NA|||gordon|CLEAN||||||
+didsbury-v|129.128.4.244||, |virtual|ATH436||KCTD62G|||drafiei|drafiei|DIRTY||Intel Pentium4 @ 3GHz|1|||
+didsbury|129.128.4.234||Linux, WPS Ubuntu 16.04|regular|ATH436||KCTD62G|||drafiei|drafiei|CLEAN||Intel Pentium4 @ 3GHz|1|||
+dillberry|129.128.25.198||, |regular|CSC323?||FH5F5J1|||||DIRTY||Intel Core2 E8500 @ 3.2GHz|4|||
+diotima|129.128.184.19||MacOS, 10.6.4|wildwest|ATH452||YM00265R9G5|||legilmou|stroulia|CLEAN|Apple MacMini Exxxx| @ 2.26GHz|4|||
+discovery|||dual-boot, Windows 10 Edu & Ubuntu 16.04|regular|CSC205||DNTX0R1|no-tag|||hasell,zaiane|CLEAN|Dell XPS 9100|Intel i7 960 @ 3.2 GHz|12|1000||
+donalda|129.128.25.202||Linux, WPS Ubuntu 16.04|regular|ATH430||55S2KH1|537353|||mn|CLEAN|Dell Optiplex|Intel Core2 E8400|4|||
+donnelly|129.128.25.94||Linux, WPS Ubuntu 16.04|regular|ATH430||9NTPWH1|no-tag|||mn|CLEAN|Dell Optiplex|Intel Core2 E8400|4|||
+dorscheid|129.128.23.36||Linux, Ubuntu|regular|CSC205||14027046P2||||hasell,zaiane|NOP||Intel Core2 6600 @ 2.4|2|||
+drayton|129.128.25.62||Linux, RHEL Server 5.11|regular||A|SM45228||||drafiei|CLEAN||AMD Opteron 8378 @ 2.4GHz x4|65|||
+drdc-edge|129.128.184.95||, |regular|ATH327|||||jgrant2|dwishart|NOP||||||
+driftpile|129.128.21.72||Linux, openSUSE 42.3|regular|ESQL137|12|1P9ZMF1|529108||dept|tst|CLEAN|Dell PowerEdge 2950(3)|||||
+dunvegan|129.128.25.229||Linux, WPS Ubuntu 16.04|regular|ATH430||7NTPWH1|no-tag|||mn|CLEAN|Dell Optiplex|Intel Core2 E8400|4|||
+duvernay|129.128.25.217||Linux, NOP|regular|ATH430||1NTPWH1|no-tag|||mn,yannis|CLEAN|Dell Optiplex|Intel Core2 E8400|4|||
+e5-gpu-server|129.128.184.98||Linux, Ubuntu 16.04|regular|CSC351|||no-tag||nray1|nray1|NOP|Custom Build|||||
+edberg|129.128.16.166||Windows, XP Pro|regular|ATH237||ACS04834||||dept,cwhelan|CLEAN|Dell OptiPlex 755|Intel Core2 @ 2.66GHz|2|||
+edwand|129.128.23.76||Linux, Ubuntu 14.04|regular|CSC205||BFS5WK1|543396|||hasell,zaiane|CLEAN||Intel Core2 Q9400 @ 2.66GHz|8|||
+egremont|129.128.25.103||, |regular|CSC363A?||AK-VAH2N||||anup|NOP|Thinkpad|Intel Celeron @ 1.13GHz|248MB|||
+elkpoint|129.128.21.240||Linux, Slackware 14.2|virtual|czar|||||dept|jmartin|CLEAN||||||
+ellis-rv|129.128.184.26||Linux, Debian|regular|CSC205||G3LY5V1|586996|||greiner,zaiane|NOP|Dell XPS 8500|Intel i7-3770|12|||
+ellscott|129.128.23.40||Linux, WPS Ubuntu 16.04|regular|CSC251||CTGP7G1|538415|||paullu|CLEAN||Intel Core2 E8400 @ 3GHz|4|||
+endiang|129.128.23.45||Windows, 7|regular|CSC205||CFS5WK1|543294|||hasell,zaiane|CLEAN||Intel Core2 Q9400 @ 2.66GHz|8|||
+entwhistle|129.128.4.16||Windows, XP Pro 5.1.2600|regular|ATH353||ACS4304|467917||ghlin|ghlin|CLEAN||AMD MP2600|2|||
+esther|129.128.23.150||MacOS, 10.2|regular|CSC305||XB3410BFNVS|460914|||sutton|NA|Apple PowerMac G5| @ 1.8GHz|512MB|||
+ethnopred|||Linux, RHEL Server 5.8|virtual||||NA|||hajiloo,greiner|CLEAN||||||
+eureka1|129.128.22.27||Linux, Fedora Core 5|cluster|CSC137||SKPLF2??||||steve|CLEAN||AMD Opteron DP250|3.5|||
+eureka10|129.128.22.110||Linux, Fedora Core 5|cluster|CSC137||SKPLF2??||||steve|CLEAN||AMD Opteron DP250|3.5|||
+eureka11|129.128.22.28||Linux, Fedora Core 5|cluster|CSC137||SKPLF2??||||steve|CLEAN||AMD Opteron DP250|3.5|||
+eureka|129.128.22.26||Linux, Fedora Core 5|cluster|CSC137||SO-6000978|||aicml|layola,zaiane,steve|CLEAN||AMD Opteron DP248|6.1|||
+f48sdh2|129.128.184.145||dual-boot, Win10/Ubuntu16.04|regular|CSC211||F48SDH2|||zaiane|zaiane|NOP||Intel i7 7700||||
+f48vdh2|129.128.184.146||dual-boot, Win10/Ubuntu16.04|regular|CSC211||F48VDH2|||zaiane|zaiane|NOP||Intel i7 7700||||
+f48wdh2|129.128.184.142||dual-boot, Win10/Ubuntu16.04|regular|CSC211||F48WDH2|||zaiane|zaiane|NOP||Intel i7 7700||||
+f48xdh2|129.128.184.143||dual-boot, Win10/Ubuntu16.04|regular|CSC211||F48XDH2|||zaiane|zaiane|NOP||Intel i7 7700||||
+f49tdh2|129.128.184.144||dual-boot, Win10/Ubuntu16.04|regular|CSC211||F49TDH2|||zaiane|zaiane|NOP||Intel i7 7700||||
+f492hh2|129.128.184.147||dual-boot, Win10/Ubuntu16.04|regular|CSC211||F492HH2|||zaiane|zaiane|NOP||Intel i7 7700||||
+f494hh2|129.128.184.148||dual-boot, Win10/Ubuntu16.04|regular|CSC211||F494HH2|||zaiane|zaiane|NOP||Intel i7 7700||||
+fabyan-l|129.128.28.254||OpenBSD, 4.5|alias|fabyan|||||dept|tst|CLEAN||||||
+fabyan|129.128.29.234||OpenBSD, 4.5|regular|CSC139|B||no-tag||dept|tst|CLEAN|IBM|||||
+falun|129.128.21.14||Linux, openSUSE 42.3|virtual|czar|||||dept|jmartin|||||||
+faust-old|||Windows, 7|regular|Off Campus||FH5F5J1|539108||zaiane|zaiane|CLEAN|Dell OptiPlex 960|Intel Core2 E8500 @ 3.15GHz|4|||
+faust|129.128.4.60||Windows, 7|regular|ATH443||14222549P|604045||zaiane|zaiane|CLEAN||Intel i5 4590 @ 3.3GHz|16|1000||
+fawcett|129.128.4.254||, |network|CSC231||SG646SV00D|503203|||steve|CLEAN|HP|5412zi||||
+fedorah1|129.128.21.246||Linux, WPS Ubuntu 16.04|regular|GSB175|F14|SM39625|524467|||mburo|CLEAN||Xeon E5420QC @ 2.5GHz|6|||
+fedorah2|129.128.21.247||Linux, WPS Ubuntu 16.04|regular|GSB175|F14|SM39626|524464|||mburo|CLEAN||Xeon E5420QC| @ 2.5GHz|6||
+fedorah3|129.128.21.248||Linux, WPS Ubuntu 16.04|regular|GSB175|F14|SM41336||||mburo|CLEAN||Xeon E5420Q @ 2.5GHz|6|||
+fedorah4|129.128.21.249||Linux, WPS Ubuntu 16.04|regular|GSB175|F14|SM41504||||mburo|CLEAN||Xeon E5420QC @ 2.5GHz|6|||
+ferintosh|129.128.23.174||Linux, Scientific 4.4 (Beryllium)|regular|CSC205||ACS04763|473431|||hasell,zaiane|DIRTY||AMD MP2800|2|||
+firebag|129.128.22.23||Linux, Ubuntu 12.04|regular|CSC329|E|ACS05558||||mn,yannis|CLEAN||AMD Opteron 280|8|||
+firepoint|192.168.85.125||, ||CSC329|C|SM68259||||mmueller|NOP||||||
+fire-creek|192.168.85.129||, |cluster|CSC329|C|SM54578|||585990|mmueller,yannis,steve|NOP||||||
+fort-kent|129.128.23.19||, |||||||||||||||
+franchere|129.128.23.193||Windows, 7 Ent|regular|CSC205||9FS5WK1|543315|||zaiane|CLEAN|Dell Studio 540|Intel Core2 Q9400 @ 2.66GHz|8|||
+froglake|129.128.25.131||Linux, Ubuntu 14|regular|CSC353|||513779|||karteek,martin|CLEAN||Intel i7 4790K|16|||
+fs1-r|129.128.22.230||Linux, Ubuntu 12.04|regular|CSC139|A|0909AMR141|537340||dept|tst|CLEAN|SunFire X4540||32|||
+fs1-u|129.128.29.230||Linux, Ubuntu 12.04|alias|fs1-r|||||dept|tst|CLEAN||||||
+fs2|129.128.21.22||SunOS, unknown|regular|GSB175|F18|1123FMMD23|549672||dept|tst|CLEAN|Oracle 7320|||||
+fs3|129.128.21.23||SunOS, unknown|regular|GSB175|F18|1123FMMD28|549673||dept|tst|CLEAN|Oracle 7320|||||
+fs4|129.128.4.193||Linux, openSUSE 13.1|regular|CAB311A|C|49S1JC1|512176||dept|tst|CLEAN||Xeon 5110|8|||
+fs-ugrad|129.128.243.78||SunOS, unknown|alias|fs2|||||dept|tst|CLEAN||||||
+ft-mackay|129.128.25.18||Windows, 7|regular|CSC351||||||nray1|CLEAN||||||
+fuego|129.128.25.132||Linux, Ubuntu 14|regular|CSC301|||460690|||jag|CLEAN||Intel i7 4790k|16|||
+fw1|129.128.31.51||OpenBSD, 5.4|regular|CSC231|B|B0YQN91|549746||dept|tst|CLEAN|Dell PowerEdge 310|Xeon X3440 @ 2.53GHz|4|||
+fw2|129.128.31.52||OpenBSD, 5.4|regular|CSC231|B|F0YQN91|549747||dept|tst|CLEAN|Dell PowerEdge 310|Xeon X3440 @ 2.53GHz|4|||
+fws23-b|129.128.23.246||, |network|CSCB31||8148|406481||dept|steve|CLEAN||||||
+gadsby|129.128.25.23||Windows, 10|regular|CSC265||3N10RD1|528949|||yang|CLEAN|Dell Dimension 9200|||||
+gainford|129.128.23.69||Linux, Ubuntu 14.04|regular|CSC211||MXX9510CQ3|no-tag|||jonathan,mburo|NOP||Intel Core2 Q8300 @ 2.5GHz|8|||
+galahad|129.128.25.24||Windows, 10 Home 64-bit|regular|CSC265||4CGQPD2|700205||yang|yang|CLEAN|Alienware Area-51 R2|Intel i7 6900K @ 3.2 GHz|32|4256||
+gamebuilder|192.168.85.127||, ||CSC329|C|ACS04592|469352||||NOP||||||
+gaps|129.128.21.206||Linux, RHEL Server 7.4|alias|new-sedgewick||||||AppHosting|||||||
+garner|129.128.25.84||Windows, 7|regular|CSC265||DGW9L02|586244|||yang|CLEAN|Dell XPS 8700| Intel i7 4770 @ 3.4GHz|24|||
+ghost28|129.128.28.249||Linux, openSUSE 13.1|virtual|czar|||||dept|tst|CLEAN||||||
+ghostpine|129.128.23.101||, |||||||||||||||
+glendon|||Windows, 7|regular|CSC265||2LBGNS1|||yang|yang|CLEAN|Dell XPS 8300|Intel i7 2600 @ 3.4 GHz|16|1000||
+glenevis|129.128.25.19||Windows, XP Pro x64 Edition|regular|CSC265||HD031407041|509939|||yang|CLEAN||AMD Opteron 2212|16|||
+gleniffer|129.128.25.76||Windows, |regular|CSC363?||ACS05925||||pierreb,wfb|NOP||Intel E6600|2|||
+godin-lk|129.128.25.33||Windows, 7|regular|CSC265||J6KXQ31|467926|||yang|CLEAN|Dell P4H| @ 3GHz|2|||
+goodfish|129.128.25.20||Windows, 7 Pro SP1|regular|CSC265||41P8VH1|539104|||yang|CLEAN||i7 920|6|||
+goodwin-41|129.128.41.247||Windows, Server 2012|regular|CSC231|A|SM55562|586188||dept|tst|NA||Xeon X3440m|8|||
+goose-lk|129.128.25.25||Linux, Ubuntu 14.04|regular|CSC315||ACS06176|510079||||CLEAN||AMD Athlon X2 4600+ @ 2.4GHz|4|||
+gordondale|129.128.25.64||Windows, 8.1|regular|CSC265||DGWBL02|586245|||yang|CLEAN|Dell XPS 8700|Intel i7 4770 @ 3.4GHz|24|||
+granada|129.128.25.29||Windows, 7|regular|CSC265||2L9LNS1||||yang|CLEAN||Intel i7 2600 @ 3.4GHz|16|||
+grand|129.128.243.133||Linux, RHEL Server 5.6|regular|GSB175|F17|SM55766|549665||stroulia|stroulia|CLEAN|Silicon Mechanics iServ R143|Xeon 3430 @ 2.4GHz|8|||
+grapefruit|129.128.159.200||Linux, Ubuntu 18.04 LTS|regular|ATH357|E|HGQYHQ2|||jwright4|jwright4|CLEAN|Dell Precision 5820 Tower|Intel i7 7820X|16|||
+grassland|129.128.25.36||, |unknown|CSC363?||080069105B8D|||||NOP|SGI Octane2||512MB|||
+grd101a|129.128.4.3||Linux, WPS Ubuntu 16.04|regular|ATH101||MJPNW43|545589||dept|tst|CLEAN|Lenovo M7484|Intel Core2 E8400 @ 3.0GHz|8|||
+grd101b|129.128.4.7||Linux, WPS Ubuntu 16.04|regular|ATH101||MJPNW94|545578||dept|tst|CLEAN|Lenovo M7484|Intel Core2 E8400 @ 3.0GHz|8|||
+grd102a|129.128.4.12||Linux, WPS Ubuntu 16.04|regular|ATH102||MJPNW51|545617||dept|tst|CLEAN|Lenovo M7484|Intel Core2 E8400 @ 3.0GHz|8|||
+grd102b|129.128.4.144||Linux, WPS Ubuntu 16.04|regular|ATH102||MJPNW59|545609||dept|tst|CLEAN|Lenovo M7484|Intel Core2 E8400 @ 3.0GHz|8|||
+grd105|129.128.4.19||Linux, WPS Ubuntu 16.04|regular|ATH105||MJPNW38|545576||dept|tst|CLEAN|Lenovo M7484|Intel Core2 E8400 @ 3.0GHz|8|||
+grd106|129.128.4.27||Linux, WPS Ubuntu 16.04|regular|ATH106||MJPNX33|545621||dept|tst|CLEAN|Lenovo M7484|Intel Core2 E8400 @ 3.0GHz|8|||
+grd107|129.128.4.34||Linux, WPS Ubuntu 16.04|regular|ATH107||MJPNX22|545581||dept|tst|CLEAN|Lenovo M7484|Intel Core2 E8400 @ 3.0GHz|8|||
+grd108|129.128.4.35||Linux, WPS Ubuntu 16.04|regular|ATH108||MJPNW41|545590||dept|tst|CLEAN|Lenovo M7484|Intel Core2 E8400 @ 3.0GHz|8|||
+grd109|129.128.4.37||Linux, WPS Ubuntu 16.04|regular|ATH109||MJPNX51|545592||dept|tst|CLEAN|Lenovo M7484|Intel Core2 E8400 @ 3.0GHz|8|||
+grd111|129.128.4.40||Linux, WPS Ubuntu 16.04|regular|ATH111||MJPNX36|545602||dept|tst|CLEAN|Lenovo M7484|Intel Core2 E8400 @ 3.0GHz|8|||
+grd113a|129.128.4.41||Linux, WPS Ubuntu 16.04|regular|ATH113||MJPNW95|545614||dept|tst|CLEAN|Lenovo M7484|Intel Core2 E8400 @ 3.0GHz|8|||
+grd113b|129.128.4.42||Linux, WPS Ubuntu 16.04|regular|ATH113||MJPNX42|545591||dept|tst|CLEAN|Lenovo M7484|Intel Core2 E8400 @ 3.0GHz|8|||
+grd117|129.128.4.51||Linux, WPS Ubuntu 16.04|regular|ATH117||MJPNW30|545612||dept|tst|CLEAN|Lenovo M7484|Intel Core2 E8400 @ 3.0GHz|8|||
+grd120|129.128.4.59||Linux, WPS Ubuntu 16.04|regular|ATH120||MJPNX48|545585||dept|tst|CLEAN|Lenovo M7484|Intel Core2 E8400 @ 3.0GHz|8|||
+grd121|129.128.4.58||Linux, WPS Ubuntu 16.04|regular|ATH121||MJPNW78|545623||dept|tst|CLEAN|Lenovo M7484|Intel Core2 E8400 @ 3.0GHz|8|||
+grd123|129.128.4.63||Linux, WPS Ubuntu 16.04|regular|ATH123||MJPNW77|545595||dept|tst|CLEAN|Lenovo M7484|Intel Core2 E8400 @ 3.0GHz|8|||
+grd124|129.128.4.64||Linux, WPS Ubuntu 16.04|regular|ATH124||MJPNW58|545607||dept|tst|CLEAN|Lenovo M7484|Intel Core2 E8400 @ 3.0GHz|8|||
+grd128a|129.128.4.65||Linux, WPS Ubuntu 16.04|regular|ATH128||MJPNW49|545586||dept|tst|CLEAN|Lenovo M7484|Intel Core2 E8400 @ 3.0GHz|8|||
+grd134|129.128.4.74||Linux, WPS Ubuntu 16.04|regular|ATH134||MJPNW89|545605||dept|tst|CLEAN|Lenovo M7484|Intel Core2 E8400 @ 3.0GHz|8|||
+grd135|129.128.4.78||Linux, WPS Ubuntu 16.04|regular|ATH135||MJPNW55|545603||dept|tst|CLEAN|Lenovo M7484|Intel Core2 E8400 @ 3.0GHz|8|||
+grd136|129.128.4.83||Linux, WPS Ubuntu 16.04|regular|ATH136||MJPNW75|545606||dept|tst|CLEAN|Lenovo M7484|Intel Core2 E8400 @ 3.0GHz|8|||
+grd137|129.128.4.85||Linux, WPS Ubuntu 16.04|regular|ATH137||MJPNW54|545597||dept|tst|CLEAN|Lenovo M7484|Intel Core2 E8400 @ 3.0GHz|8|||
+grd138|129.128.4.88||Linux, WPS Ubuntu 16.04|regular|ATH138||MJPNW44|545577||dept|tst|CLEAN|Lenovo M7484|Intel Core2 E8400 @ 3.0GHz|8|||
+grd139|129.128.4.89||Linux, WPS Ubuntu 16.04|regular|ATH139||MJPNW46|545587||dept|tst|CLEAN|Lenovo M7484|Intel Core2 E8400 @ 3.0GHz|8|||
+grd140|129.128.4.90||Linux, WPS Ubuntu 16.04|regular|ATH140||MJPNX39|545616||dept|tst|CLEAN|Lenovo M7484|Intel Core2 E8400 @ 3.0GHz|8|||
+grd141|129.128.4.107||Linux, WPS Ubuntu 16.04|regular|ATH141||MJPNW76|545618||dept|tst|CLEAN|Lenovo M7484|Intel Core2 E8400 @ 3.0GHz|8|||
+grd143b|129.128.4.109||Linux, WPS Ubuntu 16.04|regular|ATH143||MJPNX38|545584||dept|tst|CLEAN|Lenovo M7484|Intel Core2 E8400 @ 3.0GHz|8|||
+grd150|129.128.4.112||Linux, WPS Ubuntu 16.04|regular|ATH150||MJPNW57|545620||dept|tst|CLEAN|Lenovo M7484|Intel Core2 E8400 @ 3.0GHz|8|||
+grd151|129.128.4.115||Linux, WPS Ubuntu 16.04|regular|ATH151||MJPNW33|545611||dept|tst|CLEAN|Lenovo M7484|Intel Core2 E8400 @ 3.0GHz|8|||
+grd152|129.128.4.117||Linux, WPS Ubuntu 16.04|regular|ATH152||MJPNW62|545615||dept|tst|CLEAN|Lenovo M7484|Intel Core2 E8400 @ 3.0GHz|8|||
+grd153|129.128.4.116||Linux, WPS Ubuntu 16.04|regular|ATH153||MJPNW50|no-tag||dept|tst|CLEAN|Lenovo M7484|Intel Core2 E8400 @ 3.0GHz|8|||
+grd154a|129.128.4.118||Linux, WPS Ubuntu 16.04|regular|ATH154||MJPNW91|545601||dept|tst|CLEAN|Lenovo M7484|Intel Core2 E8400 @ 3.0GHz|8|||
+grd154b|129.128.4.122||Linux, WPS Ubuntu 16.04|regular|ATH154||MJPNX50|545624||dept|tst|CLEAN|Lenovo M7484|Intel Core2 E8400 @ 3.0GHz|8|||
+grd155b|129.128.4.125||Linux, WPS Ubuntu 16.04|regular|ATH155||MJPNW40|545604||dept|tst|CLEAN|Lenovo M7484|Intel Core2 E8400 @ 3.0GHz|8|||
+grd228|129.128.23.192||Linux, WPS Ubuntu 16.04|regular|CSC228||MJPNW56|545579||dept|tst|CLEAN|Lenovo M7484|Intel Core2 E8400 @ 3.0GHz|8|||
+grd418|129.128.4.135||Linux, WPS Ubuntu 16.04|regular|ATH418||MJPNW73|545596||dept|tst|CLEAN|Lenovo M7484|Intel Core2 E8400 @ 3.0GHz|8|||
+grd420|129.128.4.134||Linux, WPS Ubuntu 16.04|regular|ATH420||MJPNX34|545610||dept|tst|CLEAN|Lenovo M7484|Intel Core2 E8400 @ 3.0GHz|8|||
+grd422|129.128.4.136||Linux, WPS Ubuntu 16.04|regular|ATH422||MJPNW26|545622||dept|tst|CLEAN|Lenovo M7484|Intel Core2 E8400 @ 3.0GHz|8|||
+grd424|129.128.4.139||Linux, WPS Ubuntu 16.04|regular|ATH424||MJPNW35|545619||dept|tst|CLEAN|Lenovo M7484|Intel Core2 E8400 @ 3.0GHz|8|||
+grdb21|129.128.23.191||Linux, WPS Ubuntu 16.04|regular|CSCB21||MJPNW45|545588||dept|tst|CLEAN|Lenovo M7484|Intel Core2 E8400 @ 3.0GHz|8|||
+gregoire|129.128.25.56||Windows, 7|regular|CSC351||8X2G7Y1|586207|||mpolak,zhang|CLEAN||Xeon E5 2620|32|||
+groot|||Windows, 10|regular|CSC265||3DKQSD2|604054|||yang|CLEAN|Alienware Aurora R5|Intel i7|16|2000||
+gwang|129.128.184.138||Windows, 10|regular|ATH211||12124490|||jiaji|jiaji|NOP|Memory Express|Intel i7 7700|16|1000||
+gwynne|129.128.41.233||Linux, RHEL Server 5.11|regular|CSC139|A|GSV6HS1|549726||dept|tst|CLEAN|Dell PowerEdge 510|Xeon E5503 @ 2.00GHZ|8|||
+hamlin|129.128.4.159||, |printer|ATH347||1FL7991|||ath347|goebel|CLEAN|Dell 3100c|||||
+hanna|||, |regular|CSC315||9CQQPL1|no-tag||dept|dept|CLEAN|Dell Vostro 430|Intel i7 860 @ 2.80 GHz|8|||
+hardisty|129.128.29.245||Linux, WPS Ubuntu 16.04|regular|CSC145||CAC91501SM|538268||dept|tst|CLEAN|HP dc7900|Intel Core2 Duo @ 3.16 GHz|4|||
+harry|129.128.184.102||dual-boot, Win10/Ubuntu16.04|regular|CSC225||14265008P|604108||locheng|locheng|NOP||||||
+hasketh|129.128.184.9||, |wildwest|CSC251|||no-tag|||eochoa|NOP||FPGA||||
+haylake|129.128.23.34||, |printer|ATH252B||CNBJL27387|||ath252b|tst|CLEAN|HP|P2015dn||||
+heisler|129.128.22.159||Linux, Fedora Core 6 (Zod)|cluster|CSC305A||SKPLF2??||||mmueller,hiso,steve|CLEAN||AMD Opteron DP248|5|||
+heldar|129.128.22.40||, |cluster|CSC305A||6001175||||steve|CLEAN||AMD Opteron 2354|8|||
+hermione|129.128.184.104||dual-boot, Win10/Ubuntu16.04|regular|CSC225||14265015P|604106||locheng|locheng|NOP||||||
+hespero|129.128.4.22||, |printer|ATH126||6T9RG81||||tst|CLEAN|HP|LaserJet 9040||||
+highvale|||, |printer|ATH437|||||cs311|netgroup|CLEAN|HP|LaserJet 2200dn||||
+himalaya|129.128.25.27||Linux, Ubuntu 14.04|regular|CSC353|||510082||dana|dana,jag|NOP||||||
+hip-p1|129.128.23.247||, |||||||||||||||
+hip-p2|129.128.23.233||, |||||||||||||||
+hip-p3|129.128.4.31||, |||||||||||||||
+hoadley|129.128.25.17||, |printer|CSC323?||JPGGC57046|439711||cs323|mn,zaiane|CLEAN|HP|LaserJet 2200dn||||
+holden|129.128.23.35||, |printer|ATH234||SCNGKC29979|497726||ath234|tst|CLEAN|HP|LaserJet 2420dn||||
+horse-rv|129.128.184.63||Linux, Ubuntu 14.04|regular|CSC351||5SF71J1|no-tag|||mpolak,zhang|NOP|Dell Optiplex|Intel Core2 E8400|4|||
+hotchkiss|129.128.23.25||Windows, 10|regular|CSC225||JD7TV52|361516|||lin,anup|CLEAN||Intel i7 4790 @ 3.6GHz|16|||
+hpbbd08d|129.128.4.92||, |printer|ATH404||TH615820FH|||ath404|kulchits|CLEAN|HP|Officejet Pro 6830 e-All-in-One||||
+huallen|129.128.23.43||Windows, 7|regular|ATH317||14027046P1|505406||dept|tst|CLEAN||Intel Core2 6600 @ 2.40GHz|8|||
+huxley|129.128.4.162||, |printer|ATH358||USGW078494|420190||ath358|duane|CLEAN|HP|LaserJet 2100||||
+hy2gsdjh2|129.128.184.66||dual-boot, Ubuntu 16.04/Windows 10 Education|regular|CSC265||2GSDJH2|707649|||yang|NOP|Dell Precision T5810|Xeon E5 1650v4|16|||
+hylo|129.128.184.10||, |wildwest|CSC251|||no-tag|||artemcm|NOP||FPGA||||
+hypatia|129.128.243.134||Linux, RHEL Server 5.6|regular|GSB175|F17|SM40682||||stroulia|NOP||Xeon E5410QC @ 2.33|16|||
+icdm2011|129.128.184.25||, |virtual|webdocs|||||||CLEAN||||||
+idamay|129.128.23.109||, |||||||||||||||
+iddesleigh|129.128.23.106||, |||||||||||||||
+idm|||Linux, RHEL Server 5.8|virtual||||NA|||greiner|||||||
+innisfree|129.128.21.245||Linux, WPS Ubuntu 16.04|regular|GSB175|F17|C419MJ1|||dept|tst|CLEAN|Dell PowerEdge R300|Xeon X3323 @ 2.5GHz||||
+intranet-dev|||Linux, Slackware 12.2.0|alias|launch-dev|||||dept|gordon|CLEAN||||||
+intranet-prod|129.128.21.35||Linux, Ubuntu 16.04|virtual|IST VM|||NA||||||||||
+intranet-test|129.128.21.11||Linux, Ubuntu 16.04|virtual|IST VM|||NA||||||||||
+intranet|129.128.21.35||Linux, Ubuntu 16.04|alias|intranet-prod|||NA||||||||||
+ipiatik|129.128.23.251||, |||||||||||||||
+irma|129.128.23.17||Windows, 7|regular|ATH329|||||smillie|dept|CLEAN|Lenovo M74 84| Intel Core2 E8400 @ 3.0GHz|8|||
+ironwood|129.128.23.97||Windows, 8.1|regular|ATH339||MG00FMXX|598148||bowling|bowling|CLEAN|Lenovo ThinkCentre|Intel Core i7 47700 @ 3.40GHz|16|||
+iron-riv|129.128.29.242||Linux, WPS Ubuntu 16.04|regular|ATH335||CYLQRH1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+irricana|129.128.4.248||Linux, WPS Ubuntu 16.04|regular|CSC329||G88223LGXYK|527266||dept|tst|CLEAN|Apple MacPro| 2* @ 2.8GHz|16|||
+islay|129.128.29.240||, |||||||||||||||
+j5qg482|129.128.16.13||Windows, 7|regular|ATH252B||J5QG482|605665||kgdean|dept|CLEAN|Dell Optiplex 7040|||||
+j62g482|129.128.16.9||Windows, 7|regular|ATH237||J62G482|605661||kasorens|dept|CLEAN|Dell Optiplex 7040|||||
+j64c482|129.128.16.7||Windows, 7|regular|ATH233||J64C482|605659||britta|dept|CLEAN|Dell Optiplex 7040|||||
+j67g482|129.128.16.12||Windows, 7|regular|ATH252A||J67G482|605664||sunrose|dept|CLEAN|Dell Optiplex 7040|||||
+j607482|129.128.16.5||Windows, 7|regular|ATH232||J607482|605657||sb4|dept|CLEAN|Dell Optiplex 7040|||||
+j629482|129.128.16.8||Windows, 7|regular|ATH235||J629482|605660||kberg|dept|CLEAN|Dell Optiplex 7040|||||
+j657482|129.128.16.11||Windows, 7|regular|ATH252F||J657482|605663||lholland|dept|CLEAN|Dell Optiplex 7040|||||
+j678482|129.128.16.10||Windows, 7|regular|ATH241||J678482|605662||dchoi|dept|CLEAN|Dell Optiplex 7040|||||
+j688482|129.128.16.6||Windows, 7|regular|ATH231||J688482|605658||sharon|dept|CLEAN|Dell Optiplex 7040|||||
+jarvie|129.128.23.91||Linux, WPS Ubuntu 16.04|regular|ATH351||9KP1PM1|||dept|dept|CLEAN|Dell OptiPlex 980|Intel i7 860 @ 2.8GHz|8|||
+joffre|129.128.22.80||, |cluster|CSC137||SM46050||||steve|CLEAN||Xeon E3110|4|||
+kakwa-riv|129.128.23.119||Linux, Ubuntu 14.04|regular|ATH423||ACS05397|512186|||you|CLEAN||AMD 64 DC4600|4|||
+karim-timecapsule|129.128.23.49||, |unknown|ATH342||||||karim2|NOP|Apple Time Capsule|||||
+kikino|129.128.23.154||Linux, Red Hat 9 (Shrike)|regular|CSC211?||2BZS232229||||lindek|DIRTY||AMD Athlon 2000|1|||
+kirriemuir|129.128.23.141||Windows, 10|regular|CSC225||JD7XV52|361517|||lin,anup|CLEAN||Intel i7-4790 @ 3.6GHz|16|||
+lacombe|129.128.4.138||MacOS, 10.6|regular|CSC329|C||||dept|tst|CLEAN|Apple Mac|||||
+lacorey|129.128.4.94||Linux, WPS Ubuntu 16.04|regular|ATH359||B7L1TF1|524803||greiner|greiner|CLEAN||Intel Core2 E6550|2|||
+lafond|129.128.4.61||Linux, WPS Ubuntu 16.04|regular|ATH354||MJ05F3N9|706799||you|you|CLEAN|ThinkCentre M910|Intel i5||||
+lamont|129.128.4.80||Linux, Ubuntu 10.04 LTS|regular|ATH340||ACS04614|467913||paullu|paullu|NOP||AMD XP3000|1|||
+lanparty|129.128.184.220||OpenBSD, 5.6|regular|CSC139|B|775D5B1|||dept|tst|CLEAN|Dell PowerEdge 850|Intel Pentium4 80547 @ 2.6GHz|512MB|||
+lasthenia|129.128.23.214||Windows, |regular|CSC259B3?||L3-4N8N9||||stroulia|DIRTY||Intel Core2 T7400 @ 2.16GHz|2|||
+lavoy|129.128.4.137||Windows, 7|regular|CSC143||9950RF1|527271||||CLEAN|Dell 755|||||
+la-nonne|129.128.22.89||MacOS, 10.6|regular|CSC329|C|H09410JN10S|||dept|tst|CLEAN||Xeon @ 2.26GHz|6|||
+leedale|129.128.23.84||Linux, WPS Ubuntu 16.04|regular|CSC211||0MXX9510CQ4|no-tag|||jonathan,mburo|CLEAN||Intel Core2 Q8300 @ 2.5GHz|8|||
+lindale|129.128.23.215||Linux, WPS Ubuntu 16.04|regular|CSC251|||no-tag|||amaral,paullu,jonathan|CLEAN||Intel i5 750 @ 2.67GHz|4|||
+linden|129.128.4.126||MacOS, 10.1|regular|ATH302||C02S33HTGG7L|no-tag||stewart|stewart|CLEAN|Apple iMac 27"|||||
+lonestar|129.128.25.12||Linux, Ubuntu 14.04|regular|CSC353|||||jag|jag|NOP||||||
+looma|||dual-boot, Windows 10 & Ubuntu 14.04|regular|CSC225||JD7YV52|361520|||lin,anup|NOP||Intel i7 4790 @ 3.6|16|||
+lousana|||Windows, 7 Pro|regular|CSC211||MXX9510CQF|no-tag|||jonathan|NOP||Intel Core2 Q8300 @ 2.5GHz|8|||
+lubicon|129.128.25.30||Linux, Ubuntu 14.04|regular|CSC353||ACS03834|448709||jag|jag|NOP||||||
+mackay|129.128.23.31||Linux, WPS Ubuntu 16.04|regular|ATH217||MJPNX40|545582||carolyn|carolyn,rod|CLEAN|Lenovo M7484|Intel Core2 E8400 @ 3.0GHz|8|||
+madden|129.128.23.26||Linux, WPS Ubuntu 16.04|regular|CSC211||MXX9510CQM|no-tag|||jonathan,mburo|CLEAN||Intel Q8300 @ 2.5GHz|8|||
+magellan|129.128.23.44||Windows, 10 Education|regular|CSC205||JWDDVR1|no-tag|||hasell,zaiane|CLEAN|Dell Optiplex 990|Intel i7 2600 @ 3.4 GHz|16|500||
+maligne-lk|129.128.4.242||MacOS, 10.2|regular|ATH415||XB3370PXNVR|||jonathan|jonathan|NA|Apple PowerMac G5| @ 1.8GHz|512MB|||
+mannville|129.128.4.163||MacOS, 10.5.8|regular|ATH347||XB2051NXM8G|438971||goebel|goebel|NOP|Apple PowerMac G4 933||512MB|||
+maple|129.128.243.166||Linux, Ubuntu 18.04|regular|GSB175|F17|S267675X8432827|718589||karim2|karim2|CLEAN|Thinkmate AS-1023US-TR4|||||
+mariana|129.128.23.188||Linux, Ubuntu 12.04|regular|ATH202||CAC95001J5|||rod|rod|CLEAN|HP d79008C|Intel Core2 E8400 160hq 2U 7k US||||
+marion|129.128.22.25||, |cluster|CSC305A||ACS04802||||steve|CLEAN||AMD Opteron 250|16|||
+markerville|129.128.23.75||Windows, 7|regular|CSC133||18096520|361505|||hasell,zaiane|CLEAN||Intel i5 4460|8|||
+marlboro|129.128.29.238||Linux, WPS Ubuntu 16.04|regular|CSC132||7WSLT41|512183||dept|tst|CLEAN|Dell OptiPlex 755|||||
+marten|129.128.4.30||Linux, WPS Ubuntu 16.04|regular|ATH438||6GHSJQ1|||kondrak|kondrak|CLEAN|Dell OptiPlex 790|Intel i5 2400|4|||
+marwayne|129.128.4.86||MacOS, 10.9.4|laptop|ATH358||serial|||duane|duane|CLEAN|Apple laptop|||||
+mayatan-lk|129.128.4.101||MacOS, 10.6|regular|ATH352||C07D40DSDD6L|||amaral|amaral|CLEAN|Mac mini|Intel Core2 @ 2.4GHz|2|||
+maya|129.128.25.133||Linux, Ubuntu 14|regular|CSC301|||477314|||jag|CLEAN||Xeon X3350|4|||
+mayerthorpe|129.128.25.63||MacOS, unknown|regular|CSC147||XB3352AM|473449||rltaylor|pierreb|DIRTY|Apple Mac G5-1280|||||
+mburo-lt|129.128.4.66||, |laptop|||serial-no|||mburo|mburo|DIRTY||||||
+mcid|129.128.184.92||Windows, 8|regular|CSC311||3CR41005CJ|no-tag||chenqu|guohui|NOP|HP Pavilion Model 500-214|||||
+mclennan|129.128.4.238||MacOS, 10.11|regular|CSC132||D25GR0AKDHJV|||dept|dept|CLEAN|Apple iMac 27"|Intel i5 @ 2.7 GHz|12|1000||
+meanook|129.128.23.57||Windows, 7|regular|CSC225||CRT1XG1|537347|||lin,anup|CLEAN|Dell Optiplex|Intel Core2 E8200|4|||
+medserver|129.128.184.96||, |unknown|CSC147||||||pierreb|NOP||||||
+mega-rv|129.128.23.158||MacOS, 10.6|regular|ATH215||YM8336127E4|528103||smir|smir|CLEAN|Apple iMac 24"| @ 2.8GHz-204|2|||
+melanoma|129.128.184.68||, |regular|CSC205||HWJGJB2|no-tag||zaiane|hasell,zaiane|NOP|Dell PowerEdge T330|Xeon E3-1220 v5 @ 3.00 GHz|8|||
+melco|129.128.243.3||Linux, Ubuntu 18.04|regular|GSB175|F16|S240227X8900342|||zaiane|zaiane|CLEAN|Thinkmate XT24-2460V4-10GPU|||||
+melissa|129.128.243.4||Linux, |regular|GSB175|F17|CWVSWC1||||stroulia|CLEAN|IBM|||||
+menaik|129.128.4.241||Linux, CentOS 5.2 (Final)|regular|CSC329|B|DV2BWC1|508559||dept|dept,steve|CLEAN|Dell PowerEdge 860|Xeon 3050|2|||
+michichi|129.128.23.89||, |||||||||||||||
+mildred|129.128.25.42||Linux, WPS Ubuntu 16.04|regular|CSC347||JYVBZH1|no-tag||mpolak|zhang|CLEAN|Dell Optiplex|Intel Core2 E8400|4|||
+millet|129.128.4.95||MacOS, 10.5|regular|ATH150||QT22259EL3V|445498||enright|tony|NOP|Apple iMac G4 @ 700MHz|256MB||||
+mininet-laptop|129.128.23.30||Windows, 10 Professional|regular|ATH122|||no-tag||||CLEAN|Dell Precision M4700|Intel i7-3840QM @ 2.8 GHz|32|||
+mininet-vm|129.128.23.20||Linux, Ubuntu 14.04 Server|virtual|ATH122|||no-tag||hanvari|hanvari|NOP|Dell Precision M4700|Intel i7-3840QM @ 2.8 GHz|32|||
+ministik|129.128.23.87||Linux, WPS Ubuntu 16.04|regular|CSC245||FF12QS1|||miyoung2|tst|CLEAN|Dell XPS 8500|Intel i7-3770 @ 3.4GHz|8|||
+mint-dev|129.128.22.151||Linux, Slackware 12.2.0|alias|launch-dev|||||dept|gordon|CLEAN||||||
+mint-mon|129.128.22.154||Linux, Cent OS|regular|CSC329|D|H8J2F1X|474864|||steve|NOP|Intel Pentium4 @ 2.67GHz|3||||
+mirror|129.128.22.12||Linux, Ubuntu 12.04|regular|CAB311A||2008324|479279||dept|tst|CLEAN|atipa P9245|AMD Opteron 250 @ 2GHz|8|||
+mizar|129.128.184.75||, |regular|CSC329|B|SM54879|||rudnicki|rudnicki,steve|NOP||||||
+mmueller-lt|129.128.4.56||MacOS, 10.6.5|laptop|ATH345||QT2440EK-N4L-ff0d|||mmueller|mmueller|CLEAN|Apple Mac Powerbook G4| @ 867MHz||||
+montagneuse|129.128.23.155||MacOS, |regular|CSC305||XB415020NVQ|467908|||hasell,zaiane|NA|Apple PowerMac G5| @ 1.6GHz|256MB|||
+morecame|129.128.23.159||MacOS, 10.5|laptop|||UV34593GQE4|461431|||tst|CLEAN||||||
+morley|129.128.4.75||, |||||||||||||||
+morningside|129.128.23.178||Linux, WPS Ubuntu 16.04|regular|CSC355||ACS05087|482519||||CLEAN||AMD 64 3400|2|||
+morrin|129.128.16.169||Windows, XP Pro|regular|||JT9???|526143|||dept|CLEAN|Dell OptiPlex 755|Intel Core2 @ 2.66GHz|2|||
+mstrobl-desktop|129.128.184.16||Linux, Ubuntu|regular|ATH424||||||mstrobl|NOP||AMD Ryzen 7 2700X|16|||
+mtu14nv|129.128.41.236||Linux, WPS Ubuntu 14.04|regular|CSC329||CAC91501VC|538272||dept|tst|CLEAN|HP|dc7900||||
+mtu14|129.128.41.235||Linux, WPS Ubuntu 14.04|regular|CSC329||8G6TPC1|512135||dept|tst|CLEAN|Dell OptiPlex 745|||||
+mtu16nv|129.128.41.234||Linux, WPS Ubuntu 16.04|regular|CSC329||515BJS1|||johnb|tst|CLEAN|Dell OptiPlex 990|||||
+mtu16|129.128.41.240||Linux, WPS Ubuntu 16.04|regular|CSC329|||513778||dept|tst|CLEAN|ACS06172|||||
+mulhurst|129.128.4.84||MacOS, 10.1|regular|ATH345||C02PQ043FY14|||mmueller|mmueller|CLEAN|Apple iMac|@ 4GHz|16|||
+mundare|129.128.4.82||MacOS, 10.8|regular|ATH220||K874212HZCT|524170||mn|mn|CLEAN|Apple iMac @ 2.8GHz|2||||
+muriel1|129.128.21.243||Linux, WPS Ubuntu 16.04|regular|GSB175|F14|SM40022||||mmueller|CLEAN||Xeon E5420QC @ 2.5GHz|12|||
+muriel-c1|192.168.85.128||, |cluster|CSC329|C|SM45398||||steve,mmueller|NOP||||||
+muriel|129.128.21.242||Linux, WPS Ubuntu 16.04|regular|GSB175|F14|SM39482||||mmueller|CLEAN||Xeon E5420QC @ 2.5G|12|||
+myria|129.128.184.46||Linux, Ubuntu 14.04|regular|ATH452B||ACS06090|510243|||stroulia,hzhang3|NOP||Intel Core2 E6600|8|||
+myrnam|129.128.159.136||, |regular|CSC243||XA0320BHJ3C|420265||emarkus|jonathan|DIRTY|Apple Mac G4 400|||||
+namao|129.128.25.146||Linux, WPS Ubuntu 16.04|regular|ATH437||ACS05158|482839|||networks|CLEAN||AMD 64 4000|2|||
+namur|129.128.4.68||Windows, 10 Pro|regular|ATH322|||||yannis|yannis|CLEAN||Intel i7 8700|64|||
+nathan|129.128.184.133||Linux, Ubuntu 18.04|regular|CSC353|||||||||||||
+nathan-g5|129.128.159.138||MacOS, 10.4.11|regular|CSC245||XB3410B4NVS|467900||nathanst|nathanst|DIRTY|Apple Mac G5|@ 1.8GHz|1|||
+nat-gw|129.128.184.5||OpenBSD, 4.5|regular|CSC329|F|775D5B1|503217||dept|tst|CLEAN|Dell PE 850|Intel Pentium4 80547 @ 2.13GHz|4|||
+nazim-acer|129.128.23.51||Windows, 10 Home|regular|CSC259||R3-471T-5448|||nazimudd|nadi|NOP|Acer Aspire R14|||||
+neapolis|129.128.22.253||Linux, Scientific 4.2 (Beryllium)|regular|CSC231|B|||||steve|CLEAN|Dell PowerEdge 1750|||||
+nebula|129.128.184.48||, |regular|CSC353||||||zichen2|NOP||||||
+neerlandia|||, |regular|CSC341||3YB8NM1|||dept|steve|CLEAN|Dell Optiplex 780|Intel Core2 E7500|2|160||
+netera-e5|129.128.184.15||, |regular|CSC295A||||||cybera|NOP||||||
+nevis|||, ||129.128.25.130|||||||||||||
+new-sedgewick|129.128.21.206||Linux, RHEL Server 7.4|virtual|IST VM|||NA|||AppHosting|||||||
+new-ssrga|129.128.243.5||, |virtual|melissa|||||dwt|stroulia|NOP||||||
+new-ssrgb|129.128.243.6||, |virtual|melissa|||||dwt|stroulia|NOP||||||
+new-ssrgc|129.128.243.7||, |virtual|melissa|||||dwt|stroulia|NOP||||||
+new-ssrgd|129.128.243.8||, |virtual|melissa|||||dwt|stroulia|NOP||||||
+newbrook|129.128.25.214||, ||ATH437||PS128495|431945|||macg,networks|DIRTY||Intel PentiumIII 800|512MB|||
+newnorway|129.128.25.153||, |||||||||||||||
+newsarepta|129.128.4.69||Windows, 7|regular|CSC315||3GC7HH1|no-tag||dept|dept|CLEAN|Dell 755|||||
+ni23-165|129.128.23.250||, |network|CSC165||02915c|406483||dept|steve|CLEAN|NetIron|||||
+nicot-lk|129.128.23.59||, |||||||||||||||
+nilrem|129.128.4.131||Windows, 7|regular|ATH406||DCLHBK1|||nray1|nray1|CLEAN||Intel i7 920 @ 2.66GHz|12|||
+niton|129.128.25.13||Linux, Ubuntu 14.04|regular|ATH437||ACS05641|497681|||netgroup|CLEAN||AMD 64x2 4400+ @ 2.2GHz|3|250||
+nojack|129.128.29.236||Linux, openSUSE 13.1|regular|CSC329|B|899FJS1|549748||dept|tst|CLEAN|Dell PowerEdge R310|||||
+nordegg|129.128.4.70||MacOS, 10.5.8|regular|ATH252D||G8723536UPZ|513631||macg|macg|CLEAN|Apple MacPro|2x @ 2.66|16|||
+northstar|129.128.25.180||, |||||||||||||||
+notecc|129.128.184.106||Linux, Ubuntu 16.04|regular|CSC351||||||ktgordon|NOP||||||
+oardakan-desktop|||MacOS, 10.12|regular|ATH321||C02V424RJ1GN|586225||oardakan|oardakan|CLEAN|Apple iMac 27"|||||
+odb1|129.128.21.98||Linux, Ubuntu 16.04|virtual|IST VM|||NA|||IApps|CLEAN||||||
+odb2|||Linux, Slackware 12.2.0|regular||B|12LYYC1|510096||dept|tst|CLEAN|Dell PowerEdge 2950|Xeon 5130||||
+odyssey|129.128.23.133||, |regular|ATH338|||||bulitko|bulitko|NOP|Sony PlayStation 4|||||
+ohaton|129.128.243.70||Linux, WPS Ubuntu 16.04|regular|GSB175|F17|3CR3DG1|no-tag||dept|tst|CLEAN|Dell 2950|||||
+old-onoway|129.128.4.128||Linux, RHEL Server 5.11|regular|CSC231|C|GMTZ3J1|537334||dept|shauna,carolyn,rod|CLEAN|Dell PowerEdge R300|Xeon X3323 @ 2.5GHz|4|||
+old-smb-home|129.128.4.32||Linux, Slackware 12.2.0|regular|CSC231|A|7DR6SD1|||dept|tst|CLEAN|Dell PowerEdge 860|Xeon 3050 @ 2.13GHz|2|||
+old-warburg|129.128.22.37||Linux, RHEL Server 5.11|regular|CSC231|B|17506C1|510057||dept|tst|CLEAN|Dell PowerEdge 2950|Xeon 5110|8|||
+old-webdocs-4|129.128.4.217||Linux, RHEL Server 5.11|regular|CSC231|B||||dept|tst|CLEAN||||||
+old-webdocs|||Linux, RHEL Server 5.11|regular|CSC231|B||||dept|tst|CLEAN||||||
+otrs-dev|129.128.22.145||Linux, Slackware 12.2.0|alias|launch-dev|||||dept|tst|CLEAN||||||
+palisade|129.128.4.99||MacOS, 10.9.5|regular|ATH340||D25MD1MLF8JC|||paullu|paullu|CLEAN|Apple iMac|i7 @ 3.5GHz|32|||
+peace-riv|129.128.23.180||Linux, Scientific 5.1 (Boron)|regular|CSC205||ACS04720|469204|||hasell,zaiane|DIRTY||AMD MP2800|2|||
+peers|129.128.23.249||Linux, WPS Ubuntu 16.04|regular|CSC251||ACS06174|513784|||amaral,paullu,jonathan|CLEAN||AMD x2 4800|4|||
+pendryl|129.128.25.38||Windows, 7|regular|CSC265||9DS0JF1|528946|||yang|CLEAN|Dell Precision Workstation PWS T7400|Xeon E5405|4|||
+penhold|||AIX, 5.1.0.0|regular|CSC251A||10733AA||||amaral,paullu,jonathan|NA|IBM eServer p610||1|||
+peoria|129.128.23.58||Windows, 7|regular|CSC261||DRT1XG1|537349||lin|lin,anup|CLEAN|Dell Optiplex|Intel Core2 E8200|4|||
+pfm2|129.128.184.67||Windows, Server 2012 64-bit|regular|CSC133||7FS5WK1|543297||hasell|hasell|NOP|Dell|Intel Core2 Q9400 @ 2.67GHz|8|||
+pibroch|129.128.23.55||Linux, WPS Ubuntu 16.04|regular|CSC211||MXX9510CQN|no-tag|||greiner|CLEAN||Intel Core2 Q8300 @ 2.5GHz|8|||
+pickardville|||Linux, Red Hat 9 (Shrike)|regular|CSC305A?||ACS04564|467916|||paullu|NA||AMD MP2400|1|||
+pinehurst|129.128.23.128||Windows, |regular|CSC251A||||||denmanse|CLEAN|MemoryExpress|Intel i5|8|||
+pinelake|129.128.4.87||, |||||||||||||||
+pipestone|129.128.22.42||Linux, WPS Ubuntu 16.04|regular|CSC329|F|SM39131|||dept|tst|CLEAN|SuperMicro X7DBR-8+|Xeon E5430QC @ 2.66GHz|20|||
+pizza|129.128.184.21||, |unknown|CSC259B3||||||hindle1|NOP||||||
+placid|129.128.25.16||MacOS, 10.11|regular|ATH306||D25R30WLGQ18|604046||zacharyf|zacharyf|CLEAN|Apple iMac|Intel i5 @ 3.2 GHz|16|1000||
+polaris|129.128.184.40||, |regular|CSC251A||SM3??|no-tag||||NOP||AMD Opt 2378 @ 2.2GHz|16|||
+polygon|||Linux, Ubuntu 16.04|laptop|CSC211||WQ9429738PW|||bulitko|bulitko|NOP|Apple MacBook 13"|Intel Core2 P7550 @ 2.26 GHz|4|250||
+ponoka|129.128.16.171||Windows, XP Pro|regular|ATH232|||528139|||dept|CLEAN|Dell OptiPlex 755|||||
+priam|129.128.23.135||MacOS, 10.11.3|regular|ATH338||QP9170UT0TM|543237||bulitko|bulitko|CLEAN||Intel Core2 @ 2.93 GHz| 8|||
+prn353-clr|129.128.25.67||, |printer|CSC353||JPHAE13146|420464||cs353-clr|jag|CLEAN|HP|Color LaserJet||||
+provost|129.128.4.243||, |regular||||||||||||||
+psychiatry|129.128.243.168||, |unknown|GSB175|F14|ACS05152|482843||steve|rgreiner|NOP||||||
+puppetmaster-r|129.128.4.228||Linux, Ubuntu 12.04|regular|CSC231||HMTZ3J1|537338||dept|tst|CLEAN|Dell PowerEdge R300|||||
+pyramid-lk|129.128.23.123||Linux, Scientific 4.3 (Beryllium)|regular|CSC251A||ACS03199||||duane|DIRTY||AMD ACS @ 1.5GHz|2|||
+pythais|129.128.243.135||Linux, RHEL Server 5.6|regular|GSB175|F17|SM45386||||stroulia|NOP||AMD Opteron 1216HE @ 2.4GHz|4|||
+quack|129.128.4.141||Linux, Fedora 13|regular|ATH401||CNH4480M|479752|||jag|CLEAN|HP Compaq|Semp @ 3.1GHz|512MB|||
+ranee|129.128.25.124||Windows, |regular|CSC301||T62K00408D04256||||jag|NOP||Intel Pentium 4 @ 3.2GHz|1|||
+ranfurly|129.128.29.237||, |regular|CSC315||1TX37J1|||dept||CLEAN|Dell OptiPlex 755|||||
+redwater|129.128.23.22||Windows, XP Pro 5.1.2600|regular|||PS130394|431556|||yuan|NOP||AMD XP 800|1|||
+reita-lake|129.128.159.244||Windows, 10 Education|regular|CSC211||MG00FMXX|598148|||bulitko|CLEAN|ThinkCentre M93p Type 10A7|Intel i7 4770 @ 3.4 GHz|16|1000||
+repos|129.128.21.207||Linux, Ubuntu 16.04|virtual|IST VM|||NA||||||||||
+richdale|129.128.25.129||Linux, Ubuntu 14|regular|CSC353||DG12223130|586195|||karteek,martin|CLEAN||Intel i7 @ 3.77 GHz|32|||
+rlai-cmput-1|129.128.159.203||Linux, Ubuntu 18.04 LTS|regular|CSC205|E||||amii|amii|CLEAN||||||
+roche-miette|129.128.25.46||Linux, Fedora 13|regular|CSC353||PS125247|444197||cobzas,zichen2|jag|CLEAN||Intel Core2 Q9450 @ 2.6GHz|4|||
+rock-crk|129.128.22.20||Windows, Server 2003|regular|CSC231|B|ACS05161|482844||dept|tst|CLEAN||Intel Pentium 4 @ 1.8GHz|512MB|||
+rodef|129.128.25.28||Linux, WPS Ubuntu 14.04|regular|CSC301||HRWV4J1|no-tag|||zhang,jag|CLEAN||Intel Core2 E8400|4|||
+ron|129.128.184.103||dual-boot, Win10/Ubuntu16.04|regular|CSC225||14265005P|604109||locheng|locheng|NOP||||||
+rotationbuilder|129.128.184.62||Windows, unknown|regular|CSC135||||||aicml|NOP||||||
+rowley|129.128.25.92||Linux, unknown|regular|CSC353||ACS03672|448708||zichen2|jag|CLEAN||Intel Pentium 4 @ 2.4GHz|1|||
+rts|129.128.184.64||Linux, Mint 17.3|regular|ATH424|||no-tag||astanesc|astanesc|NOP||Intel Pentium G2120 @ 3.1 GHz|8|1128||
+rumsey|129.128.25.158||Linux, Ubuntu 16.04|regular|CSC301||HRWT5J1|no-tag||cjs|zhang|NOP||Intel Core2 E8400|4|||
+russ-home|||Windows, 10 Edu|regular|Off Campus||12BNCH2|704406||greiner|greiner|CLEAN|Dell OptiPlex 7040|Intel i5 6500|8|256||
+rycroft|129.128.25.11||, |unknown|CSC315A||31046|423127|||zhang|DIRTY||||||
+sabine|129.128.4.45||Windows, 10|regular|ATH432||DHT25K1|543283||joerg|joerg|NOP||Intel i7 920|12|||
+saddle-lk|129.128.23.68||Linux, WPS Ubuntu 16.04|regular|CSC251||ACS05146|497708|||paullu|CLEAN||AMD 64 3500|1|||
+sakwatamau|129.128.23.236||Windows, 7|regular|ATH351||BB0636|586232|||paullu|CLEAN|ASUS H87M-Plus|Intel i7 4770 @ 3.4GHz|8|||
+salient|129.128.22.17||Linux, RHEL AS 4 (Nahant)|cluster|CSC305A||SKPLF2??||||steve,dale|CLEAN||AMD Opteron DP248|6|||
+sand-rv|129.128.25.59||Linux, WPS Ubuntu 16.04|regular|CSC315||ACS06127|509920||charles|charles,rod|CLEAN||AMD Athlon 3500 @ 2.4GHz|4|||
+sangudo|129.128.25.2||MacOS, 10.6|regular|ATH207||W873340LX86|489480||rene|rene|CLEAN|Apple iMac|Intel Core2 Duo @ 2.4GHz|2|||
+sarahs-macbook-pro|129.128.23.129||MacOS, 10.12|laptop|ATH441||C02S13NMFVH8|606053||nadi|nadi|CLEAN|Apple MacBook Pro Retina| @ 3.1GHz||||
+sass-lake|129.128.23.67||Linux, WPS Ubuntu 16.04|regular|CSC211||MXX9510CWX|no-tag|||jonathan,mburo|CLEAN||Intel Core2 Q8300 @ 2.5GHz|8|||
+saulteaux|129.128.23.245||, |||||||||||||||
+sawnlk|129.128.4.250||, |||||||||||||||
+sawridge|129.128.23.66||, |||||||||||||||
+scotfield|129.128.4.38||Linux, WPS Ubuntu 16.04|regular|ATH409||7S8XPW1|586173||dale|dale|CLEAN|Dell OptiPlex 790|Intel i7 2600|8|||
+scotford|129.128.22.14||Linux, WPS Ubuntu 16.04|regular|CSC329|C|SM80374|586214||zhang|zhang|CLEAN|Silicon Mechanics|2x Xeon E5 2630|256|24000||
+scovil|||Linux, Red Hat 7.2 (Enigma)|regular|CSC251A||ACS02392|422841|||paullu|NA|ACS|Intel PentiumIII 700D|512MB|||
+seba-bch|129.128.23.185||, |||||||||||||||
+sedalia|129.128.4.36||, |||||||||||||||
+sedgewick|129.128.4.8||Linux, RHEL Server 5.11|regular|CSC231|A|6DR6SD1|||dept|carolyn,shauna,rod|CLEAN|Dell PowerEdge 860|Xeon 3050 @ 2.13G|2|||
+sega|129.128.23.139||, |unknown|ATH338|||||bulitko|bulitko|NOP|Xbox One|||||
+seiulake|129.128.23.37||Linux, WPS Ubuntu 16.04|regular|ATH217||MJPNW52|524804||shauna|shauna,rod|CLEAN|Lenovo M7484|Intel Core 2 E8400 @ 3.0GHz|8|||
+serv-vcenter|129.128.22.60||Linux, Rescue|regular|CSC231|B|F419MJ1|549631||dept|tst|CLEAN|Dell PowerEdge R300|Xeon @ 2.40GHz|4|||
+setup4a|129.128.4.1||, |||||||||||||||
+setup4b|129.128.4.2||, |||||||||||||||
+setup4c|129.128.4.4||, |||||||||||||||
+setup4d|129.128.4.5||, |||||||||||||||
+setup4e|129.128.4.6||, |||||||||||||||
+setup16a|129.128.16.168||, |||||||||||||||
+setup16b|129.128.16.174||, |||||||||||||||
+setup16c|129.128.16.2||, |||||||sysadmin||||||||
+setup16d|129.128.16.3||, |||||||||||||||
+setup16|129.128.16.1||, |||||||||||||||
+setup22a|129.128.22.1||, |||||||||||||||
+setup22b|129.128.22.2||, |||||||||||||||
+setup22c|129.128.22.3||, ||CSC139|||||jmartin||||||||
+setup22d|129.128.22.4||, ||fs1|||||johnb||||||||
+setup22e|129.128.22.5||, |||||||||||||||
+setup23a|129.128.23.1||, |||||||charles||||||||
+setup23b|129.128.23.2||, |||||||johnb||||||||
+setup23c|129.128.23.3||, |||||||||||||||
+setup23d|129.128.23.4||, |||||||||||||||
+setup23f|129.128.23.6||, |||||||||||||||
+setup23g|129.128.23.7||, |||||||||||||||
+setup23s|129.128.23.99||, |||||||||||||||
+setup25a|129.128.25.3||, |||||||||||||||
+setup25b|129.128.25.49||, |||||||||||||||
+setup25c|129.128.25.6||, |||||||||||||||
+setup25d|129.128.25.8||, |||||||||||||||
+setup25|129.128.25.1||, |||||||||||||||
+sexsmith|129.128.25.199||dual-boot, Windows 10 & Ubuntu 16.04|regular|CSC327||99LV3V1||||dwishart|CLEAN|Dell XPS 8500|Intel i7 3770 @ 3.4GHz|8|||
+shaspa-brdg|129.128.184.43||, |network|ATH437A||0922-000966|549636||bridge|steve|CLEAN|mdl-0922-000966|||||
+sheerness|129.128.4.72||, |||||||||||||||
+sion|||Windows, 7|regular|CSC243||11M2SW1|586184||mgheirat|greiner|NOP||||||
+skat2|129.128.184.141||Linux, Fedora 25|regular|ATH337|||no-tag||mburo|mburo|NOP||Intel i7 7700K|32|1500||
+skat3|129.128.184.152||Linux, Fedora 25|regular|ATH337|||no-tag||mburo|mburo|NOP||Intel i7 7700K|32|1500||
+skat4|129.128.184.153||Linux, Fedora 25|regular|ATH337|||no-tag||mburo|mburo|NOP||Intel i7 7700K|32|1500||
+skat|129.128.184.139||Linux, Fedora 25|regular|ATH337|||no-tag||mburo|mburo|NOP||Intel i7 4790K|32|1500||
+smb-home|129.128.21.202||Linux, RHEL Server 5.11|virtual|IST VM|||NA||||CLEAN||||||
+smithmill|129.128.23.209||MacOS, 10.6.2|regular|CSC315||YM8344X0ZE3|528790||||CLEAN|Apple iMac 20|@ 2.66GHz|2|||
+smr|129.128.243.167||Linux, Ubuntu 16.04|regular|GSB175|F17|1.70809E+14|||nadi|nadi|CLEAN|ASUS PRIME X399-A|||||
+snaring|129.128.25.4||Linux, Red Hat 9 (Shrike)|regular|CSC341||ACS05013|||steve|steve|CLEAN||Sempron 2800|1|||
+snipe-lake|129.128.23.235||Linux, WPS Ubuntu 16.04|regular|CSC251|||586246|||amaral,paullu||ASUS H87M-Plus|Intel i7 4770 @ 3.4GHz||||
+8192,,|BB0694||, CLEAN|active||||||OK||||||||
+sonata|129.128.23.136||Windows, 8.1?|regular|CSC211|||no-tag||bulitko|bulitko|CLEAN||Intel i7 980x @ 3.33GHz|24|||
+so-baptiste|129.128.184.71||dual-boot, Ubuntu 16.04 & Windows 10 Enterprise|regular|CSC225||JDBYV52|361518|||lin,anup|NOP||Intel i7-4790 @ 3.6GHz|16|||
+sparefw1|||, |regular|CSC231||serial-no|549746||dept|tst||Dell PowerEdge R310|||||
+sparefw2|||, |regular|CSC231||serial-no|549747||dept|tst||Dell PowerEdge R310|||||
+sparevpn1|||, |regular|CSC231||serial-no|549748||dept|tst||Dell PowerEdge R310|||||
+sparevpn2|||, |regular|CSC231||serial-no|549749||dept|tst||Dell PowerEdge R310|||||
+sputina|129.128.4.24||MacOS, 10.5.4|regular|ATH309||serial-no|482525||ehab|ehab|CLEAN|Apple Mac G5|||||
+sputinow|129.128.159.20||MacOS, 10.8.2|regular|BS-CW410|5||586174|||kenw|active|Apple iMac 27"|Intel i7 @ 3.4 GHz |8|1||
+sspml|129.128.184.41||Linux, Ubuntu 14.04|regular|CSC305|||545217||karami1|ECEdept|NOP|ThinkStation-D20|||||
+ssrg0|129.128.243.136||, |virtual|melissa|||||dwt|stroulia|NOP||||||
+ssrg1|129.128.243.137||, |virtual|melissa|||||dwt|stroulia|NOP||||||
+ssrg2|129.128.243.138||, |virtual|melissa|||||dwt|stroulia|NOP||||||
+ssrg3|129.128.243.139||, |virtual|melissa|||||dwt|stroulia|NOP||||||
+ssrg4|129.128.243.140||, |virtual|melissa|||||dwt|stroulia|NOP||||||
+ssrg5|129.128.243.141||, |virtual|melissa|||||dwt|stroulia|NOP||||||
+ssrg6|129.128.243.142||, |virtual|melissa|||||dwt|stroulia|NOP||||||
+ssrg7|129.128.243.143||, |virtual|melissa|||||dwt|stroulia|NOP||||||
+ssrg8|129.128.243.144||, |virtual|melissa|||||dwt|stroulia|NOP||||||
+ssrg9|129.128.243.145||, |virtual|melissa|||||dwt|stroulia|NOP||||||
+ssrg10|129.128.243.146||, |virtual|melissa|||||dwt|stroulia|NOP||||||
+ssrg11|129.128.243.147||, |virtual|melissa|||||dwt|stroulia|NOP||||||
+ssrg12|129.128.243.148||, |virtual|melissa|||||dwt|stroulia|NOP||||||
+ssrg13|129.128.243.149||, |virtual|melissa|||||dwt|stroulia|NOP||||||
+ssrg14|129.128.243.150||, |virtual|melissa|||||dwt|stroulia|NOP||||||
+ssrg15|129.128.243.151||, |virtual|melissa|||||dwt|stroulia|NOP||||||
+ssrg16|129.128.243.152||, |virtual|melissa|||||dwt|stroulia|NOP||||||
+ssrg17|129.128.243.153||, |virtual|melissa|||||dwt|stroulia|NOP||||||
+ssrg18|129.128.243.154||, |virtual|melissa|||||dwt|stroulia|NOP||||||
+ssrg19|129.128.243.155||, |virtual|melissa|||||dwt|stroulia|NOP||||||
+ssrg20|129.128.243.156||, |virtual|melissa|||||dwt|stroulia|NOP||||||
+ssrg21|129.128.243.157||, |virtual|melissa|||||dwt|stroulia|NOP||||||
+ssrg22|129.128.243.158||, |virtual|melissa|||||dwt|stroulia|NOP||||||
+ssrg23|129.128.243.159||, |virtual|melissa|||||dwt|stroulia|NOP||||||
+ssrg24|129.128.243.160||, |virtual|melissa|||||dwt|stroulia|NOP||||||
+ssrg25|129.128.243.161||, |virtual|melissa|||||dwt|stroulia|NOP||||||
+ssrg26|129.128.243.162||, |virtual|melissa|||||dwt|stroulia|NOP||||||
+ssrg27|129.128.243.163||, |virtual|melissa|||||dwt|stroulia|NOP||||||
+ssrg28|129.128.243.164||, |virtual|melissa|||||dwt|stroulia|NOP||||||
+ssrg29|129.128.243.165||, |virtual|melissa|||||dwt|stroulia|NOP||||||
+stanger|129.128.23.16||MacOS, 10.5.8|regular|ATH315||serial-no|||lori|sutton,lori|CLEAN||||||
+stanmore|129.128.25.31||Linux, WPS Ubuntu 16.04|regular|CSC315||ACS06126|509922||charles,rick|charles,rick,rod|CLEAN||AMD Athlon 3500 @ 2.4GHz|2|||
+steepbank|129.128.23.79||Windows, 7|regular|CSC347|5||no-tag||mcalvert|zhang|active|Dell Optiplex|Intel Core2 E8400|4|||
+stettler|129.128.23.63||, |||||||||||||||
+st-brides|129.128.23.21||Linux, Ubuntu 13.04|regular|CSC251||ACS06778|no-tag|||amaral,paullu,jonathan|CLEAN||AMD PN 9750|4|||
+st-francis|129.128.4.50||Linux, Ubuntu 10.04 LTS|regular|ATH447||ACS04832|479284||hindle1|hindle1|NOP||AMD XP 2800|1|||
+st-lina|129.128.25.108||Windows, 7|regular|CSC147||RC11-140772|||||CLEAN|XFX 790i| Intel Core2 Quad X9770 @ 4.00GHz|4|||
+sullivan|129.128.23.115||Linux, WPS Ubuntu 16.04|regular|CSC251||MXU844011J|no-tag|||amaral,paullu,jonathan|CLEAN|Phe/9550QC||6|||
+summerhaswellii|129.128.184.58||Linux, Ubuntu 12.04|regular|CSC251||MG-PC2|||mgaudet|amaral|NOP||Intel i7 4470||||
+summerhaswell|129.128.184.57||Linux, Ubuntu 12.04|regular|ATH150|||||mgaudet|amaral|NOP||Intel i7 4470||||
+sundog|129.128.4.208||, |||||||||||||||
+sundre|129.128.4.46||Linux, WPS Ubuntu 16.04|regular|ATH303||B4297G1|528793||mreza|mreza|CLEAN||Intel Core2 E8400 @ 3.0GHz|4|||
+sunflower|||Windows, 10 Education|regular|Off Campus||DN5GWG1|527275||dept|lotus|CLEAN|Dell Optiplex 755|Intel Core2 E6750|4|250||
+sunnynook|129.128.23.198||Windows, 10|regular|CSC225||JD5TV52|361519|||lin,anup|CLEAN||Intel i7 4790 @ 3.6GHz|16|||
+sunnyslope|129.128.23.147||MacOS, 10.5.8|regular|ATH305||XB34601SNVB|473223||kenw|kenw|CLEAN|Mac G5|@ 2.0GHz|2|||
+sunray|129.128.184.42||Linux, Ubuntu 14.04|regular|CSC351||14232682P|604040||nray1|nray1|NOP||Intel i7 4790K @ 4.0GHz|32|||
+sun-creek|129.128.23.9||Windows, 10|regular|CSC211|||||bulitko|bulitko|CLEAN||Ryzen processor||||
+swanhills|129.128.159.21||MacOS, 10.8.2|regular|CSC259B1||C02K25CCDNMP|586175|||kenw|CLEAN|Apple iMac 27"|Intel i7 @ 3.4GHz|8|1000||
+syslinuxtest|129.128.243.72||Linux, WPS Ubuntu 16.04|virtual|czar|||||johnb||CLEAN||||||
+talbot|129.128.184.53||Linux, Ubuntu 10.04 LTS|wildwest|ATH452||3GVY1R1|||legilmou|stroulia|NOP|Dell Vostro 460|Intel i7 2600 Quad @ 3.4GHz|16|||
+tanberg1|||, |network|CSC363||23.16077|no-tag||Tanberg|pierreb|NA||||||
+tanberg2|||, |network|CSC363||23.24007|no-tag||Tanberg|pierreb|NA||||||
+tawayik|129.128.23.102||Linux, WPS Ubuntu 16.04|regular|CSC217||ACS05908|512155|||hayward|CLEAN||Intel i5 6400|24|||
+teepee-crk|129.128.23.248||Linux, WPS Ubuntu 16.04|regular|CSC217||1YNLJM1|no-tag|||hayward|CLEAN||Intel i7 860|16|||
+tees|129.128.4.57||Linux, RHEL Server 5.11|regular|CSC329|D|ACS05645||||hayward|CLEAN||AMD Opteron 250|4|||
+telehealth|129.128.184.59||, |unknown|CSC147||||||pierreb|NOP||||||
+temp28-0|129.128.28.200||, |||||||||||||||
+temp28-1|129.128.28.201||, |||||||||||||||
+temp28-2|129.128.28.202||, |virtual|czar|||||johnb||||||||
+temp28-3|129.128.28.203||, |||||||||||||||
+temp28-4|129.128.28.204||, |||||||||||||||
+temp28-5|129.128.28.205||, |||||||||||||||
+temp28-6|129.128.28.206||, |||||||||||||||
+temp28-7|129.128.28.207||, |||||||||||||||
+temp28-8|129.128.28.208||, |||||||||||||||
+temp28-9|129.128.28.209||, |||||||||||||||
+temp29-0|129.128.29.200||, |||||||||||||||
+temp29-1|129.128.29.201||, |||||||||||||||
+temp29-2|129.128.29.202||, |||||||||||||||
+temp29-3|129.128.29.203||, |||||||||||||||
+temp29-4|129.128.29.204||, |||||||||||||||
+temp29-5|129.128.29.205||, |||||||||||||||
+temp29-6|129.128.29.206||, |||||||||||||||
+temp29-7|129.128.29.207||, |virtual|daysland|||||johnb||||||||
+temp29-8|129.128.29.208||, |||||||||||||||
+temp29-9|129.128.29.209||, |||||||||||||||
+temp41-0|129.128.41.200||, |virtual|irricana|||||jmartin||||||||
+temp41-1|129.128.41.201||, |virtual|czar|||||johnb||||||||
+temp41-2|129.128.41.202||, |virtual|czar|||||johnb||||||||
+temp41-3|129.128.41.203||, |||||||||||||||
+temp41-4|129.128.41.204||, |virtual|czar|||||johnb||||||||
+temp41-5|129.128.41.205||Linux, Ubuntu 14.04|regular|ATH220|||||johnb||||||||
+temp41-6|129.128.41.206||Linux, Ubuntu 14.04|regular|ATH200|||||dept|tst|CLEAN|Dell 990|||||
+temp41-7|129.128.41.207||, |||||||||||||||
+temp41-8|129.128.41.208||Linux, Ubuntu 14.04|virtual|czar|||||johnb|tst|CLEAN||||||
+temp41-9|129.128.41.209||Linux, openSUSE 13.1|virtual|czar|||||jmartin||CLEAN||||||
+temp184-0|129.128.184.200||Linux, RHEL Server 5.6|regular|CSC231|B||||rod||CLEAN||||||
+temp184-1|129.128.184.201||, |||||||||||||||
+temp184-2|129.128.184.202||, |||||||bmw||||||||
+temp184-3|129.128.184.203||, |||||||||||||||
+temp184-4|129.128.184.204||, |||||||||||||||
+temp184-5|129.128.184.205||, |||||||||||||||
+temp184-6|129.128.184.206||, |||||||||||||||
+temp184-7|129.128.184.207||, |||||||||||||||
+temp184-8|129.128.184.208||, |||||||||||||||
+temp184-9|129.128.184.209||, |||||||||||||||
+theano|||Windows, 10|regular|ATH452||3GYY1R1|||stroulia|stroulia|CLEAN||Intel i7 2600|16|||
+theia|129.128.25.134||Linux, Ubuntu 14|regular|CSC353||||||karteek,martin|CLEAN||Intel Core2 E8400|8|||
+therien|129.128.4.52||MacOS, 10.11.6|regular|ATH301||W87350Y3ZCT|524173||hayward|hayward|CLEAN|Apple iMac 24|Intel Core2 @ 2.8GHz|2|||
+thickwood|129.128.25.15||Windows, 7|regular|CSC351||71RY5V1||||mpolak,zhang|CLEAN|Dell XPS 8500|Intel i7 3770 @ 3.4GHz|16|||
+thorhild|129.128.23.153||Linux, WPS Ubuntu 16.04|regular|CSC217||ASC05984|510085|||hayward|CLEAN||Intel i5 6400|24|||
+thorsby|129.128.23.200||Linux, WPS Ubuntu 16.04|regular|CSC217||350K6J1|no-tag|||hayward|CLEAN||Intel i7 920|8|||
+tofield|129.128.23.132||Linux, WPS Ubuntu 16.04|regular|CSC217||ASC05805|512198|||hayward|CLEAN||Intel i5 6400|24|||
+torrington|129.128.23.28||Linux, WPS Ubuntu 16.04|regular|CSC217||7BM7HK1|no-tag|||hayward|CLEAN||Intel i7 860 @ 2.8GHz|8|||
+tove|129.128.184.28||OpenBSD, unknown|regular|CSC305|||||sutton|rshariff|NOP||||||
+trochu|129.128.23.88||MacOS, 10.6.3|regular|CSC217||W8016FHZ5PC|549648|||hayward|CLEAN|Apple iMac|Intel Core2 @ 3.1GHz|4|||
+tulliby|129.128.23.228||MacOS, 10.6.3|regular|CSC217||W8016FGE5PC|549649|||hayward|CLEAN|Apple iMac|Intel Core2 @ 3.1GHz|4|||
+u16-gold|129.128.243.71||, |virtual|czar|||||johnb||||||||
+u16-rch-test|129.128.21.254||Linux, WPS Ubuntu 16.04|virtual|czar|||||johnb||CLEAN||||||
+ua01|129.128.29.1||Linux, WPS Ubuntu 16.04|regular|CSC218||2H6TPC1|||dept|tst|CLEAN|Dell OptiPlex 745|||||
+ua02|129.128.29.2||Linux, WPS Ubuntu 16.04|regular|CSC220||FD6TPC1|||dept|tst|CLEAN|Dell OptiPlex 745|||||
+ua03|129.128.29.3||Linux, WPS Ubuntu 16.04|regular|CSC220||JH6TPC1|||dept|tst|CLEAN|Dell OptiPlex 745|||||
+ua04|129.128.29.4||Linux, WPS Ubuntu 16.04|regular|CSC220||2X7TPC1|||dept|tst|CLEAN|Dell OptiPlex 745|||||
+ua05|129.128.29.5||Linux, WPS Ubuntu 16.04|regular|CSC224||BC6TPC1|||dept|tst|CLEAN|Dell OptiPlex 745|||||
+ua06|129.128.29.6||Linux, WPS Ubuntu 16.04|regular|CSC224||3V7TPC1|||dept|tst|CLEAN|Dell OptiPlex 745|||||
+ua07|129.128.29.7||Linux, WPS Ubuntu 16.04|regular|CSC224||4X7TPC1|||dept|tst|CLEAN|Dell OptiPlex 745|||||
+ua08|129.128.29.8||Linux, WPS Ubuntu 16.04|regular|CSC250||7X7TPC1|||dept|tst|CLEAN|Dell OptiPlex 745|||||
+ua09|129.128.29.9||Linux, WPS Ubuntu 16.04|regular|CSC252||2S7TPC1|||dept|tst|CLEAN|Dell OptiPlex 745|||||
+ua10|129.128.29.10||Linux, WPS Ubuntu 16.04|regular|CSC252||HM6TPC1|||dept|tst|CLEAN|Dell OptiPlex 745|||||
+ua11|129.128.29.11||Linux, WPS Ubuntu 16.04|regular|CSC252||BW7TPC1|||dept|tst|CLEAN|Dell OptiPlex 745|||||
+ua12|129.128.29.12||Linux, WPS Ubuntu 16.04|regular|CSC224||6S7TPC1|||dept|tst|CLEAN|Dell OptiPlex 745|||||
+ua13|129.128.29.13||Linux, WPS Ubuntu 16.04|regular|CSC260||GW7TPC1|||dept|tst|CLEAN|Dell OptiPlex 745|||||
+ua14|129.128.29.14||Linux, WPS Ubuntu 16.04|regular|CSC260||8W7TPC1|||dept|tst|CLEAN|Dell OptiPlex 745|||||
+ua15|129.128.29.15||Linux, WPS Ubuntu 16.04|regular|CSC262||HB6TPC1|||dept|tst|CLEAN|Dell OptiPlex 745|||||
+ua16|129.128.29.16||Linux, WPS Ubuntu 16.04|regular|CSC326||5W7TPC1|512143||dept|tst|CLEAN|Dell OptiPlex 745|||||
+ua17|129.128.29.17||Linux, WPS Ubuntu 16.04|regular|CSC350||9H6TPC1|||dept|tst|CLEAN|Dell OptiPlex 745|||||
+ua18|129.128.29.18||Linux, Ubuntu 12.04|regular|CSC166||8G6TPC1|||dept|tst|CLEAN|Dell OptiPlex 745|||||
+uc01|129.128.41.11||Linux, WPS Ubuntu 16.04|regular|CSC121||5144JS1|549687||dept|tst|CLEAN|Dell OptiPlex 990|||||
+uc02|129.128.41.12||Linux, WPS Ubuntu 16.04|regular|CSC121||5105JS1|||dept|tst|CLEAN|Dell OptiPlex 990|||||
+uc03|129.128.41.13||Linux, WPS Ubuntu 16.04|regular|CSC121||5156JS1|||dept|tst|CLEAN|Dell OptiPlex 990|||||
+uc04|129.128.41.14||Linux, WPS Ubuntu 16.04|regular|CSC121||5128JS1|||dept|tst|CLEAN|Dell OptiPlex 990|||||
+uc05|129.128.41.15||Linux, WPS Ubuntu 16.04|regular|CSC121||5155JS1|||dept|tst|CLEAN|Dell OptiPlex 990|||||
+uc06|129.128.41.16||Linux, WPS Ubuntu 16.04|regular|CSC121||511GJS1|||dept|tst|CLEAN|Dell OptiPlex 990|||||
+uc07|129.128.41.17||Linux, WPS Ubuntu 16.04|regular|CSC121||512GJS1|||dept|tst|CLEAN|Dell OptiPlex 990|||||
+uc08|129.128.41.18||Linux, WPS Ubuntu 16.04|regular|CSC121||50Z4JS1|||dept|tst|CLEAN|Dell OptiPlex 990|||||
+uc09|129.128.41.19||Linux, WPS Ubuntu 16.04|regular|CSC121||5158JS1|549681||dept|tst|CLEAN|Dell OptiPlex 990|||||
+uc10|129.128.41.20||Linux, WPS Ubuntu 16.04|regular|CSC121||515DJS1|||dept|tst|CLEAN|Dell OptiPlex 990|||||
+uc11|129.128.41.21||Linux, WPS Ubuntu 16.04|regular|CSC121||5146JS1|||dept|tst|CLEAN|Dell OptiPlex 990|||||
+uc12|129.128.41.22||Linux, WPS Ubuntu 16.04|regular|CSC121||5135JS1|||dept|tst|CLEAN|Dell OptiPlex 990|||||
+uc13|129.128.41.23||Linux, WPS Ubuntu 16.04|regular|CSC121||5167JS1|||dept|tst|CLEAN|Dell OptiPlex 990|||||
+uc14|129.128.41.24||Linux, WPS Ubuntu 16.04|regular|CSC121||5109JS1|||dept|tst|CLEAN|Dell OptiPlex 990|||||
+uc15|129.128.41.25||Linux, WPS Ubuntu 16.04|regular|CSC121||50Z7JS1|||dept|tst|CLEAN|Dell OptiPlex 990|||||
+uc16|129.128.41.26||Linux, WPS Ubuntu 16.04|regular|CSC121||510GJS1|||dept|tst|CLEAN|Dell OptiPlex 990|||||
+ud00|129.128.29.70||Linux, WPS Ubuntu 16.04|regular|CSC125||CAC91501TG|538282||dept|tst|CLEAN|HP dc7900|||||
+ud01|129.128.29.71||Linux, WPS Ubuntu 16.04|regular|CSC125||CAC9210068|538417||dept|tst|CLEAN|HP dc7900|||||
+ud02|129.128.29.72||Linux, WPS Ubuntu 16.04|regular|CSC125||CAC91501SY|538295||dept|tst|CLEAN|HP dc7900|||||
+ud03|129.128.29.73||Linux, WPS Ubuntu 16.04|regular|CSC125||CAC91501TC|538431||dept|tst|CLEAN|HP dc7900|||||
+ud04|129.128.29.74||Linux, WPS Ubuntu 16.04|regular|CSC125||CAC91501SZ|537359||dept|tst|CLEAN|HP dc7900|||||
+ud05|129.128.29.75||Linux, WPS Ubuntu 16.04|regular|CSC125||CAC91605WL|539002||dept|tst|CLEAN|HP dc7900|||||
+ud06|129.128.29.76||Linux, WPS Ubuntu 16.04|regular|CSC125||CAC91501TP|538299||dept|tst|CLEAN|HP dc7900|||||
+ud07|129.128.29.77||Linux, WPS Ubuntu 16.04|regular|CSC125||CAC91501TB|538288||dept|tst|CLEAN|HP dc7900|||||
+ud08|129.128.29.78||Linux, WPS Ubuntu 16.04|regular|CSC125||CAC91400T9|538291||dept|tst|CLEAN|HP dc7900|||||
+ud09|129.128.29.79||Linux, WPS Ubuntu 16.04|regular|CSC125||CAC91501SK|no-tag||dept|tst|CLEAN|HP dc7900|||||
+ud10|129.128.29.80||Linux, WPS Ubuntu 16.04|regular|CSC125||CAC91501SR|538307||dept|tst|CLEAN|HP dc7900|||||
+ud11|129.128.29.81||Linux, WPS Ubuntu 16.04|regular|CSC125||CAC920066Q|538437||dept|tst|CLEAN|HP dc7900|||||
+ud12|129.128.29.82||Linux, WPS Ubuntu 16.04|regular|CSC125||CAC91501ST|538305||dept|tst|CLEAN|HP dc7900|||||
+ud13|129.128.29.83||Linux, WPS Ubuntu 16.04|regular|CSC125||CAC91501VG|538304||dept|tst|CLEAN|HP dc7900|||||
+ud14|129.128.29.84||Linux, WPS Ubuntu 16.04|regular|CSC125||CAC91501SL|538280||dept|tst|CLEAN|HP dc7900|||||
+ud15|129.128.29.85||Linux, WPS Ubuntu 16.04|regular|CSC125||CAC91501TN|538270||dept|tst|CLEAN|HP dc7900|||||
+ud16|129.128.29.86||Linux, WPS Ubuntu 16.04|regular|CSC125||CAC91501VB|||dept|tst|CLEAN|HP dc7900|||||
+ud17|129.128.29.87||Linux, WPS Ubuntu 16.04|regular|CSC125||CAC95001J5|no-tag||dept|tst|CLEAN|HP dc7900|||||
+ud18|129.128.29.88||Linux, WPS Ubuntu 16.04|regular|CSC125||CAC91501T6|538310||dept|tst|CLEAN|HP dc7900|||||
+ud19|129.128.29.89||Linux, WPS Ubuntu 16.04|regular|CSC125||CAC91605WF|539001||dept|tst|CLEAN|HP dc7900|||||
+ud20|129.128.29.90||Linux, WPS Ubuntu 16.04|regular|CSC125||CAC921006L|538478||dept|tst|CLEAN|HP dc7900|||||
+ud21|129.128.29.91||Linux, WPS Ubuntu 16.04|regular|CSC125||CAC91501VH|538298||dept|tst|CLEAN|HP dc7900|||||
+ud22|129.128.29.92||Linux, WPS Ubuntu 16.04|regular|CSC125||CAC91401JT|538276||dept|tst|CLEAN|HP dc7900|||||
+ud23|129.128.29.93||Linux, WPS Ubuntu 16.04|regular|CSC125||CAC91302FV|538317||dept|tst|CLEAN|HP dc7900|||||
+ud24|129.128.29.94||Linux, WPS Ubuntu 16.04|regular|CSC125||CAC91501TV|538297||dept|tst|CLEAN|HP dc7900|||||
+ud25|129.128.29.95||Linux, WPS Ubuntu 16.04|regular|CSC125||CAC91400T8|538292||dept|tst|CLEAN|HP dc7900|||||
+ud26|129.128.29.96||Linux, WPS Ubuntu 16.04|regular|CSC125||CAC921006H|538457||dept|tst|CLEAN|HP dc7900|||||
+ue00|129.128.29.100||Linux, WPS Ubuntu 16.04|regular|CSC129||CAC95001QQ|538290||dept|tst|CLEAN|HP dc7900|||||
+ue01|129.128.29.101||Linux, WPS Ubuntu 16.04|regular|CSC129||CAC91501T1|||dept|tst|CLEAN|HP dc7900|||||
+ue02|129.128.29.102||Linux, WPS Ubuntu 16.04|regular|CSC129||CAC91501SP|||dept|tst|CLEAN|HP dc7900|||||
+ue03|129.128.29.103||Linux, WPS Ubuntu 16.04|regular|CSC129||CAC9210069|538455||dept|tst|CLEAN|HP dc7900|||||
+ue04|129.128.29.104||Linux, WPS Ubuntu 16.04|regular|CSC129||CAC91401K9|||dept|tst|CLEAN|HP dc7900|||||
+ue05|129.128.29.105||Linux, WPS Ubuntu 16.04|regular|CSC129||CAC91501V8|538281||dept|tst|CLEAN|HP dc7900|||||
+ue06|129.128.29.106||Linux, WPS Ubuntu 16.04|regular|CSC129||CAC91401JW|538279||dept|tst|CLEAN|HP dc7900|||||
+ue07|129.128.29.107||Linux, WPS Ubuntu 16.04|regular|CSC129||CAC91302FD|538312||dept|tst|CLEAN|HP dc7900|||||
+ue08|129.128.29.108||Linux, WPS Ubuntu 16.04|regular|CSC129||CAC920066H|no-tag||dept|tst|CLEAN|HP dc7900|||||
+ue09|129.128.29.109||Linux, WPS Ubuntu 16.04|regular|CSC129||CAC91501TJ|||dept|tst|CLEAN|HP dc7900|||||
+ue10|129.128.29.110||Linux, WPS Ubuntu 16.04|regular|CSC129||CAC91501V8|||dept|tst|CLEAN|HP dc7900|||||
+ue11|129.128.29.111||Linux, WPS Ubuntu 16.04|regular|CSC129||CAC91501TQ|||dept|tst|CLEAN|HP dc7900|||||
+ue12|129.128.29.112||Linux, WPS Ubuntu 16.04|regular|CSC129||CAC91605WB|539008||dept|tst|CLEAN|HP dc7900|||||
+ue13|129.128.29.113||Linux, WPS Ubuntu 16.04|regular|CSC129||CAC91302DL|no-tag||dept|tst|CLEAN|HP dc7900|||||
+ue14|129.128.29.114||Linux, WPS Ubuntu 16.04|regular|CSC129||CAC91501TK|538466||dept|tst|CLEAN|HP dc7900|||||
+ue15|129.128.29.115||Linux, WPS Ubuntu 16.04|regular|CSC129||CAC91501TY|538303||dept|tst|CLEAN|HP dc7900|||||
+ue16|129.128.29.116||Linux, WPS Ubuntu 16.04|regular|CSC129||CAC921006N|539006||dept|tst|CLEAN|HP dc7900|||||
+ue17|129.128.29.117||Linux, WPS Ubuntu 16.04|regular|CSC129||CAC91401SJ|539014||dept|tst|CLEAN|HP dc7900|||||
+ue18|129.128.29.118||Linux, WPS Ubuntu 16.04|regular|CSC129||CAC91501TT|538320||dept|tst|CLEAN|HP dc7900|||||
+ue19|129.128.29.119||Linux, WPS Ubuntu 16.04|regular|CSC129||CAC91605WM|539012||dept|tst|CLEAN|HP dc7900|||||
+ue20|129.128.29.120||Linux, WPS Ubuntu 16.04|regular|CSC129||CAC91605WJ|||dept|tst|CLEAN|HP dc7900|||||
+ue21|129.128.29.121||Linux, WPS Ubuntu 16.04|regular|CSC129||CAC91302FY|no-tag||dept|tst|CLEAN|HP dc7900|||||
+ue22|129.128.29.122||Linux, WPS Ubuntu 16.04|regular|CSC129||CAC91302FC|549656||dept|tst|CLEAN|HP dc7900|||||
+ue23|129.128.29.123||Linux, WPS Ubuntu 16.04|regular|CSC129||CAC91400T2|538293||dept|tst|CLEAN|HP dc7900|||||
+ue24|129.128.29.124||Linux, WPS Ubuntu 16.04|regular|CSC129||CAC91400T9|||dept|tst|CLEAN|HP dc7900|||||
+ue25|129.128.29.125||Linux, WPS Ubuntu 16.04|regular|CSC129||CAC9210067|539016||dept|tst|CLEAN|HP dc7900|||||
+ue26|129.128.29.126||Linux, WPS Ubuntu 16.04|regular|CSC129||CAC9210067|no-tag||dept|tst|CLEAN|HP dc7900|||||
+uf00|129.128.29.130||Linux, WPS Ubuntu 16.04|regular|CSC153||CAC91501TL|538274||dept|tst|CLEAN|HP dc7900|||||
+uf01|129.128.29.131||Linux, WPS Ubuntu 16.04|regular|CSC153||CAC91501T5|538319||dept|tst|CLEAN|HP dc7900|||||
+uf02|129.128.29.132||Linux, WPS Ubuntu 16.04|regular|CSC153||CAC920066K|||dept|tst|CLEAN|HP dc7900|||||
+uf03|129.128.29.133||Linux, WPS Ubuntu 16.04|regular|CSC153||CAC9200665|||dept|tst|CLEAN|HP dc7900|||||
+uf04|129.128.29.134||Linux, WPS Ubuntu 16.04|regular|CSC153||CAC9210068|||dept|tst|CLEAN|HP dc7900|||||
+uf05|129.128.29.135||Linux, WPS Ubuntu 16.04|regular|CSC153||CAC920066T|||dept|tst|CLEAN|HP dc7900|||||
+uf06|129.128.29.136||Linux, WPS Ubuntu 16.04|regular|CSC153||CAC9200667|||dept|tst|CLEAN|HP dc7900|||||
+uf07|129.128.29.137||Linux, WPS Ubuntu 16.04|regular|CSC153||CAC921006M|||dept|tst|CLEAN|HP dc7900|||||
+uf08|129.128.29.138||Linux, WPS Ubuntu 16.04|regular|CSC153||CAC91501TM|||dept|tst|CLEAN|HP dc7900|||||
+uf09|129.128.29.139||Linux, WPS Ubuntu 16.04|regular|CSC153||CAC91501VH|538298||dept|tst|CLEAN|HP dc7900|||||
+uf10|129.128.29.140||Linux, WPS Ubuntu 16.04|regular|CSC153||CAC91501SQ|538283||dept|tst|CLEAN|HP dc7900|||||
+uf11|129.128.29.141||Linux, WPS Ubuntu 16.04|regular|CSC153||CAC920066G|||dept|tst|CLEAN|HP dc7900|||||
+uf12|129.128.29.142||Linux, WPS Ubuntu 16.04|regular|CSC153||CAC91501T2|538302||dept|tst|CLEAN|HP dc7900|||||
+uf13|129.128.29.143||Linux, WPS Ubuntu 16.04|regular|CSC153||CAC9210060|||dept|tst|CLEAN|HP dc7900|||||
+uf14|129.128.29.144||Linux, WPS Ubuntu 16.04|regular|CSC153||CAC920066V|||dept|tst|CLEAN|HP dc7900|||||
+uf15|129.128.29.145||Linux, WPS Ubuntu 16.04|regular|CSC153||CAC921006M|538427||dept|tst|CLEAN|HP dc7900|||||
+uf16|129.128.29.146||Linux, WPS Ubuntu 16.04|regular|CSC153||CAC91501SX|||dept|tst|CLEAN|HP dc7900|||||
+uf17|129.128.29.147||Linux, WPS Ubuntu 16.04|regular|CSC153||CAC91501VD|538285||dept|tst|CLEAN|HP dc7900|||||
+uf18|129.128.29.148||Linux, WPS Ubuntu 16.04|regular|CSC153||CAC920066D|538460||dept|tst|CLEAN|HP dc7900|||||
+uf19|129.128.29.149||Linux, WPS Ubuntu 16.04|regular|CSC153||CAC91302F4|538313||dept|tst|CLEAN|HP dc7900|||||
+uf20|129.128.29.150||Linux, WPS Ubuntu 16.04|regular|CSC153||CAC9210062|||dept|tst|CLEAN|HP dc7900|||||
+uf21|129.128.29.151||Linux, WPS Ubuntu 16.04|regular|CSC153||CAC921006D|||dept|tst|CLEAN|HP dc7900|||||
+uf22|129.128.29.152||Linux, WPS Ubuntu 16.04|regular|CSC153||CAC91400T6|538290||dept|tst|CLEAN|HP dc7900|||||
+uf23|129.128.29.153||Linux, WPS Ubuntu 16.04|regular|CSC153||CAC9200666|538449||dept|tst|CLEAN|HP dc7900|||||
+uf24|129.128.29.154||Linux, WPS Ubuntu 16.04|regular|CSC153||CAC920066P|||dept|tst|CLEAN|HP dc7900|||||
+uf25|129.128.29.155||Linux, WPS Ubuntu 16.04|regular|CSC153||CAC921006B|||dept|tst|CLEAN|HP dc7900|||||
+ug00|129.128.29.30||Linux, WPS Ubuntu 16.04|regular|CSC159||5137JS1|||dept|tst|CLEAN|Dell OptiPlex 990|||||
+ug01|129.128.29.31||Linux, WPS Ubuntu 16.04|regular|CSC159||5159JS1|||dept|tst|CLEAN|Dell OptiPlex 990|||||
+ug02|129.128.29.32||Linux, WPS Ubuntu 16.04|regular|CSC159||5117JS1|||dept|tst|CLEAN|Dell OptiPlex 990|||||
+ug03|129.128.29.33||Linux, WPS Ubuntu 16.04|regular|CSC159||5129JS1|||dept|tst|CLEAN|Dell OptiPlex 990|||||
+ug04|129.128.29.34||Linux, WPS Ubuntu 16.04|regular|CSC159||5113JS1|||dept|tst|CLEAN|Dell OptiPlex 990|||||
+ug05|129.128.29.35||Linux, WPS Ubuntu 16.04|regular|CSC159||5118JS1|||dept|tst|CLEAN|Dell OptiPlex 990|||||
+ug06|129.128.29.36||Linux, WPS Ubuntu 16.04|regular|CSC159||5168JS1|||dept|tst|CLEAN|Dell OptiPlex 990|||||
+ug07|129.128.29.37||Linux, WPS Ubuntu 16.04|regular|CSC159||514BJS1|||dept|tst|CLEAN|Dell OptiPlex 990|||||
+ug08|129.128.29.38||Linux, WPS Ubuntu 16.04|regular|CSC159||50Z3JS1|||dept|tst|CLEAN|Dell OptiPlex 990|||||
+ug09|129.128.29.39||Linux, WPS Ubuntu 16.04|regular|CSC159||5174JS1|||dept|tst|CLEAN|Dell OptiPlex 990|||||
+ug10|129.128.29.40||Linux, WPS Ubuntu 16.04|regular|CSC159||5139JS1|||dept|tst|CLEAN|Dell OptiPlex 990|||||
+ug11|129.128.29.41||Linux, WPS Ubuntu 16.04|regular|CSC159||5115JS1|||dept|tst|CLEAN|Dell OptiPlex 990|||||
+ug12|129.128.29.42||Linux, WPS Ubuntu 16.04|regular|CSC159||50Y8JS1|||dept|tst|CLEAN|Dell OptiPlex 990|||||
+ug13|129.128.29.43||Linux, WPS Ubuntu 16.04|regular|CSC159||50Y7JS1|||dept|tst|CLEAN|Dell OptiPlex 990|||||
+ug14|129.128.29.44||Linux, WPS Ubuntu 16.04|regular|CSC159||5134JS1|||dept|tst|CLEAN|Dell OptiPlex 990|||||
+ug15|129.128.29.45||Linux, WPS Ubuntu 16.04|regular|CSC159||5119JS1|||dept|tst|CLEAN|Dell OptiPlex 990|||||
+ug16|129.128.29.46||Linux, WPS Ubuntu 16.04|regular|CSC159||5169JS1|||dept|tst|CLEAN|Dell OptiPlex 990|||||
+ug17|129.128.29.47||Linux, WPS Ubuntu 16.04|regular|CSC159||514GJS1|||dept|tst|CLEAN|Dell OptiPlex 990|||||
+ug18|129.128.29.48||Linux, WPS Ubuntu 16.04|regular|CSC159||516DJS1|||dept|tst|CLEAN|Dell OptiPlex 990|||||
+ug19|129.128.29.49||Linux, WPS Ubuntu 16.04|regular|CSC159||5145JS1|||dept|tst|CLEAN|Dell OptiPlex 990|||||
+ug20|129.128.29.50||Linux, WPS Ubuntu 16.04|regular|CSC159||5108JS1|||dept|tst|CLEAN|Dell OptiPlex 990|||||
+ug21|129.128.29.51||Linux, WPS Ubuntu 16.04|regular|CSC159||5122JS1|||dept|tst|CLEAN|Dell OptiPlex 990|||||
+ug22|129.128.29.52||Linux, WPS Ubuntu 16.04|regular|CSC159||5127JS1|||dept|tst|CLEAN|Dell OptiPlex 990|||||
+ug23|129.128.29.53||Linux, WPS Ubuntu 16.04|regular|CSC159||5148JS1|||dept|tst|CLEAN|Dell OptiPlex 990|||||
+ug24|129.128.29.54||Linux, WPS Ubuntu 16.04|regular|CSC159||50Z1JS1|||dept|tst|CLEAN|Dell OptiPlex 990|||||
+ug25|129.128.29.55||Linux, WPS Ubuntu 16.04|regular|CSC159||5125JS1|||dept|tst|CLEAN|Dell OptiPlex 990|||||
+ug26|129.128.29.56||Linux, WPS Ubuntu 16.04|regular|CSC159||5166JS1|||dept|tst|CLEAN|Dell OptiPlex 990|||||
+ug27|129.128.29.57||Linux, WPS Ubuntu 16.04|regular|CSC159||50Y4JS1|||dept|tst|CLEAN|Dell OptiPlex 990|||||
+ug28|129.128.29.58||Linux, WPS Ubuntu 16.04|regular|CSC159||5164JS1|||dept|tst|CLEAN|Dell OptiPlex 990|||||
+ug29|129.128.29.59||Linux, WPS Ubuntu 16.04|regular|CSC159||50Z8JS1|||dept|tst|CLEAN|Dell OptiPlex 990|||||
+ug30|129.128.29.60||Linux, WPS Ubuntu 16.04|regular|CSC159||5138JS1|||dept|tst|CLEAN|Dell OptiPlex 990|||||
+ug31|129.128.29.61||Linux, WPS Ubuntu 16.04|regular|CSC159||516BJS1|||dept|tst|CLEAN|Dell OptiPlex 990|||||
+ug32|129.128.29.62||Linux, WPS Ubuntu 16.04|regular|CSC159||50ZFJS1|||dept|tst|CLEAN|Dell OptiPlex 990|||||
+ug33|129.128.29.63||Linux, WPS Ubuntu 16.04|regular|CSC159||50YFJS1|||dept|tst|CLEAN|Dell OptiPlex 990|||||
+ug34|129.128.29.64||Linux, WPS Ubuntu 16.04|regular|CSC159||5147JS1|||dept|tst|CLEAN|Dell OptiPlex 990|||||
+ugfw1|129.128.31.57||OpenBSD, 4.5|regular|CSC139|B|80YQN91|497678||dept|tst|CLEAN|Dell PowerEdge 850|Celeron D 80547 @ 2.66GHz|512MB|||
+ugfw2|129.128.31.58||OpenBSD, 4.5|regular|CSC139|B||497679||dept|tst|CLEAN|Dell PowerEdge 850|Celeron D 80547 @ 2.66GHz|512MB|||
+ugweb|129.128.243.190||Linux, OS VERSION|alias|webdocs||SERIAL NUMBER|NA||OWNER|AUTHORITY|||||||
+ui00|129.128.41.30||Linux, WPS Ubuntu 16.04|regular|CSC219||36JQXF1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+ui01|129.128.41.31||Linux, WPS Ubuntu 16.04|regular|CSC219||C5JQXF1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+ui02|129.128.41.32||Linux, WPS Ubuntu 16.04|regular|CSC219||2DKQXF1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+ui03|129.128.41.33||Linux, WPS Ubuntu 16.04|regular|CSC219||8DKQXF1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+ui04|129.128.41.34||Linux, WPS Ubuntu 16.04|regular|CSC219||74JQXF1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+ui05|129.128.41.35||Linux, WPS Ubuntu 16.04|regular|CSC219||H4JQXF1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+ui06|129.128.41.36||Linux, WPS Ubuntu 16.04|regular|CSC219||C4JQXF1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+ui07|129.128.41.37||Linux, WPS Ubuntu 16.04|regular|CSC219||J5JQXF1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+ui08|129.128.41.38||Linux, WPS Ubuntu 16.04|regular|CSC219||6CKQXF1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+ui09|129.128.41.39||Linux, WPS Ubuntu 16.04|regular|CSC219||BCKQXF1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+ui10|129.128.41.40||Linux, WPS Ubuntu 16.04|regular|CSC219||CCKQXF1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+ui11|129.128.41.41||Linux, WPS Ubuntu 16.04|regular|CSC219||9CKQXF1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+ui12|129.128.41.42||Linux, WPS Ubuntu 16.04|regular|CSC219||8CKQXF1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+ui13|129.128.41.43||Linux, WPS Ubuntu 16.04|regular|CSC219||DCKQXF1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+ui14|129.128.41.44||Linux, WPS Ubuntu 16.04|regular|CSC219||3DKQXF1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+ui15|129.128.41.45||Linux, WPS Ubuntu 16.04|regular|CSC219||35JQXF1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+ui16|129.128.41.46||Linux, WPS Ubuntu 16.04|regular|CSC219||JDKQXF1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+ui17|129.128.41.47||Linux, WPS Ubuntu 16.04|regular|CSC219||DDKQXF1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+ui18|129.128.41.48||Linux, WPS Ubuntu 16.04|regular|CSC219||6DKQXF1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+ui19|129.128.41.49||Linux, WPS Ubuntu 16.04|regular|CSC219||93JQXF1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+ui20|129.128.41.50||Linux, WPS Ubuntu 16.04|regular|CSC219||75JQXF1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+ui21|129.128.41.51||Linux, WPS Ubuntu 16.04|regular|CSC219||C3JQXF1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+ui22|129.128.41.52||Linux, WPS Ubuntu 16.04|regular|CSC219||1TX37J1|no-tag||dept|tst|CLEAN|Dell OptiPlex 755|||||
+uk01|129.128.41.91||Linux, WPS Ubuntu 16.04|regular|CSC229||1K6TCP1|512124||dept|tst|CLEAN|Dell OptiPlex 745|||||
+uk02|129.128.41.92||Linux, WPS Ubuntu 16.04|regular|CSC229||DJ6TCP1|512125||dept|tst|CLEAN|Dell OptiPlex 745|||||
+uk03|129.128.41.93||Linux, WPS Ubuntu 16.04|regular|CSC229||5J6TPC1|512140||dept|tst|CLEAN|Dell OptiPlex 745|||||
+uk04|129.128.41.94||Linux, WPS Ubuntu 16.04|regular|CSC229||DK6TCP1|512145||dept|tst|CLEAN|Dell OptiPlex 745|||||
+uk05|129.128.41.95||Linux, WPS Ubuntu 16.04|regular|CSC229||1M6TCP1|512146||dept|tst|CLEAN|Dell OptiPlex 745|||||
+uk06|129.128.41.96||Linux, WPS Ubuntu 16.04|regular|CSC229||DF0WSC1|512196||dept|tst|CLEAN|Dell OptiPlex 745|||||
+ul01|129.128.29.161||Linux, WPS Ubuntu 16.04|regular|CSC105||DV5TPC1|||dept|tst|CLEAN|Dell OptiPlex 745|||||
+ul02|129.128.29.162||Linux, WPS Ubuntu 16.04|regular|CSC105||2W5TPC1|||dept|tst|CLEAN|Dell OptiPlex 745|||||
+ul03|129.128.29.163||Linux, WPS Ubuntu 16.04|regular|CSC105||5W5TPC1|||dept|tst|CLEAN|Dell OptiPlex 745|||||
+ul04|129.128.29.164||Linux, WPS Ubuntu 16.04|regular|CSC235||8W5TPC1|||dept|tst|CLEAN|Dell OptiPlex 745|||||
+ul05|129.128.29.165||Linux, WPS Ubuntu 16.04|regular|CSC105||2B6TPC1|||dept|tst|CLEAN|Dell OptiPlex 745|||||
+ul06|129.128.29.166||Linux, WPS Ubuntu 16.04|regular|CSC105||7J6TPC1|||dept|tst|CLEAN|Dell OptiPlex 745|||||
+ul07|129.128.29.167||Linux, WPS Ubuntu 16.04|regular|CSC105||6W5TPC1|||dept|tst|CLEAN|Dell OptiPlex 745|||||
+ul08|129.128.29.168||Linux, WPS Ubuntu 16.04|regular|CSC235||BK6TPC1|512130||dept|tst|CLEAN|Dell OptiPlex 745|||||
+ul09|129.128.29.169||Linux, WPS Ubuntu 16.04|regular|CSC105||GV5TPC1|||dept|tst|CLEAN|Dell OptiPlex 745|||||
+ul10|129.128.29.170||Linux, WPS Ubuntu 16.04|regular|CSC105||JV5TPC1|||dept|tst|CLEAN|Dell OptiPlex 745|||||
+ultratrak|129.128.25.107||, |||||||||||||||
+um00|129.128.41.60||Linux, WPS Ubuntu 16.04|regular|CAB311||1T3QRH1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+um01|129.128.41.61||Linux, WPS Ubuntu 16.04|regular|CAB311||DYLQRH1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+um02|129.128.41.62||Linux, WPS Ubuntu 16.04|regular|CAB311||42XQFJ1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+um03|129.128.41.63||Linux, WPS Ubuntu 16.04|regular|CAB311||HS3QRH1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+um04|129.128.41.64||Linux, WPS Ubuntu 16.04|regular|CAB311||2T3QRH1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+um05|129.128.41.65||Linux, WPS Ubuntu 16.04|regular|CAB311||3S3QRH1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+um06|129.128.41.66||Linux, WPS Ubuntu 16.04|regular|CAB311||3T3QRH1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+um07|129.128.41.67||Linux, WPS Ubuntu 16.04|regular|CAB311||4S3QRH1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+um08|129.128.41.68||Linux, WPS Ubuntu 16.04|regular|CAB311||4T3QRH1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+um09|129.128.41.69||Linux, WPS Ubuntu 16.04|regular|CAB311||5S3QRH1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+um10|129.128.41.70||Linux, WPS Ubuntu 16.04|regular|CAB311||5T3QRH1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+um11|129.128.41.71||Linux, WPS Ubuntu 16.04|regular|CAB311||6S3QRH1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+um12|129.128.41.72||Linux, WPS Ubuntu 16.04|regular|CAB311||6T3QRH1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+um13|129.128.41.73||Linux, WPS Ubuntu 16.04|regular|CAB311||7S3QRH1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+um14|129.128.41.74||Linux, WPS Ubuntu 16.04|regular|CAB311||8S3QRH1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+um15|129.128.41.75||Linux, WPS Ubuntu 16.04|regular|CAB311||14JQXF1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+um16|129.128.41.76||Linux, WPS Ubuntu 16.04|regular|CAB311||9S3QRH1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+um17|129.128.41.77||Linux, WPS Ubuntu 16.04|regular|CAB311||BS3QRH1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+um18|129.128.41.78||Linux, WPS Ubuntu 16.04|regular|CAB311||CS3QRH1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+um19|129.128.41.79||Linux, WPS Ubuntu 16.04|regular|CAB311||DS3QRH1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+um20|129.128.41.80||Linux, WPS Ubuntu 16.04|regular|CAB311||FS3QRH1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+um21|129.128.41.81||Linux, WPS Ubuntu 16.04|regular|CAB311||GS3QRH1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+um22|129.128.41.82||Linux, WPS Ubuntu 16.04|regular|CAB311||JS3QRH1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+um23|129.128.41.83||Linux, WPS Ubuntu 16.04|regular|CAB311||8YLQRH1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+um24|129.128.41.84||Linux, WPS Ubuntu 16.04|regular|CAB311||9V2SYH1|||dept|tst|CLEAN|Dell OptiPlex 755|||||
+unis-master|129.128.21.31||Linux, Ubuntu 16.04|virtual|IST VM|||NA||||||||||
+unis-slave|129.128.21.32||Linux, Ubuntu 16.04|virtual|IST VM|||NA||||||||||
+uofa-jay|129.128.23.175||Windows, 7|regular|ATH211|||||zaiane|hasell|CLEAN||||||
+usona1|129.128.25.181||Windows, XP Pro 5.1.2600|regular|CSC363?||6Y33KZKZ600E|457529|||pierreb|NOP|HP|Intel Pentium 4 @ 2.4GHz|4|||
+usona2|129.128.25.182||Windows, XP Pro 5.1.2600|regular|CSC363?||6Y33KZKZ6???|457530|||pierreb|NOP|HP|Intel Pentium 4 @ 2.4GHz|4|||
+usona3|129.128.25.183||Windows, XP Pro 5.1.2600|regular|CSC363?||6Y33KZKZ6???|457528|||pierreb|NOP|HP|Intel Pentium 4 @ 2.4GHz|4|||
+usona4|129.128.25.184||Windows, XP Pro 5.1.2600|regular|CSC363?||6Y33KZKZ6???|457527|||pierreb|NOP|HP|Intel Pentium 4 @ 2.4GHz|4|||
+usona5|129.128.25.185||Linux, Scientific 4.4 (Beryllium)|regular|CSC363?||6Y33KZKZ6???|457526|||pierreb|NOP|HP|Intel Pentium 4 @ 2.4GHz|4|||
+usona6|129.128.25.186||Windows, XP Pro 5.1.2600|regular|CSC147||6Y33KZKZ600H???|457525||idanis|pierreb|CLEAN|HP|Intel Pentium 4 @ 2.4GHz|4|||
+usona7|129.128.25.173||Windows, XP Pro|regular|CSC359||ACS05105|482841|||wfb,pierreb|CLEAN||AMD Opteron 250D|4|||
+usona8|129.128.25.117||Windows, XP Pro|regular|CSC359||ACS05104|484840|||wfb,pierreb|CLEAN||AMD Opteron 250D|4|||
+usona9|129.128.25.216||Linux, Ubuntu 10.04 LTS|regular|CSC363?||S2S057197||||pierreb|NOP||AMD Opteron 270D|4|||
+usona10|||Linux, Ubuntu 10.04 LTS|regular|CSC147||S2S057198|495992||mhamilton|pierreb|CLEAN||AMD Opteron 270D|4|||
+usona11|||Windows, XP Pro 5.1.2600|regular|CSC363?||63015776P||||pierreb|NOP|Toshiba Satellite 5200|||||
+usona12|||Linux, Scientific 4.3 (Beryllium)|regular|CSC363?||LXAA705104606067B1EM14||||pierreb|NOP|Acer Aspire|||||
+utikuma|129.128.29.231||, |||||||||NA||||||
+valhalla|129.128.25.66||Linux, Fedora 13|regular|CSC353||6NFWT41|473445||zichen2|jag|NOP|Dell|Intel Pentium4 @ 3.2GHz|512MB|||
+valleyview|129.128.23.118||, |unknown|CSC259B1?||03C655||||hoover,stroulia|DIRTY|Polycom SP 128|||||
+vanrena|129.128.22.70||Linux, Rescue|regular|CSC231|B|SM45510|538412||dept|tst|CLEAN||AMD Opteron DP2376|32|||
+vanzac|129.128.22.58||VMware ESX, 3.5.0 Update 5|regular|CSC231|B|SM39094|528930||dept|tst|CLEAN||AMD Opteron DP250|8|||
+veteran|129.128.4.79||, |||||||||||||||
+villeneuve|129.128.25.205||, |unknown|CSC363?||RH2535110404|||Gtwy||NOP||AMD 64 3700|1|||
+vilna|129.128.25.149||, |||||||||||||||
+vimy|129.128.22.59||Linux, CentOS|regular|CSC251A||SM48986|no-tag|||li|CLEAN||Xeon X5550 @ 2.66GHz|49|||
+visitor4b|129.128.4.223||Linux, WPS Ubuntu 16.04|regular|ATH329||MJPNX21|545608|||dept|CLEAN|Lenovo M7484|Intel Core 2 E8400 @ 3.0GHz|8|||
+visitor4c|129.128.4.224||Linux, WPS Ubuntu 16.04|regular|ATH329||MJPNW39|545583|||dept|CLEAN|Lenovo M7484|Intel Core 2 E8400 @ 3.0GHz|8|||
+voldemort|129.128.184.90||Linux, Ubuntu 12.04|regular|CSC211||C14R9Y1|586215||burch|burch,bowling|NOP|Dell Optiplex 9010|Intel i7 3770 @ 3.4GHz|16|||
+vulcan|129.128.23.148||Windows, 7|regular|ATH219|||||dept|tst|CLEAN||||||
+wabasca|129.128.184.69||Linux, Ubuntu 16.04|regular|CSC211||3LK8HH2|704937||rgreiner|zaiane|NOP|Dell Precision 5810|||||
+wam1|129.128.25.135||Linux, Ubuntu 14|regular|CSC301||||||jag|CLEAN||Quad|1|||
+wam2|129.128.25.136||Linux, Ubuntu 14|regular|CSC301||||||jag|CLEAN||Quad|3|||
+wanham|129.128.25.222||Windows, 98|regular|CSC363A?||A1171|363128|||wfb,pierreb|NOP||Intel PentiumII 266|128MB|||
+wappau|129.128.25.121||, |regular|CSC301||K43012011GA3TH0||||jag|NOP||x86-yyy||||
+warburg|129.128.21.205||Linux, Ubuntu 16.04|virtual|IST VM|||NA||||CLEAN||||||
+warner|129.128.23.10||Windows, 7|regular|ATH218|||464689||gordon||CLEAN|Dell|||||
+warspite|129.128.23.5||Windows, 7|regular|CSC225||9H80YG1|no-tag|||lin,anup|CLEAN|XPS|Intel Core2 Q6600|3|||
+wasel|129.128.28.253||, ||ATH220|||||||||||||
+waskatenau|129.128.29.243||, |regular|ATH204|||||dept|tst|CLEAN||||||
+watino|129.128.25.175||Linux, Fedora 13|regular|CSC353||serial-no|444197||zichen2|jag|CLEAN||Xeon X350qc|4|||
+waugh|129.128.28.251||, |||||||||||||||
+wawa|129.128.25.212||Linux, Ubuntu 14|regular|CSC353||36W6L81|512167||zichen2|jag|CLEAN||PentD830 @ 3.0GHz|3|||
+web1|129.128.21.66||Linux, Slackware 12.2.0|regular|CSC231|B|B0PFWG1|||dept|tst|CLEAN|Dell PowerEdge R200|Xeon x3210 @ 2.13GHz|4|||
+web2|129.128.21.67||Linux, Slackware 12.2.0|regular|CSC231|B|C0PFWG1|||dept|tst|CLEAN|Dell PE R200|Xeon-x3210/2.13G|4096|||
+webapps-dev|129.128.22.147||Linux, Slackware 12.2.0|alias|launch-dev|||||dept|gordon|CLEAN||||||
+webapps|129.128.21.73||Linux, Ubuntu 16.04||IST VM|||NA|||IApps|CLEAN||||||
+webdocs-4|129.128.21.34||Linux, RHEL Server 5.11|virtual|IST VM|||||NA|VM|CLEAN||||||
+webdocs-dev|129.128.21.203||Linux, CentOS 7.4|virtual|IST VM|||NA||dept|tst|CLEAN||||||
+webdocs-u|129.128.21.34||Linux, CentOS 7.4|alias|webdocs-4||||||VM|CLEAN||||||
+webdocs|129.128.243.190||Linux, CentOS 7.4|virtual|IST VM|||||NA|VM|CLEAN||||||
+webiou|129.128.184.99||, |unknown|ATH215||||||smir|NOP|Dell R420|||||
+westlock|129.128.25.77||Windows, 95|regular|CSC363||serial-no|401286|||pierreb,wfb|NOP||||||
+whitecourt|129.128.25.85||MacOS, 10.6.8|regular|CSC315||QP619036V4Q|438799||charles|charles,rod|CLEAN|Apple iMac4|Intel Core Duo @ 2.0GHz|2|||
+whitegull|129.128.25.40||Windows, XP|regular|CSC333||23N0279||||dept|CLEAN|IBM|Intel Pentium4 @ 1.8GHz|256MB|||
+wildhay|129.128.25.35||Linux, Ubuntu 12.04|regular|CSC353||HB5103102B|||zichen2|jag|CLEAN||AMD 64 3800|2|||
+willingdon|129.128.21.244||Linux, WPS Ubuntu 16.04|regular|GSB175|F14|SM38052||||mmueller|CLEAN||Xeon E5420QC @ 2.5GHz|8|||
+willmore|129.128.25.139||, |||||||||||||||
+willow-lk|129.128.25.125||, |||||||||||||||
+winagami|129.128.29.228||Linux, openSUSE 13.1|regular|CSC139|A|XG060362357|510234||dept|tst|CLEAN|Sun V40z|||||
+www-dev|129.128.22.148||Linux, Slackware 12.2.0|alias|launch-dev|||||dept|gordon|CLEAN||||||
+yeoford|129.128.4.25||Windows, 7|regular|ATH413||4DS0JF1|528947||yang|yang|CLEAN|Dell T7400|Xeon Dual E5405 @ 2.6GHz|11|||
+ypmaster|129.128.21.8||Linux, Ubuntu 16.04|virtual|IST VM|||NA||||CLEAN||||||
+ypslave1|129.128.21.9||Linux, Ubuntu 16.04|virtual|IST VM|||NA||||CLEAN||||||
+ypslave2|||Linux, Slackware 12.2.0|regular|CSC231|A||||dept|tst|CLEAN|Dell PowerEdge 650|||||
+zeus|129.128.25.127||Linux, Ubuntu 12.04|regular|CSC301|||543354||jag|jag|NOP|Barrett WAM Robot Arm 7DOF| Geode Integrated Processor 32-bit @ 500MHz|1|8||
+zhang-ptr|129.128.4.18||, |printer|ATH407||PHBHC06421|603723||zhang|zhang|CLEAN|HP LaserJet M402n|||||
+|129.128.184.70||, |printer|ATH224||USEK031082|360955||ath224|tst|CLEAN|HP LaserJet 4000N|||||
+|||, |printer|ATH326||CNGKC67506|438958||ath326|tst|CLEAN|HP LaserJet 8150dn|||||
+|129.128.4.91||MacOS, 10.3|regular|ATH338?||W871104SW0L|||bulitko|bulitko|DIRTY|PowerBook C2D|||||
+|||MacOS, 10.5.8|regular|ATH339||W88117EKZE4|539107||bowling|bowling|NA|Apple iMac|Intel Core2 Duo @2.8GHz|2|||
+|||Linux, Ubuntu 14.04|regular|ATH349||s2s-58398|456687||holte|holte|CLEAN||AMD XP3000|2|||
+|||Linux, Ubuntu 14.04|regular|ATH354||ACS05435|509954||you|you|CLEAN||AMD Opteron 175 @ 2.2GHz|3|||
+|||Linux, Ubuntu 12.04|regular|ATH403||ACS05773|512204|||mreza|CLEAN||AMD Athlon 64 3800|2|||
+|129.128.25.235||Linux, Ubuntu 14.04|regular|ATH430||2NTPWH1|no-tag|||mn|CLEAN|Dell Optiplex|Intel Core2 E8400|4|||
+|||Windows, 10|regular|BioSciM330||1L1GDP1||||dwishart|NOP|Dell Vostro 460|Intel i5 2400 @ 3.1GHz|8|||
+|129.128.23.107||Linux, Ubuntu 14.04|regular|CSC205||4FS5WK1|543291|||hasell,zaiane|NA||Intel Core2 Q9400 @ 2.66GHz|8|||
+|129.128.23.149||Linux, Ubuntu 14.04|regular|CSC205||9CQPPL1||||zaiane|NA|Dell Vostro 430|Intel i7 860 @ 2.66GHz|8|||
+|||Linux, Ubuntu|regular|CSC205||FMVMVV1|549826|||hasell,zaiane|NOP|Dell Vos V470||8|||
+|||, |regular|CSC211||0PS?????||||nolan|NOP||AMD MP2400|1|||
+|||Windows, 8 (64-bit)|regular|CSC211||FYKXW81|513622|||bulitko|CLEAN|Dell XPS600|Intel Pentium4 @ 3.4GHz|2|||
+|||Linux, Ubuntu 14.04|regular|CSC211||J3C2HS1|no-tag||holte|hasell,zaiane|CLEAN|Dell Optiplex 990|Intel i5 2500 @ 3.3 GHz| 16|500||
+|||MacOS,  MocOS 10.5|regular|CSC211||G84456VPQPR|513620||||CLEAN|Apple PowerMac G5|||||
+|129.128.23.18||Linux, Ubuntu 10.04 LTS|regular|CSC225||DTRQB11|438243|||lin,anup|NOP|Dell|Intel Pentium4 @ 1.6GHz|1|||
+|||Windows, XP Pro 5.1.2600|regular|CSC225||ACS05985|no-tag|||lin,anup|CLEAN||AM2 Athlon64 3800|1|||
+|129.128.23.81||Windows, XP Pro 5.1.2600|regular|CSC225||ACS05984|510085|||lin,anup|CLEAN||AM2 Athlon64 3800|1|||
+|||dual-boot, Linux,XP Pro 5.1.2600|regular|CSC225||ACS05735|510061|||lin,anup|CLEAN||AMD Opteron DC165|2|||
+|129.128.23.242||Windows, XP Pro 5.1.2600|regular|CSC225||ACS05693|503218|||lin,anup|CLEAN||Intel Pentium4 630|2|||
+|||Linux, Ubuntu 12.04|regular|CSC225||ACS05692|512177|||Anup|CLEAN||AMD64 3700|3|||
+|||Linux, RHEL Server 5.11|regular|CSC231|A|1Q58ZD1|||dept|tst|CLEAN|Dell PowerEdge 860|Intel Core2 E2160 @ 1.8GHz|1|||
+|||MacOS, 10.6.5 Server|regular|CSC231|A|C07CV1TDDD6K|||dept|tst|CLEAN|Apple MacMini 4|1 C2D @ 2.66GHz|8|||
+|||MacOS, 10.6.5 Server|regular|CSC231|A|C07CV1TDDD6K|||dept|tst|CLEAN|Apple MacMini 4|1 C2D @ 2.66GHz|8|||
+|||MacOS, 10.6.5 Server|regular|CSC231|||||dept|tst|CLEAN|Apple Mac X-server|||||
+|||MacOS, 10.6.8 Server|regular|CSC231|||||dept|tst|CLEAN|Apple Mac tower|||||
+|||Linux, Scientific 4.4 (Beryllium)|regular|CSC251||PS130492|455598|||amaral,duane,paullu,jonathan|NA||AMD XP 2400|1|||
+|||Windows, 2000 Pro 5.0.2195|regular|CSC251||ACS05304|513781|||amaral,duane,paullu,jonathan|NA||AMD 64 3500|2|||
+|||Windows, XP Pro 5.1.2600|regular|CSC251||PS130493|455599|||amaral,duane,paullu,jonathan|NA||AMD XP 2400|1.5|||
+|||Windows, XP Pro 5.1.2600|regular|CSC251||ACS05303|513780|||amaral,duane,paullu,jonathan|NA||AMD 64 3500|2|||
+|||Windows, XP Pro|regular|CSC251||ACS05305|513783|||amaral,duane,paullu,jonathan|NA||AMD 64 3500|2|||
+|||Windows, XP|regular|CSC251||ACS05315|513782|||amaral,duane,paullu,jonathan|NA||AMD 64 3500|1|||
+|129.128.25.75||Windows, XP Pro 5.1.2600|regular|CSC265||C600071|509937|||yang|CLEAN||AMD 2214|4|||
+|||, ||CSC315A||ACS05475|||||||AMD Opteron 280|8|||
+|||, ||CSC315A||G13KMC1|||||NA||Intel Core2 5150|8|||
+|||, ||CSC315A||6Y31KWMZP001|451473||||NA|HP|AMD XP2200|1|||
+|||, ||CSC315A||4XSLT41|482450||||NA|Dell OptiPlex GX270|Intel Pentium4 @ 2.4GHz|512MB|||
+|||, ||CSC315A||ACS06524|427822||||NA||Intel Core2 E6850 @ 3.0GHz|4|||
+|||, ||CSC315A||ACS05237|no-tag||||NA||AMD 64 4000|2|||
+|||, ||CSC315A||ACS05477|512173||||NA||AMD 64 4000|1|||
+|||Linux, Ubuntu 12.04|regular|CSC315A|||||||NA||AMD 64 Dual 4400DC|3|||
+|||, ||CSC315A||ACS05081|||||NA||AMD XP3400|2|||
+|||, ||CSC315A||ACS04434|||||NA||AMD Opteron DP244|2|||
+|||, ||CSC315A||KPB1727|469226||||NA|IBM|P4H 2.8|1024|||
+|||, ||CSC315A||7XSLT41|482502||||NA|Dell|Intel Pentium4 @ 2.4GHz|512MB|||
+|||, ||CSC315A||6Y26JYFZL054|||||NA|Compaq|Intel Pentium4 @ 1.4GHz|512MB|||
+|||, |regular|CSC315A||||||yang|NA||||||
+|||, |regular|CSC315A||ACS04684|473438|||jag|NA||AMD MP2600|2|||
+|||Windows, XP Pro 5.1.2600|regular|CSC315A||PS130471|450862|||wfb|NA||AMD 2100|1|||
+|||Windows, XP Pro 5.1.2600|regular|CSC315A||C600082|509938|||yang|||AMD 2214|4|||
+|||, ||CSC315A||ACS03321|438963||||NA||AMD MP1800|3|||
+|||, ||CSC315A||ACS03354|438786||||NA|ACS|AMD 1.4GD|512MB|||
+|||, ||CSC315A||ACS03336|439305||||NA||AMD 1800|1|||
+|||, ||CSC315A||ACS03335|439302||||||AMD XP1800|1|||
+|||, |regular|CSC315A||T672K00408D04253||||jag|NA|ShuttleXPC|Intel Pentium4 @ 3.2GHz|1|||
+|||Linux, Slackware 12.2.0|regular|CSC315A||CAC91501T1|||dept|tst|NA|HP dc7900|||||
+|||Linux, Slackware 12.2.0|regular|CSC315A||FW3128218||||tst|||||||
+|||, ||CSC315A||ACS04721|469208||||NA||AMD MP2800|2|||
+|||, ||CSC315A||ACS04497|461641||||NA||AMD XP3200|2|||
+|||Linux, Scientific 5.0 (Boron)|regular|CSC315A||USC32807XF|467893|||nolan,kondrak|NA|HP P6|@ 2.8GHz|512MB|||
+|||MacOS, 10.5|regular|CSC315A||W87480ENX8A|516843||||CLEAN|Apple iMac 24"|Intel Core2 @ 2.4GHz|2|||
+|||Windows, 7|regular|CSC315A||ACS06599|528931|||macg|NA||Intel Core 2 E6850 @ 3.00GHz|3|||
+|||, |printer|CSC315A||USEF195651|401809||||NA|HP LJ4000N|||||
+|||, |regular|CSC315A||7T9RG81|489247||Electronics Shop||NA|DELL OPTIPLEX GX620|Intel Pentium4 @ 3.4GHz|1|||
+|||, |regular|CSC315A||7V9RG81|489338||Electronics Shop||NA|DELL OPTIPLEX GX620|Intel Pentium4 @ 3.4GHz|1|||
+|||, |regular|CSC315A||5V9RG81|489404||Electronics Shop||NA|DELL OPTIPLEX GX620|Intel Pentium4 @ 3.4GHz|1|||
+|||, |regular|CSC315A||8W9RG81|489468||Electronics Shop||NA|DELL OPTIPLEX GX620|Intel Pentium4 @ 3.4GHz|1|||
+|||, |regular|CSC315A||PS110090|439303|||macg|||AMD 1800|256MB|||
+|||, ||CSC315A||ACS04765||||zaiane|NA||AMD MP2800|2|||
+|||, ||CSC315A||ACS04225|457539||||||AMD Sempron 2800|1.5|||
+|||, ||CSC315A||ACS03670|469358||||NA||Intel Pentium4 @ 2.26GHz|1|||
+|||, ||CSC315A||ACS04495|469360||||NA||AMD XP3200|2|||
+|||, ||CSC315A||ACS05643|497683||||NA||AMD64 4400DC|2|||
+|||, ||CSC315A||ACS06177|510083||||||AMD AM X2 4600|2|||
+|||, ||CSC315A||5J6TPC1|512140|||||Dell Optiplex 745|Intel Core2 Duo 6600 @ 2.4GHz|3|||
+|||, ||CSC315A||ACS05894|537347||||||AMD Athlon64 AM2 4600|2|||
+|||MacOS, 10.10.3|regular|CSC315||W87350Y3ZCT|524173||||CLEAN|Apple iMac|Intel Core2 Duo|2|||
+|||Linux, Ubuntu 14.04|regular|CSC315||160041|513770||dept|dept|CLEAN||Intel Core 2 Duo 6420 @ 1.6 GHz|2| 160||
+|||Windows, XP Pro 5.1.2600|regular|CSC315||ACS05642|497682||xinhua2|hasell,zaiane|CLEAN||AMD64 4400DC|2|||
+|||, |regular|CSC315||65J2KH1|537354|||yuan,mn|CLEAN|Dell Optiplex|Intel Core2 E8400|4|||
+|||Linux, Ubuntu 14.04|regular|CSC315||LKCWDB0|513796|||stroulia,hzhang3|NOP||Intel Core2E6300 @ 1.8GHz|5|||
+|||MacOS, 10.5.8|regular|CSC315||G84528XFQPM|482526||teri|mmueller|NA|Apple Mac G5|2.5GD|2.5|||
+|||MacOS, 10.8|regular|CSC315||Serial-no||||bmw|CLEAN|Apple iMac|Intel Core2 Duo @ 2.4GHz|2|||
+|||MacOS, 10.1|regular|CSC315||qp9040mzze3|||dept|dept|CLEAN|iMac|Intel Core2 Duo @ 2.66GHz|4|||
+|||MacOS, |regular|CSC315|||497658|||||Apple Mac Mini| G4 @ 1.25 GHz| 1| 40||
+|||MacOS, |regular|CSC315||W870701LVGN|510358|||||Apple iMac 24"| @ 2.16GHz| 1| 250||
+|||MacOS, |regular|CSC315||YM8345ZCZE3|no-tag|||||Apple iMac 20"|@ 2.66 GHz| 2|320||
+|||Windows, 8.1 Enterprise|regular|CSC315||82JBZD1|528948||yang|yang|CLEAN|Dimension 9200|Intel Core 2 Q6600 @ 2.4GHz|4|500||
+|129.128.25.211||Linux, Ubuntu 12.04|regular|CSC329|E|19CQWB1|510034|||yuan|CLEAN|Dell PowerEdge 2950|Xeon 5050x2|4|||
+|||Linux, RHEL Server 5.11|regular|CSC329|C|D6DJJD1||||denilson||Dell PowerEdge 1950|Xeon 5148 @ 2.33GHz|4|||
+|||Linux, RHEL WS 3 (Taroon Update 2)|regular|CSC329|E|XG043057935|474741|||paullu,duane|NA|Sun V20z|Opteron/DP248|2048|||
+|||Linux, RHEL WS 3 (Taroon Update 3)|regular|CSC329|E|XG043057955|474742|||paullu,duane|NA|Sun V20z|AMD Opteron DP248|2|||
+|||Linux, RHEL WS 3 (Taroon Update 3)|regular|CSC329|E|XG043057927|474743|||paullu,duane|NA|Sun V20z|AMD Opteron DP248|2|||
+|||Linux, Ubuntu 12.04|regular|CSC329|C|0726BD13AB||||denilson||SunFire X4200M|2 @ 2.8GHz|8|||
+|||Linux, Ubuntu 12.04|regular|CSC329|B|ACS04896||||kondrak|CLEAN||Xeon*2 @ 3.4GHz|2|||
+|129.128.25.55||Windows, XP Pro 5.1.2600|regular|CSC353||ACS03834|448709||zichen2|jag|CLEAN||AMD 2000|512MB|||
+|||MacOS, 10.6.5 Server|virtual|serv-admin-test|||||dept|tst|CLEAN||||||
+|||Windows, XP Pro 5.1.2600|regular|||ACS06598|no-tag|||amaral,duane,paullu,jonathan|CLEAN||Intel Core2 E6850 @ 3.0GHz|4|||
+|129.128.23.65||Windows, XP|regular|||78B1773|453774|||kenw|CLEAN|IBM|Intel Pentium4 @ 2.4GHz|1|||
+|129.128.23.90||Windows, XP Pro 5.1.2600|regular|||KPB1723|469218||shibani|stroulia,hoover|CLEAN|IBM|P4H @ 2.8GHz|2.5|||
+|129.128.23.96||Windows, XP Pro 5.1.2600|regular|||KCL3BVH|456684|||stroulia,hoover|CLEAN|IBM|Intel Pentium4 @ 2.5GHz|1|||
+|129.128.23.98||Windows, XP|regular|||ACS05467|513621||cenkner|bulitko|CLEAN||AMD 64 4400DC|2|||
+|129.128.23.205||Windows, XP Pro 5.1.2600|regular|||ACS05736||||lin,anup|CLEAN||Intel Pentium4 630|2|||
+|||Windows, |regular|||J91LCG1|528109|||wfb,pierreb|NOP|XPS 420|Intel Core2 Q6600|3|||
+|129.128.25.74||Windows, |regular|||BCQSZF1|543233|||wfb|NOP|XPS|Intel Core2 Q6600 @ 2.4GHz|3|||
+|129.128.25.143||Linux, Ubuntu 12.04|regular|||ACS05157|483837|||macg|CLEAN||AMD 64 4000|2|||
+|129.128.25.144||Linux, Ubuntu 12.04|regular|||ACS05156|482838|||netgroup|CLEAN||AMD 64 4000|2|||
+|129.128.25.145||Linux, Ubuntu 12.04|regular|||ACS04977|482510|||netgroup|CLEAN||AMD 64 FX55|2|||
+|129.128.25.147||Linux, Ubuntu 12.04|regular|||ACS05373|489481|||netgroup|CLEAN||AMD 64 4000|2|||
+|129.128.25.150||Linux, Ubuntu 12.04|regular|||ACS05436|497719|||netgroup|CLEAN||AMD 64 4000|2|||
+|129.128.25.151||Windows, XP Pro 5.1.2600|regular|||ACS05437|497714|||netgroup|CLEAN||AMD 64 4000|2|||
+|129.128.29.239||Linux, Ubuntu 14.04|regular|||G881007CXYK||||dept|CLEAN|Apple MacPro|@ 2.8GHz|4|||
+|||Windows, XP Pro 5.1.2600|regular|||ACS04068|453786|||zaiane|DIRTY||AMD XP2200|1|||
+|||, |regular|||ACS04986|482518|||hayward|CLEAN||AMD 64 3700|2|||
+|||, |wildwest|||ABA3CW82317X6|no-tag|||sutton|NOP||AMD 4200|3|||
+|||, ||||JBK52C1||||||Dell PowerEdge 2950|Xeon 5050x2|4|||
+|129.128.23.186||, |network||||||bmw|rod|CLEAN||||||
+|129.128.23.124||Linux, Ubuntu 14.04|regular|||ACS04993|510070|||hayward|CLEAN||AMD64/3700|2048|||
+|||Windows, 10|regular|CSC315||CH80YG1|537351||alexey|lin,anup|CLEAN|XPS|Intel Core2 Q6600|3|||
+|129.128.23.126||Windows, 7|regular|ATH452A||ACS07026|||guana|stroulia|CLEAN||Intel Core2 E7400 @ 2.8GHz|4|||
+|129.128.25.156||Linux, Ubuntu 14.04|regular|CSC301||HRWV5J1|no-tag|||zhang|CLEAN||Intel Core2 E8400|4|||
+|129.128.25.50||Linux, Ubuntu 16.04|regular|CSC315||ACS06125|509923||rick|rick,rod|CLEAN||AMD Athlon 3500 @ 2.4GHz|4|||
+|129.128.23.80||Linux, Ubuntu 14.04|regular|CSC241||ACS06777|no-tag||burch|jonathan|CLEAN||Intel Core2 Q9550|8|||
+|||Linux, Ubuntu 14.04|regular|||ACS06599|528931||dept|dept|CLEAN||Intel Core 2 E6850 @ 3.0GHz|3|||
+|||Linux, Ubuntu 14.04|regular|||ACS06091|510241||dept|dept|CLEAN||Intel Core2 E6600|2|||
+|129.128.23.156||Linux, WPS Ubuntu 14.04|regular|ATH403||8N5GWG1|528141|||mreza|CLEAN|Dell 755|Intel Core2 Duo|4|||
+|129.128.29.250||Linux, Slackware 12.2.0|regular|||73JQXF1|522819||dept|tst|CLEAN|Dell OptiPlex 745|||||
+|129.128.4.54||Linux, WPS Ubuntu 16.04|regular|||MJPNW37|545613||dept|tst|CLEAN|Lenovo M7484|Intel Core2 E8400 @ 3.0GHz|8|||
+|||Windows, XP Pro 5.1.2600|regular|CSC315||PS130095|441388|||hayward|CLEAN||AMD 1800|768MB|||
+|129.128.4.62||Linux, WPS Ubuntu 16.04|regular|||MJPNW36|545580||dept|tst|CLEAN|Lenovo M7484|Intel Core2 E8400 @ 3.0GHz|8|||
+|129.128.29.233||Linux, WPS Ubuntu 16.04|regular|||5W7TPC1|||dept|tst|CLEAN|Dell OptiPlex 745|||||
+|129.128.29.235||Linux, WPS Ubuntu 16.04|regular|||9T7TPC1|||dept|tst|CLEAN|Dell OptiPlex 745|||||
+|||Linux, WPS Ubuntu 16.04|regular|||ACS06178|510083|||dept|CLEAN||AMD AM X2 4600|2|||
+|129.128.23.122||, ||||438770|||||||||||
+|||Linux, Ubuntu 14.04|regular|||BB0637|586233|||amaral,paullu|||||||
+|129.128.23.47||Linux, WPS Ubuntu 16.04|regular|||c6fvdq1|588272|||dwishart|||Intel Core2 E7500||||
+|129.128.23.71||Linux, WPS Ubuntu 16.04|regular|||BB0655|586235|||amaral,paullu|||||||
+|129.128.25.140||Linux, WPS Ubuntu 16.04|regular|||3NTPWH1|no-tag|||mn,mallett,user||Dell Optiplex|Intel Core2 E8400|4|||
+|129.128.25.230||Linux, WPS Ubuntu 16.04|regular|||8NTPWH1|no-tag|||mn||Dell Optiplex|Intel Core2 E8400|4|||
+|129.128.4.222||Linux, WPS Ubuntu 16.04|regular|CSC315||MJPNX49|545594|||dept|CLEAN|Lenovo M7484|Intel Core 2 Duo E8400 3.0GHz|8192|||
+|||Linux, WPS Ubuntu 16.04|regular|||0ACS06614|543327||||||Intel Core2 Q9300 @ 2.5GHz|4|||
+|||Linux, RHEL Server 5.8|regular|CSC329||10113F6|||dwt,stroulia|stroulia|CLEAN|IBM Power 550 (type-model 8204-E8A)|||||
+|||, |network|ATH322||Serial-no|||yannis|netgroup|CLEAN|Win8-PC|||||
+|129.128.159.97||, |regular|CSC353||L50151||||jag|DIRTY||AMD Opteron DC170|2|||
+|129.128.159.127||SunOS, 5.1|regular||E|0345AD216D|467899|||kenw|DIRTY|SunFire|@ 1.2GHz|2|||
+|129.128.159.10||Linux, RHEL AS 3 (Taroon Update 8)|regular|CSC329|D|ACS03931|452480|||bulitko|DIRTY||AMD MP2400|3.5|||
+|129.128.23.103||Linux, WPS Ubuntu 16.04|regular|CSC315||7J1WHH1|643322||jdavidso|jonathan|CLEAN|Dell Optiplex 755|Intel Core2 E8400|8|||
