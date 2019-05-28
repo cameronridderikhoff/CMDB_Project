@@ -1,13 +1,14 @@
 #This is a file that holds the constants for the CMDB Project
 
 #Multi-line vars
-TEXT = ["Name: ", "Room: ", "IPv4: ", "IPv6: ", "OS: ", "Physical/Virtual Machine: ", "Owner: ", "Administrator: ",
+TEXT = ["Hostname: ", "Last Known Location: ", "IPv4: ", "IPv6: ", "Operating System: ", "Physical/Virtual Machine: ", "Owner: ", "Administrator: ",
         "U of A Tag Number: ", "Make/Model: ", "Processor: ", "RAM: ", "Storage: ", "GPU: ", "Serial Number: ", 
-        "Status: ", "Rack Number: ", "SRIT Access: ", "Power Up: ", "Support Team: ", "Host ID: ", "Comments: "]
+        "Status: ", "Rack Number: ", "SRIT Access: ", "Power Up: ", "Support Team: ", "Host ID: ", "Department", "Comments: "]
 FUNCT = {
     "SWAP_WINDOW": 1,
     "EXIT": 2,
-    "LOOKUP": 3
+    "LOOKUP": 3,
+    "SELECTED_CLICKED": 4
 }
 
 #Single line vars
@@ -16,6 +17,7 @@ FILE_NAME = "machines.csv"
 WINDOW_SIZE = "800x600"
 LARGE_TEXT = 32
 EXIT = "Exit"
+OKAY = "Okay"
 
 LOOKUP_TITLE = "Search for a Machine"
 LOOKUP_LABEL = "Input search features:"

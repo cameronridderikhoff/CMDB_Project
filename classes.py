@@ -72,12 +72,12 @@ class Window(tk.Frame):
             return
 
         self.buttons.append("")
-        if command == const.FUNCT["SWAP_WINDOW"]: #there must be at least one argument in args
+        if command == const.FUNCT["SWAP_WINDOW"]: #args[0] must contain a reference to the window we are swapping to
             self.buttons[index] = tk.Button(self.frame, text=text, command=partial(self.swap_window,args[0]))
         elif command == const.FUNCT["EXIT"]:
             self.buttons[index] = tk.Button(self.frame, text=text, command=self.root.destroy)
         else:
-            if command == const.FUNCT["LOOKUP"]:
+            if command == const.FUNCT["LOOKUP"] or command == const.FUNCT["SELECTED_CLICKED"]:
                 pass #this is taken care of in another class, and is here so as to not give an error
             else:
                 msgbox.showinfo(const.ERROR, const.BUTTON_END_ERROR)
@@ -97,7 +97,9 @@ class LookupWindow(Window):
         self.listbox = tk.Listbox(self.frame, selectmode = "SINGLE")
         self.listbox.pack()
     
-
+    """
+    This function overrides the create_button function in Window, adding special checks for functions specific to LookupWindow
+    """
     def create_button(self, text, command, index, args=[]):
         #failsafe in case trying to add an out of range widget
         if index > len(self.buttons):
@@ -106,17 +108,25 @@ class LookupWindow(Window):
             
         if command == const.FUNCT["LOOKUP"]: #args[0] is the term we are searching for
             self.buttons.append("")
-            self.buttons[index] = tk.Button(self.frame, text=text, command=partial(self.get_info))
-
+            self.buttons[index] = tk.Button(self.frame, text=text, command=self.get_info)
+        elif command == const.FUNCT["SELECTED_CLICKED"]:
+            self.buttons.append("")
+            self.buttons[index] = tk.Button(self.frame, text=text, command=self.selected_clicked)
         super().create_button(text,command,index,args)
 
+    """
+    This function opens the "machines.csv" file, reads the lines, 
+    and adds each line containing what the user requested to the listbox, and list variables
+    """
     def get_info(self):
         #clear the previous entries
         self.list = []
         self.listbox.delete(0,END)
         search_term = self.textboxes[0].get()
 
-        lines = open(const.FILE_NAME, 'r').readlines()
+        text_file = open(const.FILE_NAME, 'r')
+        lines = text_file.readlines()
+        text_file.close()
 
         for line in lines:
             if search_term.lower() in line.lower():
@@ -127,10 +137,5 @@ class LookupWindow(Window):
                 else: #hostname is blank
                     self.listbox.insert(END, const.NO_HOSTNAME)
 
-
+    def selected_clicked(self):
         
-    """
-    This function may not be nessesary
-    """
-   # def swap_window(self, other):
-   #    self.swap_back = other

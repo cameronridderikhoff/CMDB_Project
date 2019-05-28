@@ -18,9 +18,9 @@ window_edit = classes.Window(root3, const.EDIT_TITLE)
 window_lookup.create_label(const.LOOKUP_LABEL, 0)
 window_lookup.create_textbox(0)
 window_lookup.create_button(const.LOOKUP_BUTTON, const.FUNCT["LOOKUP"], 0)
-window_lookup.create_button(const.EXIT, const.FUNCT["EXIT"], 1)
+window_lookup.create_button(const.OKAY, const.FUNCT["SELECTED_CLICKED"], 1)
+window_lookup.create_button(const.EXIT, const.FUNCT["EXIT"], 2)
 window_lookup.create_listbox()
-
 
 window_main.hide()
 window_edit.hide()
