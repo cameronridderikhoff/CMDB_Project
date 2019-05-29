@@ -65,7 +65,7 @@ class Window(tk.Frame):
     """
     This function creates a button and adds it to the buttons list
     """
-    def create_button(self, text, command, index, args=[]):
+    def create_button(self, text, command, index, ignore=False, args=[]):
         #failsafe in case trying to add an out of range widget
         if index > len(self.buttons):
             msgbox.showinfo(const.ERROR, const.BUTTON_ERROR)
@@ -76,14 +76,18 @@ class Window(tk.Frame):
             self.buttons[index] = tk.Button(self.frame, text=text, command=partial(self.swap_window,args[0]))
         elif command == const.FUNCT["EXIT"]:
             self.buttons[index] = tk.Button(self.frame, text=text, command=self.root.destroy)
+        elif ignore: #this is taken care of in another class, and is here so as to not give an error
+            pass
         else:
-            if command == const.FUNCT["LOOKUP"] or command == const.FUNCT["SELECTED_CLICKED"]:
-                pass #this is taken care of in another class, and is here so as to not give an error
-            else:
-                msgbox.showinfo(const.ERROR, const.BUTTON_END_ERROR)
-        self.buttons[index].pack()
+            msgbox.showinfo(const.ERROR, const.BUTTON_END_ERROR)
+            return
 
-class LookupWindow(Window):
+        if ignore: #buttons on window_lookup and window_edit
+            self.buttons[index].pack(side=tk.LEFT)
+        else:
+            self.buttons[index].pack()
+
+class WindowLookup(Window):
     def __init__(self, parent, title):
         self.listbox = None
         self.list = [] #the list that holds the full lines that we pull from the file
@@ -106,13 +110,16 @@ class LookupWindow(Window):
             msgbox.showinfo(const.ERROR, const.BUTTON_ERROR)
             return
             
-        if command == const.FUNCT["LOOKUP"]: #args[0] is the term we are searching for
+        if command == const.FUNCT["LOOKUP"]: #the term we are searching for is in self.textboxes[0]
             self.buttons.append("")
             self.buttons[index] = tk.Button(self.frame, text=text, command=self.get_info)
-        elif command == const.FUNCT["SELECTED_CLICKED"]:
+            super().create_button(text,command,index,True,args)
+        elif command == const.FUNCT["SELECTED_CLICKED"]: #we clicked the "Okay" button, and want to go to window_main
             self.buttons.append("")
-            self.buttons[index] = tk.Button(self.frame, text=text, command=self.selected_clicked)
-        super().create_button(text,command,index,args)
+            self.buttons[index] = tk.Button(self.frame, text=text, command=partial(self.selected_clicked, args[0])) #args[0] must hold window_main
+            super().create_button(text,command,index,True,args)
+        else:
+            super().create_button(text,command,index,False,args)
 
     """
     This function opens the "machines.csv" file, reads the lines, 
@@ -137,5 +144,71 @@ class LookupWindow(Window):
                 else: #hostname is blank
                     self.listbox.insert(END, const.NO_HOSTNAME)
 
-    def selected_clicked(self):
+    """
+    This function is called when the "Okay" button is pressed, and sets up window_main with the selected machine
+    Eg.(For the "Hostname" field) "Hostname: " + "grd123"  -> "Hostname: grd123"
+    """
+    def selected_clicked(self, window_main):
+        line = self.list[self.listbox.curselection()[0]]
+        words = line.split("|")
         
+        for i in range(len(const.TEXT)):
+            window_main.str_vars[i].set(const.TEXT[i] + words[i])
+        self.swap_window(window_main)
+
+
+class WindowMain(Window):
+    def __init__(self, parent, title):
+        self.currently_editing = None
+        super().__init__(parent, title)
+
+    """
+    This function overrides the create_button function in Window, adding special checks for functions specific to WindowMain
+    """
+    def create_button(self, text, command, index, args=[]):
+        #failsafe in case trying to add an out of range widget
+        if index > len(self.buttons):
+            msgbox.showinfo(const.ERROR, const.BUTTON_ERROR)
+            return
+            
+        if command == const.FUNCT["EDIT_CLICKED"]: #args[0] must have the reference to window_edit
+            self.buttons.append("")
+            self.buttons[index] = tk.Button(self.frame, text=text, command=partial(self.edit_clicked, index, args[0]))
+            super().create_button(text,command,index,True,args)
+        else:
+            super().create_button(text,command,index,False,args)
+    
+    """
+    This function is called when one of the "Edit" buttons have been pressed
+    it sets the text for the label on window_edit, and then switches to window_edit
+    """
+    def edit_clicked(self, index, window_edit):
+        self.currently_editing = index #the index of the button that we are currently editing
+        window_edit.str_vars[0].set(self.str_vars[index].get())
+        self.swap_window(window_edit)
+
+class WindowEdit(Window):
+    """
+    This function overrides the create_button function in Window, adding special checks for functions specific to WindowEdit
+    """
+    def create_button(self, text, command, index, args=[]):
+        #failsafe in case trying to add an out of range widget
+        if index > len(self.buttons):
+            msgbox.showinfo(const.ERROR, const.BUTTON_ERROR)
+            return
+            
+        if command == const.FUNCT["CHANGE_CLICKED"]: #args[0] must have the reference to window_edit
+            self.buttons.append("")
+            self.buttons[index] = tk.Button(self.frame, text=text, command=partial(self.change_clicked,args[0]))
+            super().create_button(text,command,index,True,args)
+        else:
+            super().create_button(text,command,index,False,args)
+
+    """
+    This function is called when the "Okay" button is clicked on window_edit.
+    It changes the label that we are editing on window_main 
+    """
+    def change_clicked(self, window_main):
+        i = window_main.currently_editing
+        window_main.str_vars[i].set(const.TEXT[i] + self.textboxes[0].get())
+        self.swap_window(window_main)
