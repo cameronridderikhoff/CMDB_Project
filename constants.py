@@ -2,7 +2,7 @@
 
 #Multi-line vars
 TEXT = ["Hostname: ", "Last Known Location: ", "IPv4: ", "IPv6: ", "Operating System: ", "Physical/Virtual Machine: ", "Owner: ", "Administrator: ",
-        "U of A Tag Number: ", "Make/Model: ", "Processor: ", "RAM: ", "Storage: ", "GPU: ", "Serial Number: ", 
+        "U of A Tag Number: ", "Make/Model: ", "Processor: ", "RAM (GB): ", "Storage Space (GB): ", "GPU: ", "Serial Number: ", 
         "Status: ", "Rack Number: ", "SRIT Access: ", "Power Up: ", "Support Team: ", "Host ID: ", "Department: ", "Comments: "]
 FUNCT = {
     "SWAP_WINDOW": 1,
@@ -10,7 +10,8 @@ FUNCT = {
     "LOOKUP": 3,
     "SELECTED_CLICKED": 4,
     "EDIT_CLICKED": 5,
-    "CHANGE_CLICKED": 6
+    "CHANGE_CLICKED": 6,
+    "EDIT_FILE": 7
 }
 
 #Single line vars
@@ -18,10 +19,11 @@ FILE_NAME = "machines.csv"
 #Window info
 WINDOW_SIZE = "800x600"
 LARGE_TEXT = 32
-SPACING = 20
+PADDING = 5
 
 EXIT = "Exit"
-OKAY = "Okay"
+OKAY = "CONFIRM"
+SAVE = "Save"
 
 LOOKUP_TITLE = "Search for a Machine"
 LOOKUP_LABEL = "Input search features:"

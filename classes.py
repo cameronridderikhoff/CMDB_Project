@@ -3,9 +3,10 @@
 #Edited and built upon by Cameron Ridderikhoff for SRIT at the University of Alberta
 #Last edited May 25, 2019
 from functools import partial
+import fileinput
 import tkinter as tk
 
-from tkinter import END, font
+from tkinter import END,BOTH, LEFT,RIGHT,TOP,BOTTOM, X,Y
 from tkinter import messagebox as msgbox
 #my files
 import constants as const
@@ -16,7 +17,7 @@ class Window(tk.Frame):
         self.root.geometry(const.WINDOW_SIZE)
         self.root.title(title)
         self.frame = tk.Frame(parent)
-        self.frame.pack()
+        self.frame.pack(fill=BOTH)
         
         self.str_vars = []
         self.buttons = [] 
@@ -38,7 +39,7 @@ class Window(tk.Frame):
     """
     This function creates a label with stringvariable linked to text "text"
     """
-    def create_label(self, text, index, text_size=11):
+    def create_label(self, text, index, side=TOP, text_size=11):
         #failsafe in case trying to add an out of range widget
         if index > len(self.str_vars):
             msgbox.showinfo(const.ERROR, const.LABEL_ERROR)
@@ -47,12 +48,12 @@ class Window(tk.Frame):
         strvar.set(text)
         self.str_vars.append(strvar)
         lbl = tk.Label(self.frame, textvar=self.str_vars[index], font=("Arial", text_size))
-        lbl.pack()
+        lbl.pack(side=side, padx=const.PADDING, pady=const.PADDING)
 
     """
     This function creates a textbox and adds it to the textbox list
     """
-    def create_textbox(self, index):
+    def create_textbox(self, index, side):
         #failsafe in case trying to add an out of range widget
         if index > len(self.textboxes):
             msgbox.showinfo(const.ERROR, const.TEXTBOX_ERROR)
@@ -60,12 +61,12 @@ class Window(tk.Frame):
 
         self.textboxes.append("")
         self.textboxes[index] = tk.Entry(self.frame)
-        self.textboxes[index].pack()
+        self.textboxes[index].pack(side=side, padx=const.PADDING, pady=const.PADDING)
 
     """
     This function creates a button and adds it to the buttons list
     """
-    def create_button(self, text, command, index, ignore=False, args=[]):
+    def create_button(self, text, command, index, side=TOP, ignore=False, args=[]):
         #failsafe in case trying to add an out of range widget
         if index > len(self.buttons):
             msgbox.showinfo(const.ERROR, const.BUTTON_ERROR)
@@ -81,11 +82,7 @@ class Window(tk.Frame):
         else:
             msgbox.showinfo(const.ERROR, const.BUTTON_END_ERROR)
             return
-
-        if ignore: #buttons on window_lookup and window_edit
-            self.buttons[index].pack(side=tk.LEFT)
-        else:
-            self.buttons[index].pack()
+        self.buttons[index].pack(side=side, padx=const.PADDING, pady=const.PADDING)
 
 class WindowLookup(Window):
     def __init__(self, parent, title):
@@ -97,14 +94,14 @@ class WindowLookup(Window):
     """
     This function creates a listbox, and since there can only be one listbox, it sets the listbox variable to be that
     """
-    def create_listbox(self):
+    def create_listbox(self, side):
         self.listbox = tk.Listbox(self.frame, selectmode = "SINGLE")
-        self.listbox.pack()
+        self.listbox.pack(side=side, padx=const.PADDING, pady=const.PADDING)
     
     """
     This function overrides the create_button function in Window, adding special checks for functions specific to LookupWindow
     """
-    def create_button(self, text, command, index, args=[]):
+    def create_button(self, text, command, index, side, args=[]):
         #failsafe in case trying to add an out of range widget
         if index > len(self.buttons):
             msgbox.showinfo(const.ERROR, const.BUTTON_ERROR)
@@ -113,13 +110,13 @@ class WindowLookup(Window):
         if command == const.FUNCT["LOOKUP"]: #the term we are searching for is in self.textboxes[0]
             self.buttons.append("")
             self.buttons[index] = tk.Button(self.frame, text=text, command=self.get_info)
-            super().create_button(text,command,index,True,args)
+            super().create_button(text,command,index,side,True,args)
         elif command == const.FUNCT["SELECTED_CLICKED"]: #we clicked the "Okay" button, and want to go to window_main
             self.buttons.append("")
             self.buttons[index] = tk.Button(self.frame, text=text, command=partial(self.selected_clicked, args[0])) #args[0] must hold window_main
-            super().create_button(text,command,index,True,args)
+            super().create_button(text,command,index,side,True,args)
         else:
-            super().create_button(text,command,index,False,args)
+            super().create_button(text,command,index,side,False,args)
 
     """
     This function opens the "machines.csv" file, reads the lines, 
@@ -160,24 +157,52 @@ class WindowLookup(Window):
 class WindowMain(Window):
     def __init__(self, parent, title):
         self.currently_editing = None
+        self.frame2 = tk.Frame(parent)
+        self.frame2.pack(fill=Y, side = LEFT)
         super().__init__(parent, title)
 
     """
     This function overrides the create_button function in Window, adding special checks for functions specific to WindowMain
+    It also sets up a grid for the two rows, utilizing the second frame that was created
     """
     def create_button(self, text, command, index, args=[]):
         #failsafe in case trying to add an out of range widget
         if index > len(self.buttons):
             msgbox.showinfo(const.ERROR, const.BUTTON_ERROR)
             return
-            
+        self.buttons.append("")
         if command == const.FUNCT["EDIT_CLICKED"]: #args[0] must have the reference to window_edit
-            self.buttons.append("")
-            self.buttons[index] = tk.Button(self.frame, text=text, command=partial(self.edit_clicked, index, args[0]))
-            super().create_button(text,command,index,True,args)
+            if index < len(const.TEXT)/2: 
+                self.buttons[index] = tk.Button(self.frame2, text=text, command=partial(self.edit_clicked, index, args[0]))
+            else:
+                self.buttons[index] = tk.Button(self.frame, text=text, command=partial(self.edit_clicked, index, args[0]))
+        elif command == const.FUNCT["EDIT_FILE"]: #args[0] must contain a reference to window_lookup
+            self.buttons[index] = tk.Button(self.frame, text=text, command=partial(self.edit_file,args[0]))
+        elif command == const.FUNCT["SWAP_WINDOW"]: #args[0] must contain a reference to the window we are swapping to
+            self.buttons[index] = tk.Button(self.frame, text=text, command=partial(self.swap_window,args[0]))
         else:
-            super().create_button(text,command,index,False,args)
+            msgbox.showinfo(const.ERROR, const.BUTTON_END_ERROR)
+            return
+        self.buttons[index].grid(row=index, column=1)
     
+    """
+    This function creates overrides the create_label function in Window so that the labels will be in the correct location,
+    by utilizing frame2
+    """
+    def create_label(self, text, index, text_size=11):
+        #failsafe in case trying to add an out of range widget
+        if index > len(self.str_vars):
+            msgbox.showinfo(const.ERROR, const.LABEL_ERROR)
+            return
+        strvar = tk.StringVar()
+        strvar.set(text)
+        self.str_vars.append(strvar)
+        if index < len(const.TEXT)/2: 
+            lbl = tk.Label(self.frame2, textvar=self.str_vars[index], font=("Arial", text_size))
+        else:
+            lbl = tk.Label(self.frame, textvar=self.str_vars[index], font=("Arial", text_size))
+        lbl.grid(row=index, column=0,padx=const.PADDING, pady=const.PADDING)
+
     """
     This function is called when one of the "Edit" buttons have been pressed
     it sets the text for the label on window_edit, and then switches to window_edit
@@ -186,12 +211,34 @@ class WindowMain(Window):
         self.currently_editing = index #the index of the button that we are currently editing
         window_edit.str_vars[0].set(self.str_vars[index].get())
         self.swap_window(window_edit)
+    
+    """
+    This function is called when the Okay button is pressed to confirm any changes
+    it then saves the data to the file, and then switches to window_looking
+    """
+    def edit_file(self, window_lookup):
+        search_term = window_lookup.list[window_lookup.listbox.curselection()[0]] #this is the line 
+
+        print_string = ""
+        for str_var in self.str_vars:
+            words = str_var.get().split(": ")
+            print_string = print_string + words[1] + "|" 
+        print_string = print_string[0:-1] #remove the extra "|", since each line shouldn't end with a "|"
+
+        for line in fileinput.FileInput(const.FILE_NAME, inplace=1):
+            if line == search_term:
+                print(print_string, end='')
+            else:
+                print(line, end='')
+        self.swap_window(window_lookup)
+
+        
 
 class WindowEdit(Window):
     """
     This function overrides the create_button function in Window, adding special checks for functions specific to WindowEdit
     """
-    def create_button(self, text, command, index, args=[]):
+    def create_button(self, text, command, index, side, args=[]):
         #failsafe in case trying to add an out of range widget
         if index > len(self.buttons):
             msgbox.showinfo(const.ERROR, const.BUTTON_ERROR)
@@ -200,9 +247,9 @@ class WindowEdit(Window):
         if command == const.FUNCT["CHANGE_CLICKED"]: #args[0] must have the reference to window_edit
             self.buttons.append("")
             self.buttons[index] = tk.Button(self.frame, text=text, command=partial(self.change_clicked,args[0]))
-            super().create_button(text,command,index,True,args)
+            super().create_button(text,command,index,side,True,args)
         else:
-            super().create_button(text,command,index,False,args)
+            super().create_button(text,command,index,side,False,args)
 
     """
     This function is called when the "Okay" button is clicked on window_edit.
