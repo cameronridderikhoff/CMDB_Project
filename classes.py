@@ -115,6 +115,10 @@ class WindowLookup(Window):
             self.buttons.append("")
             self.buttons[index] = tk.Button(self.frame, text=text, command=partial(self.selected_clicked, args[0])) #args[0] must hold window_main
             super().create_button(text,command,index,side,True,args)
+        elif command == const.FUNCT["NEW_ENTRY_CLICKED"]: #we clicked the "Make new entry" button, and want to go to window_main
+            self.buttons.append("")
+            self.buttons[index] = tk.Button(self.frame, text=text, command=partial(self.new_entry_clicked, args[0])) #args[0] must hold window_main
+            super().create_button(text,command,index,side,True,args)
         else:
             super().create_button(text,command,index,side,False,args)
 
@@ -151,8 +155,21 @@ class WindowLookup(Window):
         
         for i in range(len(const.TEXT)):
             window_main.str_vars[i].set(const.TEXT[i] + words[i])
+        window_main.buttons[const.EDIT_BUTTON_INDEX].grid()
+        window_main.buttons[const.APPEND_BUTTON_INDEX].grid_remove()
         self.swap_window(window_main)
 
+    """
+    This function is called when the "Create New Entry" button is clicked. 
+    It clears out all string vars in window_main and swaps to window_main
+    """
+    def new_entry_clicked(self, window_main):
+        for i in range(len(const.TEXT)):
+            window_main.str_vars[i].set(const.TEXT[i])
+            
+        window_main.buttons[const.EDIT_BUTTON_INDEX].grid_remove()
+        window_main.buttons[const.APPEND_BUTTON_INDEX].grid()
+        self.swap_window(window_main)
 
 class WindowMain(Window):
     def __init__(self, parent, title):
@@ -178,6 +195,10 @@ class WindowMain(Window):
                 self.buttons[index] = tk.Button(self.frame, text=text, command=partial(self.edit_clicked, index, args[0]))
         elif command == const.FUNCT["EDIT_FILE"]: #args[0] must contain a reference to window_lookup
             self.buttons[index] = tk.Button(self.frame, text=text, command=partial(self.edit_file,args[0]))
+        elif command == const.FUNCT["APPEND_FILE"]: #args[0] must contain a reference to window_lookup
+            self.buttons[index] = tk.Button(self.frame, text=text, command=partial(self.append_file,args[0]))
+        elif command == const.FUNCT["DELETE_FILE"]: #args[0] must contain a reference to window_lookup
+            self.buttons[index] = tk.Button(self.frame, text=text, command=partial(self.delete_from_file,args[0]))
         elif command == const.FUNCT["SWAP_WINDOW"]: #args[0] must contain a reference to the window we are swapping to
             self.buttons[index] = tk.Button(self.frame, text=text, command=partial(self.swap_window,args[0]))
         else:
@@ -214,7 +235,8 @@ class WindowMain(Window):
     
     """
     This function is called when the Okay button is pressed to confirm any changes
-    it then saves the data to the file, and then switches to window_looking
+    it then saves the data to the file, and then switches to window_lookup
+    This function is called when we select "Edit this Entry" on window_lookup
     """
     def edit_file(self, window_lookup):
         search_term = window_lookup.list[window_lookup.listbox.curselection()[0]] #this is the line 
@@ -230,9 +252,42 @@ class WindowMain(Window):
                 print(print_string, end='')
             else:
                 print(line, end='')
+        msgbox.showinfo(const.SUCCESS, window_lookup.listbox.curselection()[0] + const.EDIT_MESSAGE)
         self.swap_window(window_lookup)
 
-        
+    """
+    This function is called when the Okay button is pressed to confirm any changes
+    it then appends the data to the file, and then switches to window_lookup
+    This function is called when we select "Create new Entry" on window_lookup
+    """
+    def append_file(self, window_lookup):
+        print_string = ""
+        for str_var in self.str_vars:
+            words = str_var.get().split(": ")
+            print_string = print_string + words[1] + "|" 
+        print_string = print_string[0:-1] #remove the extra "|", since each line shouldn't end with a "|"
+
+        text_file = open(const.FILE_NAME, 'a')
+        text_file.write(print_string)
+        text_file.close()
+        msgbox.showinfo(const.SUCCESS, window_lookup.listbox.curselection()[0] + const.EDIT_MESSAGE)
+        self.swap_window(window_lookup)
+
+    """
+    This function is called when the Okay button is pressed to confirm any changes
+    it then removed the line that we selected, and then switches to window_lookup
+    """
+    def delete_from_file(self, window_lookup):
+        search_term = window_lookup.list[window_lookup.listbox.curselection()[0]] #this is the line 
+
+        for line in fileinput.FileInput(const.FILE_NAME, inplace=1):
+            if line == search_term:
+                print("", end='')
+            else:
+                print(line, end='')
+        msgbox.showinfo(const.SUCCESS, window_lookup.listbox.curselection()[0] + const.EDIT_MESSAGE)
+        self.swap_window(window_lookup)
+
 
 class WindowEdit(Window):
     """
