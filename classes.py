@@ -29,12 +29,17 @@ class Window(tk.Frame):
     def show(self):
         self.root.update()
         self.root.deiconify()
+
     """
     This function hides the window that it's called on, and shows the other window
     """
     def swap_window(self, other):
         self.hide()
         other.show()
+
+    def goto_help(self, window_help):
+        self.hide()
+        window_help.show(self)
 
     """
     This function creates a label with stringvariable linked to text "text"
@@ -77,6 +82,8 @@ class Window(tk.Frame):
             self.buttons[index] = tk.Button(self.frame, text=text, command=partial(self.swap_window,args[0]))
         elif command == const.FUNCT["EXIT"]:
             self.buttons[index] = tk.Button(self.frame, text=text, command=self.root.destroy)
+        elif command == const.FUNCT["GOTO_HELP"]:
+            self.buttons[index] = tk.Button(self.frame, text=text, command=partial(self.goto_help,args[0]))
         elif ignore: #this is taken care of in another class, and is here so as to not give an error
             pass
         else:
@@ -166,7 +173,7 @@ class WindowLookup(Window):
     def new_entry_clicked(self, window_main):
         for i in range(len(const.TEXT)):
             window_main.str_vars[i].set(const.TEXT[i])
-            
+
         window_main.buttons[const.EDIT_BUTTON_INDEX].grid_remove()
         window_main.buttons[const.APPEND_BUTTON_INDEX].grid()
         self.swap_window(window_main)
@@ -201,8 +208,10 @@ class WindowMain(Window):
             self.buttons[index] = tk.Button(self.frame, text=text, command=partial(self.delete_from_file,args[0]))
         elif command == const.FUNCT["SWAP_WINDOW"]: #args[0] must contain a reference to the window we are swapping to
             self.buttons[index] = tk.Button(self.frame, text=text, command=partial(self.swap_window,args[0]))
+        elif command == const.FUNCT["GOTO_HELP"]:
+            self.buttons[index] = tk.Button(self.frame, text=text, command=partial(self.goto_help,args[0]))
         else:
-            msgbox.showinfo(const.ERROR, const.BUTTON_END_ERROR)
+            msgbox.showinfo(const.ERROR, "const.BUTTON_END_ERROR")
             return
         self.buttons[index].grid(row=index, column=1)
     
@@ -252,7 +261,7 @@ class WindowMain(Window):
                 print(print_string, end='')
             else:
                 print(line, end='')
-        msgbox.showinfo(const.SUCCESS, window_lookup.listbox.curselection()[0] + const.EDIT_MESSAGE)
+        msgbox.showinfo(const.SUCCESS, window_lookup.listbox.get(window_lookup.listbox.curselection()[0]) + const.EDIT_MESSAGE)
         self.swap_window(window_lookup)
 
     """
@@ -268,9 +277,9 @@ class WindowMain(Window):
         print_string = print_string[0:-1] #remove the extra "|", since each line shouldn't end with a "|"
 
         text_file = open(const.FILE_NAME, 'a')
-        text_file.write(print_string)
+        text_file.write("\n" + print_string)
         text_file.close()
-        msgbox.showinfo(const.SUCCESS, window_lookup.listbox.curselection()[0] + const.EDIT_MESSAGE)
+        msgbox.showinfo(const.SUCCESS, self.str_vars[0].get() + const.APPEND_MESSAGE) #str_vars[0] is the hostname
         self.swap_window(window_lookup)
 
     """
@@ -285,7 +294,7 @@ class WindowMain(Window):
                 print("", end='')
             else:
                 print(line, end='')
-        msgbox.showinfo(const.SUCCESS, window_lookup.listbox.curselection()[0] + const.EDIT_MESSAGE)
+        msgbox.showinfo(const.SUCCESS, window_lookup.listbox.get(window_lookup.listbox.curselection()[0]) + const.DELETE_MESSAGE)
         self.swap_window(window_lookup)
 
 
@@ -313,4 +322,36 @@ class WindowEdit(Window):
     def change_clicked(self, window_main):
         i = window_main.currently_editing
         window_main.str_vars[i].set(const.TEXT[i] + self.textboxes[0].get())
+        self.textboxes[0].delete(0, END)
         self.swap_window(window_main)
+
+
+class WindowHelp(Window):
+    def __init__(self, parent, title):
+        self.prev_window = None #the reference to the previous window, that we must swap back to
+        super().__init__(parent, title)
+
+    """
+    This function overrides show.
+    It sets the label to the correct info based off of what window we are coming from
+    """
+    def show(self, other):
+        self.prev_window = other
+        if other.root.title == const.EDIT_TITLE:
+            self.str_vars[0] = const.EDIT_HELP
+        elif other.title == const.MAIN_TITLE:
+            self.str_vars[0] = const.MAIN_HELP
+        elif other.title == const.LOOKUP_TITLE:
+            self.str_vars[0] = const.LOOKUP_HELP
+        else:
+            msgbox.showinfo(const.ERROR, const.SWAP_ERROR)
+        super().show()
+
+    """
+    This function overrides swap_window.
+    It removes the need for the other window, since we save the previous window we come from.
+    """
+    def swap_window(self):
+        self.prev_window.show()
+        self.prev_window = None
+        self.hide()

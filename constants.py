@@ -14,7 +14,8 @@ FUNCT = {
     "EDIT_FILE": 7,
     "NEW_ENTRY_CLICKED": 8,
     "DELETE_FILE": 9,
-    "APPEND_FILE": 10
+    "APPEND_FILE": 10,
+    "GOTO_HELP": 11
 }
 
 #Single line vars
@@ -42,10 +43,18 @@ DELETE_BUTTON = "Delete Entry"
 MAIN_TITLE = "Science Machines"
 EDIT_TITLE = "Editing a Machine's Information"
 
+HELP_TITLE = "Help"
+
+HELP_BUTTON = "?"
+MAIN_HELP = "MAIN_HELP"
+EDIT_HELP = "EDIT_HELP"
+LOOKUP_HELP = "LOOKUP_HELP"
+
 #File change messages
 SUCCESS = "Success"
 EDIT_MESSAGE = " has been edited.\nmachines.csv successfully updated."
-
+APPEND_MESSAGE = " has been added.\nmachines.csv successfully updated."
+DELETE_MESSAGE = " has been removed.\nmachines.csv successfully updated."
 #Error messages
 ERROR = "Error"
 coding_error = "\nCoding error: Please report this to rodj@ualberta.ca"
@@ -55,3 +64,5 @@ BUTTON_END_ERROR = "A invalid function error occured when creating a Button." + 
 TEXTBOX_ERROR = "An out-of-bounds error occured when creating a TextBox." + coding_error
 LISTBOX_ERROR = "An out-of-bounds error occured when creating a ListBox." + coding_error
 LABEL_ERROR = "An out-of-bounds error occured when creating a Label." + coding_error
+
+SWAP_ERROR = "An error occurred when swapping to window_help." + coding_error
