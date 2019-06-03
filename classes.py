@@ -16,6 +16,7 @@ class Window(tk.Frame):
         self.root = parent
         self.root.geometry(const.WINDOW_SIZE)
         self.root.title(title)
+        self.id = title #id is used by window_help to determine the correct 
         self.frame = tk.Frame(parent)
         self.frame.pack(fill=BOTH)
         
@@ -239,6 +240,7 @@ class WindowMain(Window):
     """
     def edit_clicked(self, index, window_edit):
         self.currently_editing = index #the index of the button that we are currently editing
+        window_edit.currently_editing = index
         window_edit.str_vars[0].set(self.str_vars[index].get())
         self.swap_window(window_edit)
     
@@ -299,6 +301,9 @@ class WindowMain(Window):
 
 
 class WindowEdit(Window):
+    def __init__(self, parent, title):
+        self.currently_editing = None
+        super().__init__(parent, title)
     """
     This function overrides the create_button function in Window, adding special checks for functions specific to WindowEdit
     """
@@ -320,11 +325,17 @@ class WindowEdit(Window):
     It changes the label that we are editing on window_main 
     """
     def change_clicked(self, window_main):
+        self.currently_editing = None
         i = window_main.currently_editing
         window_main.str_vars[i].set(const.TEXT[i] + self.textboxes[0].get())
         self.textboxes[0].delete(0, END)
         self.swap_window(window_main)
 
+    """
+    This function uses the "currently_editing" variable to return the proper section of const.EDIT_HELP_LIST
+    """
+    def get_help_string(self):
+        return const.EDIT_HELP_LIST[self.currently_editing]
 
 class WindowHelp(Window):
     def __init__(self, parent, title):
@@ -337,13 +348,15 @@ class WindowHelp(Window):
     """
     def show(self, other):
         self.prev_window = other
-        if other.root.title == const.EDIT_TITLE:
-            self.str_vars[0] = const.EDIT_HELP
-        elif other.title == const.MAIN_TITLE:
-            self.str_vars[0] = const.MAIN_HELP
-        elif other.title == const.LOOKUP_TITLE:
-            self.str_vars[0] = const.LOOKUP_HELP
+        if other.id == const.EDIT_TITLE:
+            text = other.get_help_string()
+            self.str_vars[0].set(const.EDIT_HELP + text)
+        elif other.id == const.MAIN_TITLE:
+            self.str_vars[0].set(const.MAIN_HELP)
+        elif other.id == const.LOOKUP_TITLE:
+            self.str_vars[0].set(const.LOOKUP_HELP)
         else:
+            print(other.root.title)
             msgbox.showinfo(const.ERROR, const.SWAP_ERROR)
         super().show()
 
@@ -351,7 +364,7 @@ class WindowHelp(Window):
     This function overrides swap_window.
     It removes the need for the other window, since we save the previous window we come from.
     """
-    def swap_window(self):
+    def swap_window(self, window):
         self.prev_window.show()
         self.prev_window = None
         self.hide()

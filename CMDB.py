@@ -1,7 +1,7 @@
 #tkinters classes
 import tkinter
 from tkinter import Toplevel
-from tkinter import N,NE,E,SE,S,SW,W,NW, LEFT,RIGHT,TOP,BOTTOM #directions to anchor the widgets
+from tkinter import LEFT,RIGHT,TOP,BOTTOM #directions to position the widgets
 #my files
 import classes
 import constants as const

@@ -45,10 +45,35 @@ EDIT_TITLE = "Editing a Machine's Information"
 
 HELP_TITLE = "Help"
 
-HELP_BUTTON = "?"
-MAIN_HELP = "MAIN_HELP"
-EDIT_HELP = "EDIT_HELP"
-LOOKUP_HELP = "LOOKUP_HELP"
+HELP_BUTTON = "Help"
+LOOKUP_HELP = "Input a keyword for the computer you wish to look up, and then click the \"Lookup\" button to fetch the information.\nYou can also click the \"Create New Entry\" button to create a blank entry and append it to the file.\nPress the \"Exit\" button at any time to quit the program."
+MAIN_HELP = "Click the \"Edit\" button beside each field you want to change, and click the \"Save\" button when you are satisfied with the entry."
+EDIT_HELP = "Input the correct format for the field you are editing, please try to fill in as many entries as possible:\n"
+EDIT_HELP_LIST = [
+"Hostname: Must be a string, the hostname can be found in the computer\'s settings. Eg. \"bellis\" (bellis.cs)", 
+"Last Known Location: Must be a string, this is the building and room the computer resides in. Eg. Chem W3-15 (Chemistry West, floor 3, room 315)", 
+"IPv4: Must be in the correct format, four groups of three decimal digits. Eg. XXX.XXX.XXX.XXX, where each \"X\" is a digit from 0-9", 
+"IPv6: Must be in the correct format, eight groups of four hexadecimal digits. Any group of four zeros may be excluded.\nEg. XXXX:XXXX:XXXX:XXXX::::, where each \"X\" is a digit from 0-9 or a character from A-F, and where two adjesent colons indicate a grouping of four zeros.",
+"Operating System: Must be a string, this is the operating system and version number that the machine is using. If dual-boot, provide both. Eg. Dual boot Windows 10 Education and Ubuntu 18.04",
+"Physical/Virtual Machine: Must be a string, either \"Physical\" or \"Virtual\", indicating whether this machine is a physical device, or exists only as a virtual desktop. Eg. Virtual",
+"Owner: Must be a string, indicating the name of the professor or group that owns the machine. Eg. Herb Yang",
+"Administrator: Must be a string, indicating the name of the group who owns an administrator account on the PC. Eg. Vadim Bulitko",
+"U of A Tag Number: Must be an integer. This is the six digit number on the label of all U of A machines. It's a white label with \"University of Alberta\" and the U of A Shield on it. Eg. XXXXXX, where each \"X\" is a digit from 0-9", 
+"Make/Model: Must be a string, describing the brand, make, and model of the machine. Eg. Lenovo Thinkpad T470s",
+"Processor: Must be a string, describing the brand and model of the machine's processor. Eg. Intel i7 4771 @ 3.50GHz",
+"RAM (GB): Must be an int, describing the amount of random access memory in gigabytes. Eg. 8",
+"Storage Space (GB): Can be an int or a string, describing the amount of hard drive space in gigabytes. If there are two drives, list them separately. Eg. 1000HDD, 250SSD",
+"GPU: Must be a string, describing the brand and model of the machine's graphics processing unit. Eg. NVIDIA GeForce GTX 1080",
+"Serial Number: Must be a string, this is the specific serial number for the machine, created by the manufacturer. Can usually be found on the back, or bottom of the machine. Eg. XXXXXXXXXXXX, where each \"X\" is a digit from 0-9 or a character from A-Z", 
+"Status: Must be a string, this is either \"Active\", \"Retired\" or \"Missing\". Eg. Active",
+"Rack Number: Must be an int, can either be the rack number of the server, or \"N/A\" if the machine is not a server. Eg. 21", 
+"SRIT Access: Must be a yes or no. This means whether or not SRIT has access to the machine. Eg. Yes",
+"Power Up: Must be an int. This field is the order in which the PC must be booted up in. Eg 3 (Usually the fileserver must be booted first)",
+"Support Team: Must be a string, indicating the person, or group who does the sysadmin work on this machine. Eg. AMII (Is often SRIT)",
+"Host ID: ASK JOHN B",
+"Department: Must be a string. This is the department that the machine is located in. Eg. Chemistry",
+"Comments: Must be a string. Any additional comments and information. Eg. Was grd123"]
+
 
 #File change messages
 SUCCESS = "Success"
