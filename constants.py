@@ -3,7 +3,7 @@
 #Multi-line vars
 TEXT = ["Hostname: ", "Last Known Location: ", "IPv4: ", "IPv6: ", "Operating System: ", "Physical/Virtual Machine: ", "Owner: ", "Administrator: ",
         "U of A Tag Number: ", "Make/Model: ", "Processor: ", "RAM (GB): ", "Storage Space (GB): ", "GPU: ", "Serial Number: ", 
-        "Status: ", "Rack Number: ", "SRIT Access: ", "Power Up: ", "Support Team: ", "Host ID: ", "Department: ", "Comments: "]
+        "Status: ", "Rack Number: ", "SRIT Access: ", "Power Up: ", "Support Team: ", "Department: ", "Comments: "]
 FUNCT = {
     "SWAP_WINDOW": 1,
     "EXIT": 2,
@@ -70,7 +70,6 @@ EDIT_HELP_LIST = [
 "SRIT Access: Must be a yes or no. This means whether or not SRIT has access to the machine. Eg. Yes",
 "Power Up: Must be an int. This field is the order in which the PC must be booted up in. Eg 3 (Usually the fileserver must be booted first)",
 "Support Team: Must be a string, indicating the person, or group who does the sysadmin work on this machine. Eg. AMII (Is often SRIT)",
-"Host ID: ASK JOHN B",
 "Department: Must be a string. This is the department that the machine is located in. Eg. Chemistry",
 "Comments: Must be a string. Any additional comments and information. Eg. Was grd123"]
 
