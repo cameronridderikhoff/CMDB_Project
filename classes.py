@@ -152,7 +152,8 @@ class WindowLookup(Window):
                     self.listbox.insert(END, words[0])
                 else: #hostname is blank
                     self.listbox.insert(END, const.NO_HOSTNAME)
-
+        if len(self.list) == 0:
+            msgbox.showinfo(const.ERROR, const.LOOKUP_ERROR)
     """
     This function is called when the "Okay" button is pressed, and sets up window_main with the selected machine
     Eg.(For the "Hostname" field) "Hostname: " + "grd123"  -> "Hostname: grd123"

@@ -82,6 +82,7 @@ DELETE_MESSAGE = " has been removed.\nmachines.csv successfully updated."
 #Error messages
 ERROR = "Error"
 coding_error = "\nCoding error: Please report this to rodj@ualberta.ca"
+user_error = "\nUser error: Please try again."
 
 BUTTON_ERROR = "An out-of-bounds error occured when creating a Button." + coding_error
 BUTTON_END_ERROR = "A invalid function error occured when creating a Button." + coding_error
@@ -90,3 +91,5 @@ LISTBOX_ERROR = "An out-of-bounds error occured when creating a ListBox." + codi
 LABEL_ERROR = "An out-of-bounds error occured when creating a Label." + coding_error
 
 SWAP_ERROR = "An error occurred when swapping to window_help." + coding_error
+
+LOOKUP_ERROR = "An error occurred. There is no machine with the search term you are using." + user_error
