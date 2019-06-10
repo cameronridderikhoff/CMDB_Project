@@ -1,4 +1,4 @@
-AssetName|IP Address|Type|Domain|Description|Manufacturer|Model|Location|IPLocation|Lastseen
+AssetName|IP Address|Type|Domain|Description|Manufacturer|Model|Location|IPLocation - Department|Lastseen
 NPIB34159|129.128.128.10|Printer||HP ETHERNET MULTI-ENVIRONMENT,SN:VNB8HB664J,FN:ZK611DW,SVCID:26055,PID:HP Color LaserJet MFP M277dw|Hewlett-Packard|HP Color LaserJet MFP M277dw||Science Networks - Chemistry|2017-12-03 16:30
 stores-test.chem.ualberta.ca|129.128.128.103|Linux||||||Science Networks - Chemistry|
 FTICR|129.128.128.115|Linux|FTMSGROUP|FTMSGROUP\FTICR 4.9||||Science Networks - Chemistry|
@@ -820,8 +820,7 @@ delburne.cs.ualberta.ca|129.128.25.79|Linux||||||Science Networks - CS-Research|
 bon-accord.cs.ualberta.ca|129.128.25.80|Linux||||||Science Networks - CS-Research|
 cims-bw|129.128.25.93|Printer||HP ETHERNET MULTI-ENVIRONMENT,SN:PHGFD37605,FN:Z445WHF,SVCID:24272,PID:HP LaserJet 400 M401dne|Hewlett-Packard|HP LaserJet 400 M401dne||Science Networks - CS-Research|2017-11-28 17:57
 donnelly.cs.ualberta.ca|129.128.25.94|Linux||||||Science Networks - CS-Research|
-cline28.cs.ualberta.ca|129.128.28.248|Linux Server||"cline28 is not a separate machine, instead just the subnet 28 interface
-for cline for image creation/management in subnet 28"|||cline (CSC231)|Science Networks - CS-UGrad|2016-11-07 10:47
+cline28.cs.ualberta.ca|129.128.28.248|Linux Server||"cline28 is not a separate machine, instead just the subnet 28 interface for cline for image creation/management in subnet 28"|||cline (CSC231)|Science Networks - CS-UGrad|2016-11-07 10:47
 ua01.cs.ualberta.ca|129.128.29.1|Linux||||||Science Networks - CS-UGrad|
 ua10.cs.ualberta.ca|129.128.29.10|Linux||||||Science Networks - CS-UGrad|
 ue00.cs.ualberta.ca|129.128.29.100|Linux||||||Science Networks - CS-UGrad|
@@ -988,8 +987,7 @@ CCIMNAS|129.128.30.113|NAS|WORKGROUP|WORKGROUP\CCIMNAS 4.9||http server 1.0||Sci
 CCIMPRINTER|129.128.30.99|Printer||HP ETHERNET MULTI-ENVIRONMENT,ROM none,JETDIRECT,JD132,EEPROM V.34.68,CIDATE 06/27/2008|Hewlett-Packard|HP LaserJet M3027 MFP||Science Networks - EAS|2017-11-28 21:43
 grd141.cs.ualberta.ca|129.128.4.107|Linux||||||Science Networks - CS-Research|
 grd143b.cs.ualberta.ca|129.128.4.109|Linux||||||Science Networks - CS-Research|
-sunkay.cs.ualberta.ca|129.128.4.11|Linux||ntpd server (primarily for switches)|VMware, Inc.|VMware Virtual Platform|"Vanrena VM Farm (CSC231)
-Research"|Science Networks - CS-Research|2017-09-11 18:02
+sunkay.cs.ualberta.ca|129.128.4.11|Linux||ntpd server (primarily for switches)|VMware, Inc.|VMware Virtual Platform|"Vanrena VM Farm (CSC231) Research"|Science Networks - CS-Research|2017-09-11 18:02
 grd150.cs.ualberta.ca|129.128.4.112|Linux||||||Science Networks - CS-Research|
 grd151.cs.ualberta.ca|129.128.4.115|Linux||||||Science Networks - CS-Research|
 grd153.cs.ualberta.ca|129.128.4.116|Linux||||||Science Networks - CS-Research|
@@ -1007,8 +1005,7 @@ grd418.cs.ualberta.ca|129.128.4.135|Linux||||||Science Networks - CS-Research|
 grd422.cs.ualberta.ca|129.128.4.136|Linux||||||Science Networks - CS-Research|
 lacombe.cs.ualberta.ca|129.128.4.138|Apple Mac|UOFADOCS||Apple, Inc|Xserve3,1||Science Networks - CS-Research|2017-11-27 18:27
 grd424.cs.ualberta.ca|129.128.4.139|Linux||||||Science Networks - CS-Research|
-otrs.cs.ualberta.ca|129.128.4.140|Linux Server||"(Post-SPOC) Users of Computing Science legacy ticketing system (IST Analysts)
-OTRS server for Computing Science's ticket tracing system - Will be transition to Service Now - planned to be decommissioned by the end of 2015."|||CSC139|Science Networks - CS-Research|2017-01-04 13:31
+otrs.cs.ualberta.ca|129.128.4.140|Linux Server||"(Post-SPOC) Users of Computing Science legacy ticketing system (IST Analysts) OTRS server for Computing Science's ticket tracing system - Will be transition to Service Now - planned to be decommissioned by the end of 2015."|||CSC139|Science Networks - CS-Research|2017-01-04 13:31
 grd102b.cs.ualberta.ca|129.128.4.144|Linux||||||Science Networks - CS-Research|
 console.cs.ualberta.ca|129.128.4.15|Linux Server|||Dell Inc.|PowerEdge 2950||Science Networks - CS-Research|2017-11-27 18:04
 huxley|129.128.4.162|Printer||HP ETHERNET MULTI-ENVIRONMENT,ROM G.07.02,JETDIRECT,JD30,EEPROM G.08.40|Hewlett-Packard|HP LaserJet 2100 Series||Science Networks - CS-Research|2017-10-02 18:34
@@ -1373,8 +1370,7 @@ panasonic-dvr.eas.ualberta.ca|129.128.54.253|Camera||||||Science Networks - EAS|
 ESB-TR-B09-01-T|129.128.54.254|Switch||ProCurve J9138A Switch 2520-24-PoE, revision S.14.03, ROM S.14.03 (/sw/code/build/elmo(t4b_release))|Hewlett-Packard|ProCurve 2520-24-PoE (J9138A)|ESB_B-09|Science Networks - EAS|2017-11-30 17:36
 Aficio MP C2500|129.128.54.36|Printer||RICOH Aficio MP C2500 1.71 / RICOH Network Printer C model / RICOH Network Scanner C model / RICOH Network Facsimile C model|RICOH Co. Ltd.|RICOH Aficio MP C2500|DIF TORY 3-32|Science Networks - EAS|2017-11-30 17:10
 PLOTTER5500PS|129.128.54.38|Printer||HP ETHERNET MULTI-ENVIRONMENT,ROM R.22.01,JETDIRECT,JD95,EEPROM R.24.08,CIDATE 02/26/2003|Hewlett-Packard|HP Jetdirect||Science Networks - EAS|2017-11-30 17:10
-emlcam.eas.ualberta.ca|129.128.54.51|Camera||||"220 AXIS 223M Megapixel Network Camera 4.47.1 (May 20 2010) ready.
-                                                                                                                                    "||Science Networks - EAS|2016-12-29 12:11
+emlcam.eas.ualberta.ca|129.128.54.51|Camera||||"220 AXIS 223M Megapixel Network Camera 4.47.1 (May 20 2010) ready.||Science Networks - EAS|2016-12-29 12:11
 PEARSON-LAB-003|129.128.54.58|Windows|STS|||||Science Networks - EAS|2017-12-04 1:41
 PEARSON-LAB-003|129.128.54.58|Windows|EA_SCIENCE|||||Science Networks - EAS|2017-06-24 12:16
 DELLAB9E8F|129.128.54.60|Printer||Dell 3130cn Color Laser; Net 13.71, Controller 201005101352, Engine 05.06.00|Dell Inc.|Dell 3130cn Color Laser; Net 13.71,ESS 201005101345||Science Networks - EAS|2017-11-30 17:13
@@ -2659,9 +2655,7 @@ fs-s-wpmud-02.facsci.ualberta.ca|142.244.197.120|Linux Server|||VMware, Inc.|||S
 fs-s-wpmu-01.facsci.ualberta.ca|142.244.197.123|Linux Server||||Apache/2.2.17 (Linux/SUSE)||Science Networks - Sci-DMZ|2017-10-28 7:31
 fermenter.ccis.ualberta.ca|142.244.197.15|Linux Server||||||Science Networks - Sci-DMZ|
 sigmas.math.ualberta.ca|142.244.197.16|Linux Server||||||Science Networks - Sci-DMZ|2017-10-28 7:17
-fs-s-websecure-03.facsci.ualberta.ca|142.244.197.19|Linux Server|||VMware, Inc.|Apache|Science VM Farm|Science Networks - Sci-DMZ|2017-06-23 21:59
-math-www.math.ualberta.ca|142.244.197.20|Unix||"web server
-Math Web Server"|||CCIS Science VM FarmCCIS|Science Networks - Sci-DMZ|2017-11-18 5:22
+fs-s-websecure-03.facsci.ualberta.ca|142.244.197.19|Linux Server|||VMware, Inc.|Apache|Science VM Farm|Science Networks - Sci-DMZ|2017-06-23 21:59 math-www.math.ualberta.ca|142.244.197.20|Unix||"web server Math Web Server"|||CCIS Science VM FarmCCIS|Science Networks - Sci-DMZ|2017-11-18 5:22
 fs-s-websecure-02.facsci.ualberta.ca|142.244.197.22|Linux Server|||VMware, Inc.|Apache/2.2.22 (Ubuntu)||Science Networks - Sci-DMZ|2017-11-18 5:23
 fs-s-chemreg-01|142.244.197.23|Linux Server||Linux fs-s-chemreg-01 3.2.0-126-generic #169-Ubuntu SMP Fri Mar 31 14:15:21 UTC 2017 x86_64|VMware, Inc.||Sitting on the Dock of the Bay|Science Networks - Sci-DMZ|2017-12-02 2:25
 pd-srv-web-21.physics.ualberta.ca|142.244.197.24|Linux Server||||Apache/2.2.22 (Linux/SUSE)||Science Networks - Sci-DMZ|2017-10-14 5:23
@@ -2715,8 +2709,7 @@ AL-L1-328|142.244.198.142|Linux|WORKGROUP|WORKGROUP\AL-L1-328 4.9||lighttpd/1.4.
 pd-srv-ladybird-01.physics.ualberta.ca|142.244.198.143|Linux||||Apache/2.4.10 (Debian)||Science Networks - Sci-Servers|2017-10-19 0:51
 wishart.biology.ualberta.ca|142.244.198.144|Linux||||Apache/2.0.52 (Red Hat)||Science Networks - Sci-Servers|2017-06-09 12:07
 bacmap.biology.ualberta.ca|142.244.198.145|Linux||||||Science Networks - Sci-Servers|2017-06-22 0:48
-dw-proxmox2.biology.ualberta.ca|142.244.198.146|Linux Server||"Physical Level Support only
-"|Dell Inc.|PowerEdge 2950||Science Networks - Sci-Servers|2017-06-09 12:07
+dw-proxmox2.biology.ualberta.ca|142.244.198.146|Linux Server||"Physical Level Support only"|Dell Inc.|PowerEdge 2950||Science Networks - Sci-Servers|2017-06-09 12:07
 DC1-BIOSCI.biology.ualberta.ca|142.244.198.147|Unknown||||||Science Networks - Sci-Servers|2017-11-16 0:49
 DC2-BIOSCI|142.244.198.148|Windows|BIO-SCI||VMware, Inc.|VMware Virtual Platform||Science Networks - Sci-Servers|2017-12-04 13:09
 DC2-BIOSCI.biology.ualberta.ca|142.244.198.148|Unknown||||||Science Networks - Sci-Servers|2017-10-12 0:51
