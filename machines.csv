@@ -1254,22 +1254,10 @@ elvis-pc||129.128.141.92||NAS|Physical|||| ||||||Active|||||BioSci-Research|
 sab-condenser2||129.128.150.117||Webserver|Physical||||Allen-Bradely Company GoAhead-Webs||||||Active|||||EAS|Rockwell Automation 1769-LxxE
 sab-condenser-laptop||129.128.150.118||Unknown|Physical|||| ||||||Active|||||EAS|
 SAB-EF-B20-1||129.128.150.127||Switch|Physical||||Cisco Systems C3750E||||||Active|||||EAS|"Cisco IOS Software, C3750E Software (C3750E-UNIVERSALK9-M), Version 12.2(58)SE2, RELEASE SOFTWARE (fc1) Technical Support: http://www.cisco.com/techsupport Copyright (c) 1986-2011 by Cisco Systems, Inc. Compiled Thu 21-Jul-11 01:23 by prod_rel_tea"
-forestburg||129.128.159.10||Linux|Physical|||| ||||||Active|||||CS-DMZ|
-swanhills||129.128.159.21||Linux|Physical|||| ||||||Active|||||CS-DMZ|
 csc-ba-231-1||129.128.159.254||Switch|Physical||||Cisco Systems [Denali],||||||Active|||||CS-DMZ|"Cisco IOS Software [Denali], Catalyst L3 Switch Software (CAT3K_CAA-UNIVERSALK9-M), Version 16.3.3, RELEASE SOFTWARE (fc3) Technical Support: http://www.cisco.com/techsupport Copyright (c) 1986-2017 by Cisco Systems, Inc. Compiled Tue 28-Feb-17 05"
 idm|vanrena VM farm|129.128.159.26||Linux|Physical|||| Apache/2.2.3 (Red Hat)||||||Active|||||CS-DMZ|
 ethnopred|Vanrena VM Farm (CSC231)Research|129.128.159.30||Linux Server|Physical|||| Apache-Coyote/1.1||||||Active|||||CS-DMZ|Web server used to submit data to application
 melissa||129.128.159.49||Vmware server|Physical|||| ||||||Active|||||CS-DMZ|
-J678482||129.128.16.10||Windows|Physical|sts|||Dell Inc. OptiPlex 7040||||||Active|||||CS-Admin|
-J657482||129.128.16.11||Windows|Physical|STS|||Dell Inc. OptiPlex 7040||||||Active|||||CS-Admin|
-J67G482||129.128.16.12||Windows|Physical|STS|||Dell Inc. OptiPlex 7040||||||Active|||||CS-Admin|
-J5QG482||129.128.16.13||Windows|Physical|STS|||Dell Inc. OptiPlex 7040||||||Active|||||CS-Admin|
-alix||129.128.16.197||Windows|Physical|STS|||Apple Inc. iMac13,1||||||Active|||||CS-Admin|
-J607482||129.128.16.5||Windows|Physical|STS|||Dell Inc. OptiPlex 7040||||||Active|||||CS-Admin|
-J688482||129.128.16.6||Windows|Physical|STS|||Dell Inc. OptiPlex 7040||||||Active|||||CS-Admin|
-J64C482||129.128.16.7||Windows|Physical|STS|||Dell Inc. OptiPlex 7040||||||Active|||||CS-Admin|
-J629482||129.128.16.8||Windows|Physical|STS|||Dell Inc. OptiPlex 7040||||||Active|||||CS-Admin|
-J62G482||129.128.16.9||Windows|Physical|STS|||Dell Inc. OptiPlex 7040||||||Active|||||CS-Admin|
 ruokun-zhou|Boise, ID, USA|129.128.168.116||Printer|Physical||||Hewlett-Packard HP LaserJet P2015 Series||||||Active|||||Chemistry|HP ETHERNET MULTI-ENVIRONMENT,SN:CNBJR21637,FN:JK4806T,SVCID:18246,PID:HP LaserJet P2015 Series
 temp-rudy|Boise, ID, USA|129.128.168.134||Printer|Physical||||Hewlett-Packard HP LaserJet P2015 Series||||||Active|||||Chemistry|HP ETHERNET MULTI-ENVIRONMENT,SN:CNBJL03550,FN:JK13R5R,SVCID:00000,PID:HP LaserJet P2015 Series
 eye-vorapattanapong||129.128.168.173||NAS|Physical|||| ||||||Active|||||Chemistry|
@@ -1377,11 +1365,7 @@ NPIFB0E55|Biological Computation Project|129.128.174.92||Printer|Physical||||Hew
 psychdhcp94||129.128.174.94||Linux|Physical|||| ||||||Active|||||Psychology|
 psychdhcp95||129.128.174.95||Linux|Physical|||| ||||||Active|||||Psychology|
 psychdhcp98||129.128.174.98||Linux|Physical|||| ||||||Active|||||Psychology|
-hylo||129.128.184.10||Linux|Physical|||| ||||||Active|||||CS-WildWest|
 ahs4||129.128.184.100||Linux|Physical|||| Apache-Coyote/1.1||||||Active|||||CS-WildWest|
-harry||129.128.184.102||Linux|Physical|||| ||||||Active|||||CS-WildWest|
-ron||129.128.184.103||Unknown|Physical|||| ||||||Active|||||CS-WildWest|
-hermione||129.128.184.104||Linux|Physical|||| ||||||Active|||||CS-WildWest|
 samer||129.128.184.109||Linux|Physical|||| ||||||Active|||||CS-WildWest|
 ssrg10||129.128.184.110||Linux|Physical|||| Apache/2.4.7 (Ubuntu)||||||Active|||||CS-WildWest|
 ssrg11||129.128.184.111||Linux|Physical|||| ||||||Active|||||CS-WildWest|
@@ -1393,56 +1377,19 @@ ssrg16||129.128.184.116||Linux|Physical|||| ||||||Active|||||CS-WildWest|
 ssrg19||129.128.184.119||Linux|Physical|||| Apache/2.4.7 (Ubuntu)||||||Active|||||CS-WildWest|
 ssrg28||129.128.184.128||Linux|Physical|||| ||||||Active|||||CS-WildWest|
 ssrg29||129.128.184.129||Linux|Physical|||| ||||||Active|||||CS-WildWest|
-atmore||129.128.184.13||Linux|Physical|||| ||||||Active|||||CS-WildWest|
 talat||129.128.184.130||Linux|Physical|||| ||||||Active|||||CS-WildWest|
 tr-server||129.128.184.137||Linux|Physical|||| ||||||Active|||||CS-WildWest|
-gwang||129.128.184.138||Webserver|Physical|||| ||||||Active|||||CS-WildWest|
-skat||129.128.184.139||Linux|Physical|||| ||||||Active|||||CS-WildWest|
-ana||129.128.184.140||Linux|Physical|||| ||||||Active|||||CS-WildWest|
-skat2||129.128.184.141||Linux|Physical|||| ||||||Active|||||CS-WildWest|
-f48wdh2||129.128.184.142||Linux|Physical|||| ||||||Active|||||CS-WildWest|
-f494hh2||129.128.184.148||Linux|Physical|||| ||||||Active|||||CS-WildWest|
 dumbledore||129.128.184.149||Linux|Physical|||| ||||||Active|||||CS-WildWest|
 fateme-pc||129.128.184.150||Linux|Physical|||| ||||||Active|||||CS-WildWest|
-beiseker||129.128.184.16||Linux|Physical|||| Apache-Coyote/1.1||||||Active|||||CS-WildWest|
-denard||129.128.184.18||Unknown|Physical|||| Microsoft-IIS/10.0||||||Active|||||CS-WildWest|
-whoopup||129.128.184.21||Linux|Physical|||| Apache/2.4.10 (Ubuntu)||||||Active|||||CS-WildWest|
-cross-lake||129.128.184.22||Linux|Physical|||| ||||||Active|||||CS-WildWest|
-cmput608||129.128.184.23||Linux|Physical|||| Apache/2.4.7 (Ubuntu)||||||Active|||||CS-WildWest|
-battle-riv||129.128.184.24||Linux|Physical|||| Apache/2.4.18 (Ubuntu)||||||Active|||||CS-WildWest|
-old-icdm2011||129.128.184.25||Linux|Physical|||| ||||||Active|||||CS-WildWest|
-tove||129.128.184.28||Linux|Physical|||| ||||||Active|||||CS-WildWest|
-aicml-med||129.128.184.29||Linux|Physical|||| Apache/2.4.7 (Ubuntu)||||||Active|||||CS-WildWest|
-greyshark||129.128.184.30||Linux|Physical|||| ||||||Active|||||CS-WildWest|
-amii1||129.128.184.31||Linux|Physical|||| ||||||Active|||||CS-WildWest|
-ahs3||129.128.184.33||Linux Server|Physical|||| Apache/2.2.16 (Debian)||||||Active|||||CS-WildWest|
 aicml6||129.128.184.36||Linux|Physical|||| Apache/2.4.7 (Ubuntu)||||||Active|||||CS-WildWest|
 AICML7||129.128.184.37||Linux|Physical|WORKGROUP||| Apache/2.4.7 (Ubuntu)||||||Active|||||CS-WildWest|
 AICML8||129.128.184.38||Linux|Physical|WORKGROUP||| Apache/2.4.7 (Ubuntu)||||||Active|||||CS-WildWest|
 aicml9||129.128.184.39||Linux|Physical|||| ||||||Active|||||CS-WildWest|
-SUNRAY||129.128.184.42||Linux|Physical|WORKGROUP||| ||||||Active|||||CS-WildWest|
-hypatia||129.128.184.48||Webserver|Physical|||| Apache/2.2.17 (EL)||||||Active|||||CS-WildWest|
 pythais||129.128.184.49||Linux|Physical|||| Apache/2.2.3 (Red Hat)||||||Active|||||CS-WildWest|
-nat-fw||129.128.184.5||Linux|Physical|||| ||||||Active|||||CS-WildWest|
-CHARCOT||129.128.184.50||Linux|Physical|MED||| Apache/2.2.15 (CentOS)||||||Active|||||CS-WildWest|MED\CHARCOT 4.9
-coldlake||129.128.184.54||Linux|Physical|||| Apache/2.2.15 (CentOS)||||||Active|||||CS-WildWest|
-carcajou||129.128.184.55||Linux|Physical|||| ||||||Active|||||CS-WildWest|
 psychiatry||129.128.184.56||Linux|Physical|||| ||||||Active|||||CS-WildWest|
-telehealth||129.128.184.59||Webserver|Physical|||| Apache/2.2.22 (Debian)||||||Active|||||CS-WildWest|
-bioqa||129.128.184.61||Linux|Physical|||| Apache/2.4.7 (Ubuntu)||||||Active|||||CS-WildWest|
-rotationbuilder||129.128.184.62||Linux|Physical|||| Apache/2.4.10 (Debian)||||||Active|||||CS-WildWest|
-horse-rv||129.128.184.63||Linux|Physical|||| ||||||Active|||||CS-WildWest|
-pfm2||129.128.184.67||Unknown|Physical|||| ||||||Active|||||CS-WildWest|
-melanoma||129.128.184.68||Linux|Physical|||| Apache/2.4.18 (Ubuntu)||||||Active|||||CS-WildWest|
-wabasca||129.128.184.69||Linux|Physical|||| ||||||Active|||||CS-WildWest|
-botha1||129.128.184.7||Linux|Physical|||| ||||||Active|||||CS-WildWest|
-so-baptiste||129.128.184.71||Webserver|Physical|||| Apache/2.4.18 (Ubuntu)||||||Active|||||CS-WildWest|
-amundson||129.128.184.72||Linux|Physical|||| ||||||Active|||||CS-WildWest|
 AICML11||129.128.184.73||Linux|Physical|WORKGROUP||| Apache/2.4.7 (Ubuntu)||||||Active|||||CS-WildWest|WORKGROUP\AICML11 4.9
 ahs2||129.128.184.74||Linux|Physical|||| ||||||Active|||||CS-WildWest|
-mizar||129.128.184.75||Linux|Physical|||| Apache/2.2.20 (Ubuntu)||||||Active|||||CS-WildWest|
 grand||129.128.184.79||Linux Server|Physical|||| Apache/2.2.15 (CentOS)||||||Active|||||CS-WildWest|
-adair-crk||129.128.184.8||Linux|Physical|||| ||||||Active|||||CS-WildWest|
 ssrg1||129.128.184.81||Linux|Physical|||| Apache/2.4.18 (Ubuntu)||||||Active|||||CS-WildWest|
 ssrg3||129.128.184.83||Linux|Physical|||| Apache/2.2.22 (Ubuntu)||||||Active|||||CS-WildWest|
 ssrg4||129.128.184.84||Linux|Physical|||| Apache/2.2.22 (Ubuntu)||||||Active|||||CS-WildWest|
@@ -1450,11 +1397,6 @@ ssrg5||129.128.184.85||Linux|Physical|||| Apache/2.2.22 (Ubuntu)||||||Active||||
 ssrg7||129.128.184.87||Linux|Physical|||| ||||||Active|||||CS-WildWest|
 ssrg8||129.128.184.88||Linux|Physical|||| nginx/1.4.6 (Ubuntu)||||||Active|||||CS-WildWest|
 ssrg9||129.128.184.89||Linux|Physical|||| Apache/2.4.7 (Ubuntu)||||||Active|||||CS-WildWest|
-voldemort||129.128.184.90||Linux|Physical|||| ||||||Active|||||CS-WildWest|
-chauvin||129.128.184.91||Linux|Physical|||| ||||||Active|||||CS-WildWest|
-medserver||129.128.184.96||Mail server|Physical|||| ||||||Active|||||CS-WildWest|
-aicml10||129.128.184.97||Linux|Physical|||| Apache/2.4.7 (Ubuntu)||||||Active|||||CS-WildWest|
-e5-gpu-server||129.128.184.98||Linux|Physical|||| ||||||Active|||||CS-WildWest|
 NPI140FAE||129.128.185.116||Printer|Physical||||Hewlett-Packard HP Color LaserJet 2600n||||||Active|||||BioSci-Research|HP ETHERNET MULTI-ENVIRONMENT
 GOSS-LAB-NAS||129.128.185.14||NAS|Physical|BIO-SCI||| ||||||Active|||||BioSci-Research|BIO-SCI\GOSS-LAB-NAS 4.9
 NPI25CB84||129.128.185.15||Printer|Physical||||Hewlett-Packard HP LaserJet 2100 Series||||||Active|||||BioSci-Research|HP ETHERNET MULTI-ENVIRONMENT,ROM G.08.08,JETDIRECT,JD30,EEPROM G.08.20
@@ -1677,69 +1619,26 @@ ellpspace||129.128.207.67||Linux|Physical|||| Apache/2.4.27 (Fedora) OpenSSL/1.0
 soliton||129.128.207.9||Linux|Physical|||| ||||||Active|||||Math|
 pacific||129.128.207.95||Webserver|Physical|||| Apache/1.3.27 (Unix)||||||Active|||||Math|
 phaser|CAB 536|129.128.207.97||Switch|Physical||||Tektronix, Inc. Tektronix, Inc., Phaser 740E, (4.08/8.62/17/1.24), J20WLB8||||||Active|||||Math|Tektronix, Inc., Phaser 740E, PhaserShare Series B Network Interface, (4.08/8.62/17/1.24)
-intranet-test||129.128.21.11||Linux Server|Physical||||VMware, Inc. VMware Virtual Platform||||||Active|||||CS-Research|
-deadwood|GSB 175|129.128.21.12||Linux Server|Physical||||Dell Inc. ||||||Active|||||CS-Research|Linux deadwood 3.12.62-55-default #1 SMP Thu Oct 20 08:47:11 UTC 2016 (b0aa9a6) x86_64
 esqb7-vm||129.128.21.13||Linux|Physical|||| ||||||Active|||||CS-Research|
-dev-stage||129.128.21.16||Linux|Physical|||| Apache/2.4.18 (Ubuntu)||||||Active|||||CS-Research|
-intranet||129.128.21.19||Linux Server|Physical|DEV_STAGE2|||VMware, Inc. VMware Virtual Platform||||||Active|||||CS-Research|CS Intranet website (really web1/2)
 webdocs||129.128.21.201||Linux Server|Physical||||VMware, Inc. Apache/2.4.6 (CentOS)||||||Active|||||CS-Research|
-smb-home||129.128.21.202||Linux Server|Physical|UOFADOCS|||VMware, Inc. VMware Virtual Platform None||||||Active|||||CS-Research|
-new-webdocs-dev||129.128.21.203||Linux|Physical||||VMware, Inc. ||||||Active|||||CS-Research|
-new-utamik||129.128.21.204||Linux Server|Physical|||| ||||||Active|||||CS-Research|
-warburg||129.128.21.205||Linux Server|Physical|||| ||||||Active|||||CS-Research|
-new-sedgewick||129.128.21.206||Linux Server|Physical|||| ||||||Active|||||CS-Research|
-repos||129.128.21.207||Linux Server|Physical|||| Apache/2.4.18 (Ubuntu)||||||Active|||||CS-Research|
-checkmylab-new||129.128.21.208||Linux Server|Physical||||VMware, Inc. Apache/2.4.18 (Ubuntu)||||||Active|||||CS-Research|
-checkmylabtest-new||129.128.21.209||Linux Server|Physical||||VMware, Inc. ||||||Active|||||CS-Research|
-nukeme||129.128.21.22||Linux Server|Physical||||VMware, Inc. ||||||Active|||||CS-Research|
 gaps?||129.128.21.26||Linux Server|Physical|||| Apache/2.4.18 (Ubuntu)||||||Active|||||CS-Research|
 nukeme||129.128.21.27||Linux Server|Physical||||VMware, Inc. ||||||Active|||||CS-Research|
-unis-master||129.128.21.31||Linux Server|Physical||||VMware, Inc. ||||||Active|||||CS-Research|
-unis-slave||129.128.21.32||Linux Server|Physical||||VMware, Inc. ||||||Active|||||CS-Research|
 csmgmt||129.128.21.33||Linux Server|Physical|||| Apache/2.4.18 (Ubuntu)||||||Active|||||CS-Research|
-webdocs-4||129.128.21.34||Linux Server|Physical|UOFADOCS|||VMware, Inc. VMware Virtual Platform None||||||Active|||||CS-Research|
-intranet-prod||129.128.21.35||Linux Server|Physical||||VMware, Inc. VMware Virtual Platform||||||Active|||||CS-Research|
-csora-db1||129.128.21.36||Linux Server|Physical|||| ||||||Active|||||CS-Research|
-csora-app||129.128.21.37||Linux Server|Physical|||| Apache/2.4.6 (CentOS)||||||Active|||||CS-Research|
-miquelon||129.128.21.38||Linux Server|Physical|||| ||||||Active|||||CS-Research|
 new-securedocs||129.128.21.39||Linux Server|Physical|||| Apache/2.4.18 (Ubuntu)||||||Active|||||CS-Research|
-webapps||129.128.21.73||Linux Server|Physical||||VMware, Inc. Apache/2.4.18 (Ubuntu)||||||Active|||||CS-Research|
 web1|Unknown (edit /etc/snmp/snmpd.conf)|129.128.21.75||Network device|Physical|||| ||||||Active|||||CS-Research|Linux web1 3.2.63 #1 SMP Mon Oct 6 17:15:27 MDT 2014 i686
 web1|Unknown (edit /etc/snmp/snmpd.conf)|129.128.21.77||Linux Server|Physical||||Dell Inc. PowerEdge R200||||||Active|||||CS-Research|
-ypmaster||129.128.21.8||Linux Server|Physical||||VMware, Inc. ||||||Active|||||CS-Research|
-cups|GSB Building, Edmonton, AB, CA|129.128.21.81||Linux Server|Physical||||VMware, Inc. CUPS/2.1 IPP/2.1||||||Active|||||CS-Research|Linux cups 4.4.0-98-generic #121-Ubuntu SMP Tue Oct 10 14:24:03 UTC 2017 x86_64
 cupstest||129.128.21.82||Linux|Physical|||| ||||||Active|||||CS-Research|
-ypslave1||129.128.21.9||Linux Server|Physical||||VMware, Inc. ||||||Active|||||CS-Research|
-odb1||129.128.21.98||Linux Server|Physical||||VMware, Inc. ||||||Active|||||CS-Research|
 mirror-1||129.128.22.102||Linux Server|Physical||||Dell Inc. PowerEdge 2950||||||Active|||||CS-Research|
-mirror||129.128.22.12||Linux Server|Physical|||| ||||||Active|||||CS-Research|
-scotford||129.128.22.14||Linux|Physical|||| ||||||Active|||||CS-Research|
-salient||129.128.22.17||Linux|Physical|||| Apache/2.2.3 (CentOS)||||||Active|||||CS-Research|
-bonanza||129.128.22.18||Linux Server|Physical|||| ||||||Active|||||CS-Research|
 dhcp-22||129.128.22.227||Linux|Physical|||| ||||||Active|||||CS-Research|
-firebag||129.128.22.23||Linux Server|Physical|||| ||||||Active|||||CS-Research|
-neapolis||129.128.22.253||Linux|Physical|||| Apache/2.2.3 (CentOS)||||||Active|||||CS-Research|
-eureka||129.128.22.26||Linux|Physical|||| Apache/2.2.15 (CentOS)||||||Active|||||CS-Research|
-eureka1||129.128.22.27||Linux|Physical|||| thttpd||||||Active|||||CS-Research|
 oyen||129.128.22.36||Linux Server|Physical|||| ||||||Active|||||CS-Research|
 willingdon||129.128.22.38||Linux Server|Physical|||| ||||||Active|||||CS-Research|
-heldar||129.128.22.40||Linux|Physical|||| Apache/2.2.15 (CentOS)||||||Active|||||CS-Research|
 muriel||129.128.22.41||Linux Server|Physical|||| ||||||Active|||||CS-Research|
-pipestone||129.128.22.42||Linux Server|Physical|||| ||||||Active|||||CS-Research|
 fallis||129.128.22.43||Linux Server|Physical|CSDEPT||| ||||||Active|||||CS-Research|
 fedorah1||129.128.22.44||Linux Server|Physical|||| ||||||Active|||||CS-Research|
 fedorah2||129.128.22.45||Linux Server|Physical|||| ||||||Active|||||CS-Research|
 muriel1||129.128.22.46||Linux Server|Physical|||| ||||||Active|||||CS-Research|
 fedorah3||129.128.22.47||Linux Server|Physical|||| ||||||Active|||||CS-Research|
 fedorah4||129.128.22.48||Linux Server|Physical|||| ||||||Active|||||CS-Research|
-aurora||129.128.22.49||Linux Server|Physical|||| ||||||Active|||||CS-Research|
-cons4||129.128.22.55||Linux Server|Physical|||| ||||||Active|||||CS-Research|
-alpen|CSC 3-29|129.128.22.56||Linux Server|Physical|||| ||||||Active|||||CS-Research|
-vimy||129.128.22.59||Linux|Physical|||| ||||||Active|||||CS-Research|
-serv-vcenter||129.128.22.60||Vmware server|Physical|||| ||||||Active|||||CS-Research|
-vanrena||129.128.22.70||Vmware server|Physical||||Supermicro H8DM8-2||||||Active|||||CS-Research|
-joffre||129.128.22.80||Linux|Physical|||| ||||||Active|||||CS-Research|
-la-nonne||129.128.22.89||Apple Mac|Physical|UOFADOCS|||Apple, Inc Xserve3,1||||||Active|||||CS-Research|
 cline||129.128.22.90||Linux Server|Physical||||Supermicro H8DM8-2||||||Active|||||CS-Research|
 *               ||129.128.229.105||Linux|Physical|||| ||||||Active|||||Chemistry|
 NPI318A36||129.128.229.11||Printer|Physical||||Hewlett-Packard HP LaserJet Pro MFP M225dn||||||Active|||||Chemistry|HP ETHERNET MULTI-ENVIRONMENT,SN:CNB9GD342N,FN:Y321FEF,SVCID:25228,PID:HP LaserJet Pro MFP M225dn
@@ -1772,72 +1671,11 @@ OMEGA||129.128.229.60||Windows|Physical|WORKGROUP|||PEGATRON CORPORATION ||||||A
 OMEGA||129.128.229.60||NAS|Physical|WORKGROUP|||PEGATRON CORPORATION ||||||Active|||||Chemistry|
 NPI8FDC79||129.128.229.8||Printer|Physical||||Hewlett-Packard HP LaserJet 2200||||||Active|||||Chemistry|HP ETHERNET MULTI-ENVIRONMENT,ROM R.22.01,JETDIRECT,JD95,EEPROM R.22.09,CIDATE 01/17/2002
 NPI17224D|Boise, ID, USA|129.128.229.9||Printer|Physical||||Hewlett-Packard HP LaserJet P2015 Series||||||Active|||||Chemistry|HP ETHERNET MULTI-ENVIRONMENT,SN:CNB9L24193,FN:JK553C5,SVCID:00000,PID:HP LaserJet P2015 Series
-tawayik||129.128.23.102||Linux|Physical|||| ||||||Active|||||CS-Research|
-meikle||129.128.23.103||Linux|Physical|||| ||||||Active|||||CS-Research|
-ardrossan||129.128.23.107||Linux|Physical|||| ||||||Active|||||CS-Research|
-ath234-clr|Ath 234|129.128.23.11||Printer|Physical||||Hewlett-Packard HP Color LaserJet 3600||||||Active|||||CS-Research|HP ETHERNET MULTI-ENVIRONMENT,ROM none,JETDIRECT,JD121,EEPROM V.30.31,CIDATE 06/17/2005
-ath234-clr|Ath 224|129.128.23.11||Printer|Physical||||Hewlett-Packard HP Color LaserJet 4700||||||Active|||||CS-Research|HP ETHERNET MULTI-ENVIRONMENT,ROM none,JETDIRECT,JD128,EEPROM V.28.63,CIDATE 04/07/2006
-brule||129.128.23.114||Linux Server|Physical||||Supermicro H8SGL 1234567890||||||Active|||||CS-Research|
-sullivan||129.128.23.115||Linux|Physical|||| ||||||Active|||||CS-Research|
 la-glace||129.128.23.120||Linux|Physical|||| ||||||Active|||||CS-Research|
-sibbald||129.128.23.122||Linux|Physical|||| ||||||Active|||||CS-Research|
-wabasca||129.128.23.124||Linux|Physical|||| ||||||Active|||||CS-Research|
-tofield||129.128.23.132||Linux|Physical|||| ||||||Active|||||CS-Research|
-hanna||129.128.23.14||Linux|Physical|||| ||||||Active|||||CS-Research|
-bellis||129.128.23.142||Linux|Physical|||| ||||||Active|||||CS-Research|
-akinsdale||129.128.23.143||Linux|Physical|||| ||||||Active|||||CS-Research|
-fitzgerald||129.128.23.149||Linux|Physical|||| ||||||Active|||||CS-Research|
-thorhild||129.128.23.153||Linux|Physical|||| ||||||Active|||||CS-Research|
-worsley||129.128.23.156||Linux|Physical|||| ||||||Active|||||CS-Research|
-mega-rv||129.128.23.158||Webserver|Physical|||| ||||||Active|||||CS-Research|
 cynthia||129.128.23.160||Linux|Physical|||| ||||||Active|||||CS-Research|
-uofa-jay||129.128.23.175||Webserver|Physical|||| ||||||Active|||||CS-Research|
-aicml-prn||129.128.23.177||Printer|Physical|||| debut/1.20||||||Active|||||CS-Research|
-morningside||129.128.23.178||Linux|Physical|||| ||||||Active|||||CS-Research|
-amber-rv||129.128.23.182||Linux|Physical|||| ||||||Active|||||CS-Research|
-shoal-lk||129.128.23.186||Webserver|Physical|||| Boa/0.94.13||||||Active|||||CS-Research|
-mariana||129.128.23.188||Linux|Physical|||| ||||||Active|||||CS-Research|
-grdb21||129.128.23.191||Linux|Physical|||| ||||||Active|||||CS-Research|
-grd228||129.128.23.192||Linux|Physical|||| ||||||Active|||||CS-Research|
-barich||129.128.23.197||Linux|Physical|||| ||||||Active|||||CS-Research|
-mininet-vm||129.128.23.20||Linux|Physical|||| ||||||Active|||||CS-Research|
-thorsby||129.128.23.200||Linux|Physical|||| ||||||Active|||||CS-Research|
-lindale||129.128.23.215||Linux|Physical|||| ||||||Active|||||CS-Research|
 garrington||129.128.23.226||Linux|Physical|||| ||||||Active|||||CS-Research|
 dhcp-23||129.128.23.227||Linux|Physical|||| ||||||Active|||||CS-Research|
-cons2||129.128.23.229||Linux Server|Physical|||| ||||||Active|||||CS-Research|
-snipe-lake||129.128.23.235||Linux|Physical|||| ||||||Active|||||CS-Research|
-teepee-crk||129.128.23.248||Linux|Physical|||| ||||||Active|||||CS-Research|
-peers||129.128.23.249||Linux|Physical|||| ||||||Active|||||CS-Research|
-hotchkiss||129.128.23.25||Webserver|Physical|||| Apache/2.4.29 (Unix) OpenSSL/1.0.2m PHP/5.6.32 mod_perl/2.0.8-dev Perl/v5.16.3||||||Active|||||CS-Research|
-madden||129.128.23.26||Linux|Physical|||| ||||||Active|||||CS-Research|
-boyne||129.128.23.27||Linux|Physical|||| ||||||Active|||||CS-Research|
-torrington||129.128.23.28||Linux|Physical|||| ||||||Active|||||CS-Research|
-mackay||129.128.23.31||Linux|Physical|||| ||||||Active|||||CS-Research|
 hyacinth||129.128.23.33||Linux|Physical|||| ||||||Active|||||CS-Research|
-ath252b|Boise, ID, USA|129.128.23.34||Printer|Physical||||Hewlett-Packard HP LaserJet P2015 Series||||||Active|||||CS-Research|HP ETHERNET MULTI-ENVIRONMENT,SN:CNBJL27387,FN:JK22961,SVCID:00000,PID:ATH252b
-seiulake||129.128.23.37||Linux|Physical|||| ||||||Active|||||CS-Research|
-ellscott||129.128.23.40||Linux|Physical|||| ||||||Active|||||CS-Research|
-halkirk||129.128.23.46||Printer|Physical||||Hewlett-Packard HP Jetdirect||||||Active|||||CS-Research|HP ETHERNET MULTI-ENVIRONMENT,ROM A.03.15,JETDIRECT,JD24,EEPROM A.05.05
-coaldale||129.128.23.47||Linux|Physical|||| ||||||Active|||||CS-Research|
-karim-timecapsule||129.128.23.49||NAS|Physical|||| ||||||Active|||||CS-Research|
-nazim-acer||129.128.23.51||Linux|Physical|||| ||||||Active|||||CS-Research|
-pibroch||129.128.23.55||Linux|Physical|||| ||||||Active|||||CS-Research|
-ath224-cpy|ATH 2-24|129.128.23.61||Printer|Physical||||Xerox Xerox WorkCentre 5755 v1 Multifunction System||||||Active|||||CS-Research|Xerox WorkCentre 5755 v1 Multifunction System; System Software 061.132.223.10200, ESS 061.133.06720
-ath245-cpy|ATH 2-45|129.128.23.62||Printer|Physical||||Xerox Xerox WorkCentre 5755 v1 Multifunction System||||||Active|||||CS-Research|Xerox WorkCentre 5755 v1 Multifunction System; System Software 000.000.000.00000, ESS
-csc228-cpy|CSC 2-28|129.128.23.64||Printer|Physical||||Xerox Xerox WorkCentre 5755 v1 Multifunction System||||||Active|||||CS-Research|Xerox WorkCentre 5755 v1 Multifunction System; System Software 061.132.224.23900, ESS 061.134.23820.LL
-sass-lake||129.128.23.67||Linux|Physical|||| ||||||Active|||||CS-Research|
-saddle-lk||129.128.23.68||Linux|Physical|||| ||||||Active|||||CS-Research|
-gainford||129.128.23.69||Linux|Physical|||| ||||||Active|||||CS-Research|
-cleardale||129.128.23.71||Linux|Physical|||| ||||||Active|||||CS-Research|
-edwand||129.128.23.76||Linux|Physical|||| ||||||Active|||||CS-Research|
-ardrossan||129.128.23.77||Linux|Physical|||| ||||||Active|||||CS-Research|
-larkspur||129.128.23.80||Linux|Physical|||| ||||||Active|||||CS-Research|
-leedale||129.128.23.84||Linux|Physical|||| ||||||Active|||||CS-Research|
-chinook||129.128.23.85||Linux Server|Physical|||| ||||||Active|||||CS-Research|
-ministik||129.128.23.87||Linux|Physical|||| ||||||Active|||||CS-Research|
-trochu||129.128.23.88||Linux|Physical|||| ||||||Active|||||CS-Research|
-kearl-lk||129.128.23.91||Linux|Physical|||| ||||||Active|||||CS-Research|
 DTKRPD2||129.128.241.107||Windows|Physical|FACSCI|||Dell Inc. OptiPlex 7040||||||Active|||||Sci-Grad-Research|
 work-tr3f||129.128.241.140||Linux|Physical|||| ||||||Active|||||Sci-Grad-Research|
 msdnas||129.128.241.144||Webserver|Physical|||| http server 1.0||||||Active|||||Sci-Grad-Research|
@@ -1949,23 +1787,7 @@ NPICEDD19||129.128.246.66||Printer|Physical||||Hewlett-Packard hp LaserJet 1320 
 BSM-TR-225-03|M225-BOTTOM|129.128.246.7||Switch|Physical||||Hewlett-Packard ProCurve Switch 2650B||||||Active|||||BioSci-Research|ProCurve J4899B Switch 2650, revision H.10.83, ROM H.08.02 (/sw/code/build/fish(mkfs))
 BSM-TR-327-01|M327-TOP|129.128.246.8||Switch|Physical||||Hewlett-Packard HP ProCurve 2650 J4899A||||||Active|||||BioSci-Research|ProCurve J4899A Switch 2650, revision H.10.83, ROM H.08.02 (/sw/code/build/fish(mkfs))
 BSM-TR-327-02|M327-MIDDLE|129.128.246.9||Switch|Physical||||Hewlett-Packard HP J4121A ProCurve Switch 4000M||||||Active|||||BioSci-Research|HP J4121A ProCurve Switch 4000M, revision C.09.30, ROM C.06.01 (/sw/code/build/vgro(c09))
-coronado||129.128.25.115||Linux|Physical|||| ||||||Active|||||CS-Research|
-lonestar|CSC353|129.128.25.12||Linux Server|Physical|||| ||||||Active|||||CS-Research|
-AUDET-LK||129.128.25.122||Linux|Physical|WORKGROUP||| ||||||Active|||||CS-Research|
 goodridge||129.128.25.126||Linux|Physical|||| ||||||Active|||||CS-Research|
-richdale||129.128.25.129||Linux|Physical|||| ||||||Active|||||CS-Research|
-niton||129.128.25.13||Linux|Physical|||| ||||||Active|||||CS-Research|
-FROGLAKE||129.128.25.131||NAS|Physical|WORKGROUP||| ||||||Active|||||CS-Research|
-fuego||129.128.25.132||Linux|Physical|||| ||||||Active|||||CS-Research|
-maya||129.128.25.133||Linux|Physical|||| ||||||Active|||||CS-Research|
-theia||129.128.25.134||Linux|Physical|||| ||||||Active|||||CS-Research|
-wam2||129.128.25.136||Linux|Physical|||| ||||||Active|||||CS-Research|
-decrene||129.128.25.140||Linux|Physical|||| ||||||Active|||||CS-Research|
-namao||129.128.25.146||Linux|Physical|||| ||||||Active|||||CS-Research|
-rimbey||129.128.25.156||Linux|Physical|||| ||||||Active|||||CS-Research|
-rumsey||129.128.25.158||Linux|Physical|||| ||||||Active|||||CS-Research|
-bentley||129.128.25.162||Linux|Physical|||| ||||||Active|||||CS-Research|
-bickerdike||129.128.25.163||Linux|Physical|||| ||||||Active|||||CS-Research|
 blackfoot||129.128.25.168||Linux|Physical|||| ||||||Active|||||CS-Research|
 kelsey||129.128.25.174||Linux|Physical|||| ||||||Active|||||CS-Research|
 cadotte||129.128.25.179||Linux Server|Physical|||| ||||||Active|||||CS-Research|
@@ -1973,196 +1795,10 @@ dapp1||129.128.25.187||Linux Server|Physical|||| ||||||Active|||||CS-Research|
 dapp2||129.128.25.188||Linux Server|Physical|||| ||||||Active|||||CS-Research|
 dapp3||129.128.25.189||Linux Server|Physical|||| ||||||Active|||||CS-Research|
 dapp4||129.128.25.190||Linux Server|Physical|||| ||||||Active|||||CS-Research|
-sexsmith||129.128.25.199||Linux|Physical|||| ||||||Active|||||CS-Research|
-donalda||129.128.25.202||Linux|Physical|||| ||||||Active|||||CS-Research|
-wawa||129.128.25.212||Linux|Physical|||| ||||||Active|||||CS-Research|
-derwent||129.128.25.213||Linux|Physical|||| ||||||Active|||||CS-Research|
-duvernay||129.128.25.217||Linux|Physical|||| ||||||Active|||||CS-Research|
 dhcp-25||129.128.25.227||Linux|Physical|||| ||||||Active|||||CS-Research|
-dunvegan||129.128.25.229||Linux|Physical|||| ||||||Active|||||CS-Research|
-delia||129.128.25.230||Linux|Physical|||| ||||||Active|||||CS-Research|
-darwell||129.128.25.231||Linux|Physical|||| ||||||Active|||||CS-Research|
-dalmuir||129.128.25.232||Linux|Physical|||| ||||||Active|||||CS-Research|
-drumheller||129.128.25.235||Linux|Physical|||| ||||||Active|||||CS-Research|
-debolt||129.128.25.236||Linux|Physical|||| ||||||Active|||||CS-Research|
-cons3||129.128.25.238||Linux Server|Physical|||| ||||||Active|||||CS-Research|
-himalaya||129.128.25.27||Linux|Physical|||| ||||||Active|||||CS-Research|
-rodef||129.128.25.28||Linux|Physical|||| ||||||Active|||||CS-Research|
-lubicon||129.128.25.30||Linux|Physical|||| ||||||Active|||||CS-Research|
-stanmore||129.128.25.31||Linux|Physical|||| ||||||Active|||||CS-Research|
-snaring||129.128.25.4||Linux|Physical|||| ||||||Active|||||CS-Research|
-mildred||129.128.25.42||Linux|Physical|||| ||||||Active|||||CS-Research|
-roche-miette||129.128.25.46||Linux|Physical|||| ||||||Active|||||CS-Research|
-demay-lk||129.128.25.47||Linux|Physical|||| ||||||Active|||||CS-Research|
-sylvan-lk||129.128.25.50||Linux|Physical|||| ||||||Active|||||CS-Research|
-gregoire||129.128.25.56||Unknown|Physical|||| ||||||Active|||||CS-Research|
-sand-rv||129.128.25.59||Linux|Physical|||| ||||||Active|||||CS-Research|
-deer-mtn||129.128.25.61||Linux|Physical|||| ||||||Active|||||CS-Research|
-highvale||129.128.25.7||Printer|Physical||||Hewlett-Packard HP LaserJet 2200||||||Active|||||CS-Research|HP ETHERNET MULTI-ENVIRONMENT,ROM C.25.80,JETDIRECT,JD115,EEPROM V.28.06,CIDATE 04/27/2004
-highvale|CSC 3-51|129.128.25.7||Printer|Physical||||Hewlett-Packard hp LaserJet 1320 series||||||Active|||||CS-Research|HP ETHERNET MULTI-ENVIRONMENT,ROM B.25.01,JETDIRECT,JD119,EEPROM V.28.05,CIDATE 04/22/2004
-bonnyville||129.128.25.70||Linux|Physical|||| ||||||Active|||||CS-Research|
 delburne||129.128.25.79||Linux|Physical|||| ||||||Active|||||CS-Research|
-bon-accord||129.128.25.80||Linux|Physical|||| ||||||Active|||||CS-Research|
-cims-bw||129.128.25.93||Printer|Physical||||Hewlett-Packard HP LaserJet 400 M401dne||||||Active|||||CS-Research|HP ETHERNET MULTI-ENVIRONMENT,SN:PHGFD37605,FN:Z445WHF,SVCID:24272,PID:HP LaserJet 400 M401dne
-donnelly||129.128.25.94||Linux|Physical|||| ||||||Active|||||CS-Research|
-cline28|cline (CSC231)|129.128.28.248||Linux Server|Physical|||| ||||||Active|||||CS-UGrad|"cline28 is not a separate machine, instead just the subnet 28 interface for cline for image creation/management in subnet 28"
-ua01||129.128.29.1||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ua10||129.128.29.10||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ue00||129.128.29.100||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ue01||129.128.29.101||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ue02||129.128.29.102||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ue03||129.128.29.103||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ue04||129.128.29.104||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ue05||129.128.29.105||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ue06||129.128.29.106||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ue07||129.128.29.107||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ue08||129.128.29.108||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ue09||129.128.29.109||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ua11||129.128.29.11||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ue10||129.128.29.110||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ue11||129.128.29.111||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ue12||129.128.29.112||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ue13||129.128.29.113||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ue14||129.128.29.114||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ue15||129.128.29.115||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ue16||129.128.29.116||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ue17||129.128.29.117||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ue18||129.128.29.118||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ue19||129.128.29.119||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ua12||129.128.29.12||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ue20||129.128.29.120||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ue21||129.128.29.121||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ue22||129.128.29.122||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ue23||129.128.29.123||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ue24||129.128.29.124||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ue25||129.128.29.125||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ue26||129.128.29.126||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ua13||129.128.29.13||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-uf00||129.128.29.130||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-uf01||129.128.29.131||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-uf02||129.128.29.132||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-uf03||129.128.29.133||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-uf04||129.128.29.134||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-uf05||129.128.29.135||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-uf06||129.128.29.136||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-uf07||129.128.29.137||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-uf08||129.128.29.138||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-uf09||129.128.29.139||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ua14||129.128.29.14||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-uf10||129.128.29.140||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-uf11||129.128.29.141||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-uf12||129.128.29.142||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-uf13||129.128.29.143||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-uf14||129.128.29.144||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-uf15||129.128.29.145||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-uf16||129.128.29.146||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-uf17||129.128.29.147||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-uf18||129.128.29.148||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-uf19||129.128.29.149||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ua15||129.128.29.15||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-uf20||129.128.29.150||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-uf21||129.128.29.151||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-uf22||129.128.29.152||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-uf23||129.128.29.153||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-uf24||129.128.29.154||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-uf25||129.128.29.155||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ua16||129.128.29.16||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ul01||129.128.29.161||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ul02||129.128.29.162||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ul03||129.128.29.163||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ul04||129.128.29.164||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ul05||129.128.29.165||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ul06||129.128.29.166||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ul07||129.128.29.167||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ul08||129.128.29.168||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ul09||129.128.29.169||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ua17||129.128.29.17||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ul10||129.128.29.170||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ua02||129.128.29.2||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-winagami||129.128.29.228||Linux|Physical|||| ||||||Active|||||CS-UGrad|
 consort||129.128.29.229||Linux|Physical||||Dell Inc. PowerEdge 2950||||||Active|||||CS-UGrad|
-wetaskiwin||129.128.29.233||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-winfield||129.128.29.235||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-nojack||129.128.29.236||Linux Server|Physical|||| ||||||Active|||||CS-UGrad|
-ranfurly||129.128.29.237||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-marlboro||129.128.29.238||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-lougheed||129.128.29.239||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-iron-riv||129.128.29.242||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-hardisty||129.128.29.245||Linux|Physical|||| ||||||Active|||||CS-UGrad|
 cs410||129.128.29.246||Linux|Physical||||VMware, Inc. ||||||Active|||||CS-UGrad|
-listless||129.128.29.250||Linux Server|Physical||||Dell Inc. OptiPlex 755||||||Active|||||CS-UGrad|
-ua03||129.128.29.3||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ug00||129.128.29.30||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ug01||129.128.29.31||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ug02||129.128.29.32||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ug03||129.128.29.33||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ug04||129.128.29.34||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ug05||129.128.29.35||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ug06||129.128.29.36||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ug07||129.128.29.37||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ug08||129.128.29.38||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ug09||129.128.29.39||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ua04||129.128.29.4||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ug10||129.128.29.40||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ug11||129.128.29.41||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ug12||129.128.29.42||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ug13||129.128.29.43||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ug14||129.128.29.44||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ug15||129.128.29.45||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ug16||129.128.29.46||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ug17||129.128.29.47||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ug18||129.128.29.48||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ug19||129.128.29.49||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ua05||129.128.29.5||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ug20||129.128.29.50||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ug21||129.128.29.51||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ug22||129.128.29.52||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ug23||129.128.29.53||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ug24||129.128.29.54||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ug25||129.128.29.55||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ug26||129.128.29.56||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ug27||129.128.29.57||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ug28||129.128.29.58||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ug29||129.128.29.59||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ua06||129.128.29.6||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ug30||129.128.29.60||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ug31||129.128.29.61||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ug32||129.128.29.62||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ug33||129.128.29.63||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ug34||129.128.29.64||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ua07||129.128.29.7||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ud00(rescue)||129.128.29.70||Linux|Physical||||Hewlett-Packard HP Compaq dc7900 Convertible Minitower||||||Active|||||CS-UGrad|
-ud00||129.128.29.70||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ud01||129.128.29.71||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ud02||129.128.29.72||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ud03||129.128.29.73||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ud04||129.128.29.74||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ud05||129.128.29.75||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ud06||129.128.29.76||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ud07||129.128.29.77||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ud08||129.128.29.78||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ud09||129.128.29.79||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ua08||129.128.29.8||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ud10||129.128.29.80||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ud11||129.128.29.81||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ud12||129.128.29.82||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ud13||129.128.29.83||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ud14||129.128.29.84||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ud15||129.128.29.85||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ud16||129.128.29.86||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ud17(rescue)||129.128.29.87||Linux|Physical||||Hewlett-Packard HP Compaq dc7900 Convertible Minitower||||||Active|||||CS-UGrad|
-ud17||129.128.29.87||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ud18||129.128.29.88||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ud19||129.128.29.89||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ua09||129.128.29.9||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ud20||129.128.29.90||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ud21(rescue)||129.128.29.91||Linux|Physical||||Hewlett-Packard HP Compaq dc7900 Convertible Minitower||||||Active|||||CS-UGrad|
-ud21||129.128.29.91||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ud22||129.128.29.92||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ud23||129.128.29.93||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ud24||129.128.29.94||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ud25||129.128.29.95||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ud26||129.128.29.96||Linux|Physical|||| ||||||Active|||||CS-UGrad|
 ccimsvr||129.128.30.101||Unknown|Physical|||| ||||||Active|||||EAS|
 Emerson Network Power IntelliSlot Web Card||129.128.30.102||Webserver|Physical|||| Allegro-Software-RomPager/4.30||||||Active|||||EAS|
 Agilent 34410A (MY47019574)||129.128.30.106||Webserver|Physical|||| Allegro-Software-RomPager/4.10||||||Active|||||EAS|
@@ -2170,97 +1806,22 @@ Agilent 34410A (MY47019574)||129.128.30.106||Webserver|Physical|||| Allegro-Soft
 CCIM_RS815NAS||129.128.30.112||NAS|Physical|WORKGROUP||| nginx||||||Active|||||EAS|
 CCIMNAS||129.128.30.113||NAS|Physical|WORKGROUP||| http server 1.0||||||Active|||||EAS|WORKGROUP\CCIMNAS 4.9
 CCIMPRINTER||129.128.30.99||Printer|Physical||||Hewlett-Packard HP LaserJet M3027 MFP||||||Active|||||EAS|HP ETHERNET MULTI-ENVIRONMENT,ROM none,JETDIRECT,JD132,EEPROM V.34.68,CIDATE 06/27/2008
-grd141||129.128.4.107||Linux|Physical|||| ||||||Active|||||CS-Research|
-grd143b||129.128.4.109||Linux|Physical|||| ||||||Active|||||CS-Research|
-sunkay|"Vanrena VM Farm (CSC231) Research"|129.128.4.11||Linux|Physical||||VMware, Inc. VMware Virtual Platform||||||Active|||||CS-Research|ntpd server (primarily for switches)
-grd150||129.128.4.112||Linux|Physical|||| ||||||Active|||||CS-Research|
-grd151||129.128.4.115||Linux|Physical|||| ||||||Active|||||CS-Research|
-grd153||129.128.4.116||Linux|Physical|||| ||||||Active|||||CS-Research|
-grd152||129.128.4.117||Linux|Physical|||| ||||||Active|||||CS-Research|
-grd154a||129.128.4.118||Linux|Physical|||| ||||||Active|||||CS-Research|
-grd102a||129.128.4.12||Linux|Physical|||| ||||||Active|||||CS-Research|
-grd154b||129.128.4.122||Linux|Physical|||| ||||||Active|||||CS-Research|
-grd155b||129.128.4.125||Linux|Physical|||| ||||||Active|||||CS-Research|
-old-onoway||129.128.4.128||Linux|Physical|||| Apache/2.2.3 (Red Hat)||||||Active|||||CS-Research|
 onoway||129.128.4.129||Linux Server|Physical|||| Apache/2.2.3 (Red Hat)||||||Active|||||CS-Research|
-brazeau||129.128.4.13||Linux Server|Physical|||| ||||||Active|||||CS-Research|
-ath326-cpy|ATH 3-26|129.128.4.130||Printer|Physical||||Xerox Xerox WorkCentre 5755 v1 Multifunction System||||||Active|||||CS-Research|Xerox WorkCentre 5755 v1 Multifunction System; System Software 061.132.223.10200, ESS 061.133.06720
-grd420||129.128.4.134||Linux|Physical|||| ||||||Active|||||CS-Research|
-grd418||129.128.4.135||Linux|Physical|||| ||||||Active|||||CS-Research|
-grd422||129.128.4.136||Linux|Physical|||| ||||||Active|||||CS-Research|
-lacombe||129.128.4.138||Apple Mac|Physical|UOFADOCS|||Apple, Inc Xserve3,1||||||Active|||||CS-Research|
-grd424||129.128.4.139||Linux|Physical|||| ||||||Active|||||CS-Research|
 otrs|CSC139|129.128.4.140||Linux Server|Physical|||| ||||||Active|||||CS-Research|"(Post-SPOC) Users of Computing Science legacy ticketing system (IST Analysts) OTRS server for Computing Science's ticket tracing system - Will be transition to Service Now - planned to be decommissioned by the end of 2015."
-grd102b||129.128.4.144||Linux|Physical|||| ||||||Active|||||CS-Research|
-console||129.128.4.15||Linux Server|Physical||||Dell Inc. PowerEdge 2950||||||Active|||||CS-Research|
-huxley||129.128.4.162||Printer|Physical||||Hewlett-Packard HP LaserJet 2100 Series||||||Active|||||CS-Research|HP ETHERNET MULTI-ENVIRONMENT,ROM G.07.02,JETDIRECT,JD30,EEPROM G.08.40
 webdocs-dev||129.128.4.17||Linux Server|Physical|||| ||||||Active|||||CS-Research|
-zhang-ptr||129.128.4.18||Printer|Physical|||| Virata-EmWeb/R6_2_1||||||Active|||||CS-Research|
-grd105||129.128.4.19||Linux|Physical|||| ||||||Active|||||CS-Research|
 fs2||129.128.4.191||Linux Server|Physical|||| ||||||Active|||||CS-Research|
 You cannot administer the appliance via this IP address||129.128.4.192||Linux|Physical|||| ||||||Active|||||CS-Research|
-fs4|unknown|129.128.4.193||Linux Server|Physical||||Dell Inc. ||||||Active|||||CS-Research|Linux fs4 3.12.62-55-default #1 SMP Thu Oct 20 08:47:11 UTC 2016 (b0aa9a6) x86_64
 rescue||129.128.4.207||Linux|Physical||||Supermicro X7DBR||||||Active|||||CS-Research|
-cupsr-4(rescue)||129.128.4.210||Linux|Physical||||Dell Inc. PowerEdge R310||||||Active|||||CS-Research|
-cupsr-4||129.128.4.210||Linux|Physical|||| ||||||Active|||||CS-Research|
-hespero||129.128.4.22||Printer|Physical||||Hewlett-Packard hp LaserJet 9040||||||Active|||||CS-Research|HP ETHERNET MULTI-ENVIRONMENT,ROM none,JETDIRECT,JD128,EEPROM V.33.28,CIDATE 12/17/2014
 stauffer||129.128.4.221||Linux|Physical|||| ||||||Active|||||CS-Research|
-visitor4a||129.128.4.222||Linux|Physical|||| ||||||Active|||||CS-Research|
-visitor4b||129.128.4.223||Linux|Physical|||| ||||||Active|||||CS-Research|
-visitor4c||129.128.4.224||Linux|Physical|||| ||||||Active|||||CS-Research|
 innisfree||129.128.4.225||Linux Server|Physical|||| ||||||Active|||||CS-Research|
 dhcp-4||129.128.4.227||Unix|Physical|||| ||||||Active|||||CS-Research|
-puppetmaster-r||129.128.4.228||Linux Server|Physical|||| Apache/2.2.22 (Ubuntu)||||||Active|||||CS-Research|
 puppet-console||129.128.4.229||Linux|Physical|||| Apache/2.2.22 (Ubuntu)||||||Active|||||CS-Research|
 puppet-db||129.128.4.230||Linux|Physical|||| ||||||Active|||||CS-Research|
-didsbury||129.128.4.234||Linux|Physical|||| ||||||Active|||||CS-Research|
-menaik||129.128.4.241||Linux Server|Physical|||| ||||||Active|||||CS-Research|
-irricana||129.128.4.248||Linux|Physical|||| ||||||Active|||||CS-Research|
-yeoford||129.128.4.25||Webserver|Physical|||| ||||||Active|||||CS-Research|
-grd106||129.128.4.27||Linux|Physical|||| ||||||Active|||||CS-Research|
-grd101a||129.128.4.3||Linux|Physical|||| ||||||Active|||||CS-Research|
-marten||129.128.4.30||Linux|Physical|||| ||||||Active|||||CS-Research|
-old-smb-home||129.128.4.32||Linux Server|Physical|UOFADOCS|||Dell Inc. PowerEdge 860||||||Active|||||CS-Research|
-rescue||129.128.4.32||Linux|Physical||||Supermicro H8SSL-I2||||||Active|||||CS-Research|
-grd107||129.128.4.34||Linux|Physical|||| ||||||Active|||||CS-Research|
-grd108||129.128.4.35||Linux|Physical|||| ||||||Active|||||CS-Research|
-grd109||129.128.4.37||Linux|Physical|||| ||||||Active|||||CS-Research|
-scotfield||129.128.4.38||Linux|Physical|||| ||||||Active|||||CS-Research|
-grd111||129.128.4.40||Linux|Physical|||| ||||||Active|||||CS-Research|
-grd113a||129.128.4.41||Linux|Physical|||| ||||||Active|||||CS-Research|
-grd113b||129.128.4.42||Linux|Physical|||| ||||||Active|||||CS-Research|
-ath427-cpy|ATH 4-27|129.128.4.43||Printer|Physical||||Xerox Xerox WorkCentre 5755 v1 Multifunction System||||||Active|||||CS-Research|Xerox WorkCentre 5755 v1 Multifunction System; System Software 061.132.223.10200, ESS 061.133.06720
-sundre||129.128.4.46||Linux|Physical|||| ||||||Active|||||CS-Research|
 hanna||129.128.4.48||Linux|Physical|||| ||||||Active|||||CS-Research|
 jarvie||129.128.4.49||Linux|Physical|||| ||||||Active|||||CS-Research|
-st-francis||129.128.4.50||Linux|Physical|||| ||||||Active|||||CS-Research|
-grd117||129.128.4.51||Linux|Physical|||| ||||||Active|||||CS-Research|
 cswebcam||129.128.4.53||Linux|Physical|||| ||||||Active|||||CS-Research|
-grd119||129.128.4.54||Linux|Physical|||| ||||||Active|||||CS-Research|
-grd121||129.128.4.58||Linux|Physical|||| ||||||Active|||||CS-Research|
-grd120||129.128.4.59||Linux|Physical|||| ||||||Active|||||CS-Research|
-faust||129.128.4.60||Webserver|Physical|||| ||||||Active|||||CS-Research|
-lafond||129.128.4.61||Linux|Physical|||| ||||||Active|||||CS-Research|
-grd122||129.128.4.62||Linux|Physical|||| ||||||Active|||||CS-Research|
-grd123||129.128.4.63||Linux|Physical|||| ||||||Active|||||CS-Research|
-grd124||129.128.4.64||Linux|Physical|||| ||||||Active|||||CS-Research|
-grd128a||129.128.4.65||Linux|Physical|||| ||||||Active|||||CS-Research|
 luscar||129.128.4.67||Linux|Physical|||| ||||||Active|||||CS-Research|
-namur||129.128.4.68||Webserver|Physical|||| ||||||Active|||||CS-Research|
-grd101b||129.128.4.7||Linux|Physical|||| ||||||Active|||||CS-Research|
-grd134||129.128.4.74||Linux|Physical|||| ||||||Active|||||CS-Research|
-grd135||129.128.4.78||Linux|Physical|||| ||||||Active|||||CS-Research|
-sedgewick||129.128.4.8||Linux Server|Physical|||| Apache/2.2.3 (Red Hat)||||||Active|||||CS-Research|
-grd136||129.128.4.83||Linux|Physical|||| ||||||Active|||||CS-Research|
-mulhurst||129.128.4.84||Linux|Physical|||| ||||||Active|||||CS-Research|
-grd137||129.128.4.85||Linux|Physical|||| ||||||Active|||||CS-Research|
-grd138||129.128.4.88||Linux|Physical|||| ||||||Active|||||CS-Research|
-grd139||129.128.4.89||Linux|Physical|||| ||||||Active|||||CS-Research|
-grd140||129.128.4.90||Linux|Physical|||| ||||||Active|||||CS-Research|
-desktop-uou9u44||129.128.4.93||Webserver|Physical|||| ||||||Active|||||CS-Research|
-lacorey||129.128.4.94||Linux|Physical|||| ||||||Active|||||CS-Research|
 oardakan-desktop||129.128.4.96||Linux|Physical|||| ||||||Active|||||CS-Research|
-palisade||129.128.4.99||Linux|Physical|||| ||||||Active|||||CS-Research|
 issbd||129.128.40.138||Webserver|Physical|||| Apache/2.2.3 (CentOS)||||||Active|||||Psychology|
 rast-server||129.128.40.141||Linux|Physical|||| Apache/2.4.18 (Ubuntu)||||||Active|||||Psychology|
 MONICA||129.128.40.145||NAS|Physical|WORKGROUP|||ASUSTek COMPUTER INC. ||||||Active|||||Psychology|
@@ -2272,92 +1833,11 @@ mathewson-lab1||129.128.40.151||Unknown|Physical|||| ||||||Active|||||Psychology
 mathewson-lab2||129.128.40.152||NAS|Physical|||| ||||||Active|||||Psychology|
 P116-SERVER||129.128.40.229||NAS|Physical|LAB116|||ASUSTek COMPUTER INC. ||||||Active|||||Psychology|
 P116-SERVER||129.128.40.229||Windows|Physical|LAB116|||ASUSTek COMPUTER INC. ||||||Active|||||Psychology|
-uc01||129.128.41.11||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-uc02||129.128.41.12||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-uc03||129.128.41.13||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-uc04||129.128.41.14||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-uc05||129.128.41.15||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-uc06||129.128.41.16||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-uc07||129.128.41.17||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-uc08||129.128.41.18||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-uc09||129.128.41.19||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-uc10||129.128.41.20||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-temp41-3||129.128.41.203||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-temp41-4||129.128.41.204||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-temp41-5||129.128.41.205||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-temp41-6||129.128.41.206||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-temp41-7||129.128.41.207||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-temp41-9||129.128.41.209||Linux|Physical||||Dell Inc. PowerEdge 1750||||||Active|||||CS-UGrad|
-uc11||129.128.41.21||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-uc12||129.128.41.22||Linux|Physical|||| ||||||Active|||||CS-UGrad|
 u16-gold||129.128.41.225||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-cons1||129.128.41.226||Linux Server|Physical|||| Apache/2.4.7 (Ubuntu)||||||Active|||||CS-UGrad|
-uc13||129.128.41.23||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-mtu16nv||129.128.41.234||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-mtu14||129.128.41.235||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-mtu14nv||129.128.41.236||Linux|Physical|||| ||||||Active|||||CS-UGrad|
 falun||129.128.41.237||Linux|Physical|||| ||||||Active|||||CS-UGrad|
 ohaton||129.128.41.238||Linux Server|Physical|||| ||||||Active|||||CS-UGrad|
 amisk||129.128.41.239||Linux Server|Physical|||| ||||||Active|||||CS-UGrad|
-uc14||129.128.41.24||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-mtu16||129.128.41.240||Linux|Physical|||| ||||||Active|||||CS-UGrad|
 czar||129.128.41.243||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-uc15||129.128.41.25||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-uc16||129.128.41.26||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ui00||129.128.41.30||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ui01||129.128.41.31||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ui02||129.128.41.32||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ui03||129.128.41.33||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ui04||129.128.41.34||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ui05||129.128.41.35||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ui06||129.128.41.36||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ui07||129.128.41.37||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ui08||129.128.41.38||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ui09||129.128.41.39||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ui10||129.128.41.40||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ui11||129.128.41.41||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ui12||129.128.41.42||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ui13||129.128.41.43||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ui14||129.128.41.44||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ui15||129.128.41.45||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ui16||129.128.41.46||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ui17||129.128.41.47||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ui18||129.128.41.48||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ui19||129.128.41.49||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ui20||129.128.41.50||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ui21||129.128.41.51||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-ui22||129.128.41.52||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-um00||129.128.41.60||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-um01||129.128.41.61||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-um02||129.128.41.62||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-um03||129.128.41.63||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-um04||129.128.41.64||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-um05||129.128.41.65||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-um06||129.128.41.66||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-um07||129.128.41.67||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-um08||129.128.41.68||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-um09||129.128.41.69||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-um10||129.128.41.70||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-um11||129.128.41.71||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-um12||129.128.41.72||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-um13||129.128.41.73||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-um14||129.128.41.74||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-um15||129.128.41.75||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-um16||129.128.41.76||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-um17||129.128.41.77||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-um18||129.128.41.78||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-um19||129.128.41.79||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-um20||129.128.41.80||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-um21||129.128.41.81||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-um22||129.128.41.82||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-um23||129.128.41.83||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-um24||129.128.41.84||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-uk01||129.128.41.91||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-uk02||129.128.41.92||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-uk03||129.128.41.93||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-uk04||129.128.41.94||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-uk05||129.128.41.95||Linux|Physical|||| ||||||Active|||||CS-UGrad|
-uk06||129.128.41.96||Linux|Physical|||| ||||||Active|||||CS-UGrad|
 IST-578586||129.128.46.39||Windows|Physical|EA_Science||| ||||||Active|||||EAS|Head House PC 1
 610YJH2||129.128.46.44||Windows|Physical|EA_Science|||Dell Inc. OptiPlex 7040||||||Active|||||EAS|Dell Optiplex 7040 * Head House
 NPIA16E46||129.128.46.50||Printer|Physical||||Hewlett-Packard HP LaserJet M402dn||||||Active|||||EAS|HP ETHERNET MULTI-ENVIRONMENT,SN:PHBQB41931,FN:1L5382N,SVCID:27080,PID:HP LaserJet M402dn

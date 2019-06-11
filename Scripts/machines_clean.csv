@@ -1,4 +1,4 @@
-NAME|ROOM|IP||OS OS version|CATEGORY|OWNER|AUTHORITY|BARCODE|10 DESCRIPTION: Machine Company| Processor| RAM| HDD||SERIAL NUMBER|INVENTORY STATUS|RACKINFO||POWER UP|SUPPORT TEAM|DEPARTMENT|COMMENTS
+Hostname|Last Known Location|IPv4|IPv6|Operating System|Physical/Virtual Machine|Owner|Administrator|U of A Tag Number|Make/Model|Processor|RAM (GB)|Storage Space (GB)|GPU|Serial Number|Status|Rack Number|SRIT Access|Power Up|Support Team|Department|Comments
 586239-cs|ATH413|||Windows 8.1 Enterprise|laptop|yang|yang|586239||Intel i7 4500U @ 1.8 GHz|8|1000||||||||Computer Science|
 604047-cs|CSC247|||Windows 7 Enterprise|laptop|ackerl|ackerl|604047|ThinkPad T410i|Intel i3 M370 @ 2.4 GHz|4|250||||||||Computer Science|
 abyssus|CSC351|129.128.184.23||Linux Ubuntu 14.04|regular||athess||||||||active|||5||Computer Science|
