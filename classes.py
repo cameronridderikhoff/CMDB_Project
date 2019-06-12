@@ -5,6 +5,7 @@
 from functools import partial
 import fileinput
 import tkinter as tk
+import sqlite3
 
 from tkinter import END,BOTH, LEFT,RIGHT,TOP,BOTTOM, X,Y
 from tkinter import messagebox as msgbox
@@ -140,18 +141,29 @@ class WindowLookup(Window):
         self.listbox.delete(0,END)
         search_term = self.textboxes[0].get()
 
-        text_file = open(const.FILE_NAME, 'r')
-        lines = text_file.readlines()
-        text_file.close()
+        # Get connections to the databases
+        text_db = sqlite3.connect('machines.db')
 
-        for line in lines:
-            if search_term.lower() in line.lower():
-                self.list.append(line)
-                words = line.split("|")
-                if words[0] != "": #If the hostname is not blank
-                    self.listbox.insert(END, words[0])
-                else: #hostname is blank
-                    self.listbox.insert(END, const.NO_HOSTNAME)
+        # Get the contents of a table
+        text_cursor = text_db.cursor()
+        command = 'SELECT * FROM machines WHERE Hostname LIKE \'%' + search_term + '%\';'
+        print(command)
+        text_cursor.execute(command)
+        rows = text_cursor.fetchall()   # Returns the results as a list.
+
+        text_cursor.close()
+
+        for line_tup in rows:
+            line = ""
+            for entry in line_tup:
+                line = line + entry
+            print(line)
+            self.list.append(line)
+
+            if line_tup[0] != "": #If the hostname is not blank
+                self.listbox.insert(END, line_tup[0])
+            else: #hostname is blank
+                self.listbox.insert(END, const.NO_HOSTNAME)
         if len(self.list) == 0:
             msgbox.showinfo(const.ERROR, const.LOOKUP_ERROR)
     """

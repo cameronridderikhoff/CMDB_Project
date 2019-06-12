@@ -19,7 +19,7 @@ FUNCT = {
 }
 
 #Single line vars
-FILE_NAME = "machines.csv"
+FILE_NAME = "machines.db"
 #Window info
 WINDOW_SIZE = "800x600"
 LARGE_TEXT = 32
