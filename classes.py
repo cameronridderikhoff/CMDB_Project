@@ -178,7 +178,10 @@ class WindowLookup(Window):
         text_cursor.close()
 
         for i in range(len(const.TEXT)):
-            window_main.str_vars[i].set(const.TEXT[i] + line_tup[i])
+            if line_tup[i] != None:
+                window_main.str_vars[i].set(const.TEXT[i] + line_tup[i])
+            else:
+                window_main.str_vars[i].set(const.TEXT[i])
 
         #hide the append button and show the edit button
         window_main.buttons[const.EDIT_BUTTON_INDEX].grid()
@@ -269,6 +272,7 @@ class WindowMain(Window):
     This function is called when we select "Edit this Entry" on window_lookup
     """
     def edit_file(self, window_lookup):
+        print(window_lookup.list)
         search_term = window_lookup.list[window_lookup.listbox.curselection()[0]] #this is the hostname of the line we want
 
         # Get connections to the databases
@@ -294,17 +298,24 @@ class WindowMain(Window):
     """
     def append_file(self, window_lookup):
         print_string = "("
+        command = 'INSERT INTO machines ('
         for str_var in self.str_vars:
             words = str_var.get().split(": ")
-            print_string = print_string + words[1] + ", " 
-        print_string = print_string[0:-2] #remove the extra ", ", since each line shouldn't end with a ", "
-        print_string = print_string + ")" #finish with the closing bracket
+            if words[1] != "":
+                command = command + '\"' + words[0] + '\"' + ", "
+                print_string = print_string + '\"' + words[1] + '\"' + ", " 
+        
+        command = command[0:-2]#remove the extra ", ", since each line shouldn't end with a ", "
+        command = command + ") VALUES " #finish with the closing bracket and prepare the variable for the addition of the rest of the command
+        print_string = print_string[0:-2] 
+        print_string = print_string + ")" 
 
         # Get connections to the databases
         text_db = sqlite3.connect('machines.db')
         # Get the contents of a table
         text_cursor = text_db.cursor()
-        command = 'INSERT INTO machines (Hostname, Last Known Location, IPv4, IPv6, Operating System, Physical/Virtual Machine, Owner, Administrator, U of A Tag Number, Make/Model, Processor, RAM (GB), Storage Space (GB), GPU, Serial Number, Status, Rack Number, SRIT Access, Power Up, Support Team, Department, Comments) SET ' + print_string + ';'
+        command = command + print_string + ";"
+        print(command)
         text_cursor.execute(command)
         text_db.commit()
 
