@@ -315,7 +315,6 @@ class WindowMain(Window):
         # Get the contents of a table
         text_cursor = text_db.cursor()
         command = command + print_string + ";"
-        print(command)
         text_cursor.execute(command)
         text_db.commit()
 
@@ -329,11 +328,15 @@ class WindowMain(Window):
     def delete_from_file(self, window_lookup):
         search_term = window_lookup.list[window_lookup.listbox.curselection()[0]] #this is the line 
 
-        for line in fileinput.FileInput(const.FILE_NAME, inplace=1):
-            if line == search_term:
-                print("", end='')
-            else:
-                print(line, end='')
+        command = 'DELETE FROM machines WHERE Hostname = ' + '\"' + search_term + '\"' +  ';'
+        # Get connections to the databases
+        text_db = sqlite3.connect('machines.db')
+
+        # Get the contents of a table
+        text_cursor = text_db.cursor()
+        text_cursor.execute(command)
+        text_db.commit()
+        text_cursor.close()
         msgbox.showinfo(const.SUCCESS, window_lookup.listbox.get(window_lookup.listbox.curselection()[0]) + const.DELETE_MESSAGE)
         self.swap_window(window_lookup)
 
