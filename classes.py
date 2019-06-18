@@ -272,7 +272,6 @@ class WindowMain(Window):
     This function is called when we select "Edit this Entry" on window_lookup
     """
     def edit_file(self, window_lookup):
-        print(window_lookup.list)
         search_term = window_lookup.list[window_lookup.listbox.curselection()[0]] #this is the hostname of the line we want
 
         # Get connections to the databases
@@ -282,8 +281,9 @@ class WindowMain(Window):
         text_cursor = text_db.cursor()
         for str_var in self.str_vars:
             words = str_var.get().split(": ")
-            #words[0] is the description of the item, "Hostname" for example, words[1] is what comes after "Hostname: " -> so "grd123" for example
-            command = 'UPDATE machines SET \"' + words[0] + "\" = \"" + words[1] + '\" WHERE Hostname = \"' + search_term + '\";' 
+            #words[0] is the description of the item, "Hostname" for example. I am replacing the spaces with _ because the column names dont have spaces
+            #words[1] is what comes after "Hostname: " -> so "grd123" for example
+            command = 'UPDATE machines SET \"' + words[0].replace(' ', '_').replace('/', '_') + "\" = \"" + words[1] + '\" WHERE Hostname = \"' + search_term + '\";' 
             text_cursor.execute(command)
         text_db.commit()
         text_cursor.close()
@@ -302,7 +302,7 @@ class WindowMain(Window):
         for str_var in self.str_vars:
             words = str_var.get().split(": ")
             if words[1] != "":
-                command = command + '\"' + words[0] + '\"' + ", "
+                command = command + '\"' + words[0].replace(' ', '_').replace('/', '_') + '\"' + ", "
                 print_string = print_string + '\"' + words[1] + '\"' + ", " 
         
         command = command[0:-2]#remove the extra ", ", since each line shouldn't end with a ", "
@@ -397,7 +397,6 @@ class WindowHelp(Window):
         elif other.id == const.LOOKUP_TITLE:
             self.str_vars[0].set(const.LOOKUP_HELP)
         else:
-            print(other.root.title)
             msgbox.showinfo(const.ERROR, const.SWAP_ERROR)
         super().show()
 
