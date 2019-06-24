@@ -185,6 +185,7 @@ class WindowLookup(Window):
 
         #hide the append button and show the edit button
         window_main.buttons[const.EDIT_BUTTON_INDEX].grid()
+        window_main.buttons[const.DELETE_BUTTON_INDEX].grid()
         window_main.buttons[const.APPEND_BUTTON_INDEX].grid_remove()
 
         self.swap_window(window_main)
@@ -198,6 +199,7 @@ class WindowLookup(Window):
             window_main.str_vars[i].set(const.TEXT[i])
 
         window_main.buttons[const.EDIT_BUTTON_INDEX].grid_remove()
+        window_main.buttons[const.DELETE_BUTTON_INDEX].grid_remove()
         window_main.buttons[const.APPEND_BUTTON_INDEX].grid()
         self.swap_window(window_main)
 

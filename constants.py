@@ -38,6 +38,7 @@ EDIT_BUTTON = "Edit"
 NEW_ENTRY_BUTTON = "Create New Entry"
 EDIT_BUTTON_INDEX = len(TEXT)
 APPEND_BUTTON_INDEX = len(TEXT) + 1
+DELETE_BUTTON_INDEX = len(TEXT) + 2
 DELETE_BUTTON = "Delete Entry"
 
 MAIN_TITLE = "Science Machines"
