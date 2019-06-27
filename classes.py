@@ -5,6 +5,7 @@
 from functools import partial
 import fileinput
 import tkinter as tk
+import sqlite3
 
 from tkinter import END,BOTH, LEFT,RIGHT,TOP,BOTTOM, X,Y
 from tkinter import messagebox as msgbox
@@ -140,18 +141,24 @@ class WindowLookup(Window):
         self.listbox.delete(0,END)
         search_term = self.textboxes[0].get()
 
-        text_file = open(const.FILE_NAME, 'r')
-        lines = text_file.readlines()
-        text_file.close()
+        # Get connections to the databases
+        text_db = sqlite3.connect('machines.db')
 
-        for line in lines:
-            if search_term.lower() in line.lower():
-                self.list.append(line)
-                words = line.split("|")
-                if words[0] != "": #If the hostname is not blank
-                    self.listbox.insert(END, words[0])
-                else: #hostname is blank
-                    self.listbox.insert(END, const.NO_HOSTNAME)
+        # Get the contents of a table
+        text_cursor = text_db.cursor()
+        command = 'SELECT * FROM machines WHERE Hostname LIKE \'%' + search_term + '%\';'
+        text_cursor.execute(command)
+        rows = text_cursor.fetchall()   # Returns the results as a list.
+
+        text_cursor.close()
+ 
+        for line_tup in rows:
+            self.list.append(line_tup[0])
+
+            if line_tup[0] != "": #If the hostname is not blank
+                self.listbox.insert(END, line_tup[0])
+            else: #hostname is blank
+                self.listbox.insert(END, const.NO_HOSTNAME)
         if len(self.list) == 0:
             msgbox.showinfo(const.ERROR, const.LOOKUP_ERROR)
     """
@@ -160,12 +167,27 @@ class WindowLookup(Window):
     """
     def selected_clicked(self, window_main):
         line = self.list[self.listbox.curselection()[0]]
-        words = line.split("|")
         
+         # Get connections to the databases
+        text_db = sqlite3.connect('machines.db')
+        # Get the contents of a table
+        text_cursor = text_db.cursor()
+        command = 'SELECT * FROM machines WHERE Hostname = \'' + line + '\';'
+        text_cursor.execute(command)
+        line_tup = text_cursor.fetchall()[0]   # Returns the results as a list, so we turn the list into just the tuple
+        text_cursor.close()
+
         for i in range(len(const.TEXT)):
-            window_main.str_vars[i].set(const.TEXT[i] + words[i])
+            if line_tup[i] != None:
+                window_main.str_vars[i].set(const.TEXT[i] + line_tup[i])
+            else:
+                window_main.str_vars[i].set(const.TEXT[i])
+
+        #hide the append button and show the edit button
         window_main.buttons[const.EDIT_BUTTON_INDEX].grid()
+        window_main.buttons[const.DELETE_BUTTON_INDEX].grid()
         window_main.buttons[const.APPEND_BUTTON_INDEX].grid_remove()
+
         self.swap_window(window_main)
 
     """
@@ -177,6 +199,7 @@ class WindowLookup(Window):
             window_main.str_vars[i].set(const.TEXT[i])
 
         window_main.buttons[const.EDIT_BUTTON_INDEX].grid_remove()
+        window_main.buttons[const.DELETE_BUTTON_INDEX].grid_remove()
         window_main.buttons[const.APPEND_BUTTON_INDEX].grid()
         self.swap_window(window_main)
 
@@ -251,19 +274,22 @@ class WindowMain(Window):
     This function is called when we select "Edit this Entry" on window_lookup
     """
     def edit_file(self, window_lookup):
-        search_term = window_lookup.list[window_lookup.listbox.curselection()[0]] #this is the line 
+        search_term = window_lookup.list[window_lookup.listbox.curselection()[0]] #this is the hostname of the line we want
 
-        print_string = ""
+        # Get connections to the databases
+        text_db = sqlite3.connect('machines.db')
+
+        # Get the contents of a table
+        text_cursor = text_db.cursor()
         for str_var in self.str_vars:
             words = str_var.get().split(": ")
-            print_string = print_string + words[1] + "|" 
-        print_string = print_string[0:-1] #remove the extra "|", since each line shouldn't end with a "|"
+            #words[0] is the description of the item, "Hostname" for example. I am replacing the spaces with _ because the column names dont have spaces
+            #words[1] is what comes after "Hostname: " -> so "grd123" for example
+            command = 'UPDATE machines SET \"' + words[0].replace(' ', '_').replace('/', '_') + "\" = \"" + words[1] + '\" WHERE Hostname = \"' + search_term + '\";' 
+            text_cursor.execute(command)
+        text_db.commit()
+        text_cursor.close()
 
-        for line in fileinput.FileInput(const.FILE_NAME, inplace=1):
-            if line == search_term:
-                print(print_string, end='')
-            else:
-                print(line, end='')
         msgbox.showinfo(const.SUCCESS, window_lookup.listbox.get(window_lookup.listbox.curselection()[0]) + const.EDIT_MESSAGE)
         self.swap_window(window_lookup)
 
@@ -273,15 +299,27 @@ class WindowMain(Window):
     This function is called when we select "Create new Entry" on window_lookup
     """
     def append_file(self, window_lookup):
-        print_string = ""
+        print_string = "("
+        command = 'INSERT INTO machines ('
         for str_var in self.str_vars:
             words = str_var.get().split(": ")
-            print_string = print_string + words[1] + "|" 
-        print_string = print_string[0:-1] #remove the extra "|", since each line shouldn't end with a "|"
+            if words[1] != "":
+                command = command + '\"' + words[0].replace(' ', '_').replace('/', '_') + '\"' + ", "
+                print_string = print_string + '\"' + words[1] + '\"' + ", " 
+        
+        command = command[0:-2]#remove the extra ", ", since each line shouldn't end with a ", "
+        command = command + ") VALUES " #finish with the closing bracket and prepare the variable for the addition of the rest of the command
+        print_string = print_string[0:-2] 
+        print_string = print_string + ")" 
 
-        text_file = open(const.FILE_NAME, 'a')
-        text_file.write("\n" + print_string)
-        text_file.close()
+        # Get connections to the databases
+        text_db = sqlite3.connect('machines.db')
+        # Get the contents of a table
+        text_cursor = text_db.cursor()
+        command = command + print_string + ";"
+        text_cursor.execute(command)
+        text_db.commit()
+
         msgbox.showinfo(const.SUCCESS, self.str_vars[0].get() + const.APPEND_MESSAGE) #str_vars[0] is the hostname
         self.swap_window(window_lookup)
 
@@ -292,11 +330,15 @@ class WindowMain(Window):
     def delete_from_file(self, window_lookup):
         search_term = window_lookup.list[window_lookup.listbox.curselection()[0]] #this is the line 
 
-        for line in fileinput.FileInput(const.FILE_NAME, inplace=1):
-            if line == search_term:
-                print("", end='')
-            else:
-                print(line, end='')
+        command = 'DELETE FROM machines WHERE Hostname = ' + '\"' + search_term + '\"' +  ';'
+        # Get connections to the databases
+        text_db = sqlite3.connect('machines.db')
+
+        # Get the contents of a table
+        text_cursor = text_db.cursor()
+        text_cursor.execute(command)
+        text_db.commit()
+        text_cursor.close()
         msgbox.showinfo(const.SUCCESS, window_lookup.listbox.get(window_lookup.listbox.curselection()[0]) + const.DELETE_MESSAGE)
         self.swap_window(window_lookup)
 
@@ -357,7 +399,6 @@ class WindowHelp(Window):
         elif other.id == const.LOOKUP_TITLE:
             self.str_vars[0].set(const.LOOKUP_HELP)
         else:
-            print(other.root.title)
             msgbox.showinfo(const.ERROR, const.SWAP_ERROR)
         super().show()
 
