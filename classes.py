@@ -146,12 +146,12 @@ class WindowLookup(Window):
 
         # Get the contents of a table
         text_cursor = text_db.cursor()
-        command = 'SELECT * FROM machines WHERE Hostname LIKE \'%' + search_term + '%\';'
+        #Search the table for all searchable terms (Hostname, Last known location, admin, ect...)
+        command = 'SELECT * FROM machines WHERE Hostname LIKE \'%' + search_term + '%\'' + 'OR Last_Known_Location LIKE \'%' + search_term + '%\'' + 'OR Operating_System LIKE \'%' + search_term + '%\'' + 'OR Physical_Virtual_Machine LIKE \'%' + search_term + '%\'' + 'OR Owner LIKE \'%' + search_term + '%\'' + 'OR Administrator LIKE \'%' + search_term + '%\'' + 'OR U_of_A_Tag_Number LIKE \'%' + search_term + '%\'' + 'OR \'RAM_(GB)\' LIKE \'%' + search_term + '%\'' + 'OR GPU LIKE \'%' + search_term + '%\'' + 'OR Serial_Number LIKE \'%' + search_term + '%\'' + 'OR Status LIKE \'%' + search_term + '%\'' + 'OR Department LIKE \'%' + search_term + '%\'' + ';'
         text_cursor.execute(command)
         rows = text_cursor.fetchall()   # Returns the results as a list.
 
         text_cursor.close()
- 
         for line_tup in rows:
             self.list.append(line_tup[0])
 
@@ -329,17 +329,21 @@ class WindowMain(Window):
     """
     def delete_from_file(self, window_lookup):
         search_term = window_lookup.list[window_lookup.listbox.curselection()[0]] #this is the line 
+        delete = tk.messagebox.askquestion ('Delete Entry','Are you sure you want to delete this entry permanently? This cannot be undone.', icon = 'warning')
+        if delete == 'yes':
+            command = 'DELETE FROM machines WHERE Hostname = ' + '\"' + search_term + '\"' +  ';'
+            # Get connections to the databases
+            text_db = sqlite3.connect('machines.db')
 
-        command = 'DELETE FROM machines WHERE Hostname = ' + '\"' + search_term + '\"' +  ';'
-        # Get connections to the databases
-        text_db = sqlite3.connect('machines.db')
+            # Get the contents of a table
+            text_cursor = text_db.cursor()
+            text_cursor.execute(command)
+            text_db.commit()
+            text_cursor.close()
+            msgbox.showinfo(const.SUCCESS, window_lookup.listbox.get(window_lookup.listbox.curselection()[0]) + const.DELETE_MESSAGE)
+        else:
+            tk.messagebox.showinfo(const.CANCEL, const.CANCEL_MESSAGE)
 
-        # Get the contents of a table
-        text_cursor = text_db.cursor()
-        text_cursor.execute(command)
-        text_db.commit()
-        text_cursor.close()
-        msgbox.showinfo(const.SUCCESS, window_lookup.listbox.get(window_lookup.listbox.curselection()[0]) + const.DELETE_MESSAGE)
         self.swap_window(window_lookup)
 
 

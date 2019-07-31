@@ -80,6 +80,9 @@ SUCCESS = "Success"
 EDIT_MESSAGE = " has been edited.\nmachines.csv successfully updated."
 APPEND_MESSAGE = " has been added.\nmachines.csv successfully updated."
 DELETE_MESSAGE = " has been removed.\nmachines.csv successfully updated."
+#Cancel Messages
+CANCEL = "Cancel"
+CANCEL_MESSAGE = "This action has been canceled."
 #Error messages
 ERROR = "Error"
 coding_error = "\nCoding error: Please report this to rodj@ualberta.ca"
