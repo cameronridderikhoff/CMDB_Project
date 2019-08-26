@@ -29,6 +29,7 @@ window_lookup.create_button(const.HELP_BUTTON, const.FUNCT["GOTO_HELP"], 4, TOP,
 
 #window_main widgets
 for i in range(len(const.TEXT)):
+    #if statement is useless right now (use 2 frames instead)
     if i < len(const.TEXT)/2:
         window_main.create_label(const.TEXT[i], i)
         window_main.create_button(const.EDIT_BUTTON, const.FUNCT["EDIT_CLICKED"], i, args=[window_edit])

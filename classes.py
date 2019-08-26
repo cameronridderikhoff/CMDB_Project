@@ -17,7 +17,7 @@ class Window(tk.Frame):
         self.root = parent
         self.root.geometry(const.WINDOW_SIZE)
         self.root.title(title)
-        self.id = title #id is used by window_help to determine the correct 
+        self.id = title #id is used by window_help to determine the correct window to return to
         self.frame = tk.Frame(parent)
         self.frame.pack(fill=BOTH)
         
@@ -132,7 +132,7 @@ class WindowLookup(Window):
             super().create_button(text,command,index,side,False,args)
 
     """
-    This function opens the "machines.csv" file, reads the lines, 
+    This function opens the "machines.db" file, reads the lines, 
     and adds each line containing what the user requested to the listbox, and list variables
     """
     def get_info(self):
@@ -142,6 +142,7 @@ class WindowLookup(Window):
         search_term = self.textboxes[0].get()
 
         # Get connections to the databases
+        #TODO database file should NOT be hardcoded
         text_db = sqlite3.connect('machines.db')
 
         # Get the contents of a table
@@ -153,7 +154,7 @@ class WindowLookup(Window):
 
         text_cursor.close()
         for line_tup in rows:
-            self.list.append(line_tup[0])
+            self.list.append(line_tup[0]) #append the hostname to self.list
 
             if line_tup[0] != "": #If the hostname is not blank
                 self.listbox.insert(END, line_tup[0])
@@ -161,17 +162,20 @@ class WindowLookup(Window):
                 self.listbox.insert(END, const.NO_HOSTNAME)
         if len(self.list) == 0:
             msgbox.showinfo(const.ERROR, const.LOOKUP_ERROR)
+
     """
     This function is called when the "Okay" button is pressed, and sets up window_main with the selected machine
     Eg.(For the "Hostname" field) "Hostname: " + "grd123"  -> "Hostname: grd123"
     """
     def selected_clicked(self, window_main):
+        #TODO errors out when there is an empty list 
         line = self.list[self.listbox.curselection()[0]]
         
          # Get connections to the databases
         text_db = sqlite3.connect('machines.db')
         # Get the contents of a table
         text_cursor = text_db.cursor()
+        #TODO the method cant detect 2 machines with the same hostname
         command = 'SELECT * FROM machines WHERE Hostname = \'' + line + '\';'
         text_cursor.execute(command)
         line_tup = text_cursor.fetchall()[0]   # Returns the results as a list, so we turn the list into just the tuple
@@ -198,6 +202,7 @@ class WindowLookup(Window):
         for i in range(len(const.TEXT)):
             window_main.str_vars[i].set(const.TEXT[i])
 
+        #hide the edit button and show the append button
         window_main.buttons[const.EDIT_BUTTON_INDEX].grid_remove()
         window_main.buttons[const.DELETE_BUTTON_INDEX].grid_remove()
         window_main.buttons[const.APPEND_BUTTON_INDEX].grid()
@@ -205,14 +210,15 @@ class WindowLookup(Window):
 
 class WindowMain(Window):
     def __init__(self, parent, title):
-        self.currently_editing = None
+        self.currently_editing = None #contains the index of the string variable (in strvars) that we are currently editing
         self.frame2 = tk.Frame(parent)
         self.frame2.pack(fill=Y, side = LEFT)
         super().__init__(parent, title)
 
     """
     This function overrides the create_button function in Window, adding special checks for functions specific to WindowMain
-    It also sets up a grid for the two rows, utilizing the second frame that was created
+    It also sets up a grid for the two rows, utilizing the second frame that was created, which is why the super function is not 
+    used from the parent Window class
     """
     def create_button(self, text, command, index, args=[]):
         #failsafe in case trying to add an out of range widget
@@ -233,7 +239,7 @@ class WindowMain(Window):
             self.buttons[index] = tk.Button(self.frame, text=text, command=partial(self.delete_from_file,args[0]))
         elif command == const.FUNCT["SWAP_WINDOW"]: #args[0] must contain a reference to the window we are swapping to
             self.buttons[index] = tk.Button(self.frame, text=text, command=partial(self.swap_window,args[0]))
-        elif command == const.FUNCT["GOTO_HELP"]:
+        elif command == const.FUNCT["GOTO_HELP"]: #args[0] must contain a reference to window_help
             self.buttons[index] = tk.Button(self.frame, text=text, command=partial(self.goto_help,args[0]))
         else:
             msgbox.showinfo(const.ERROR, "const.BUTTON_END_ERROR")
@@ -242,7 +248,7 @@ class WindowMain(Window):
     
     """
     This function creates overrides the create_label function in Window so that the labels will be in the correct location,
-    by utilizing frame2
+    by utilizing frame2 which is why the super function is not used from the parent Window class
     """
     def create_label(self, text, index, text_size=11):
         #failsafe in case trying to add an out of range widget
@@ -274,6 +280,7 @@ class WindowMain(Window):
     This function is called when we select "Edit this Entry" on window_lookup
     """
     def edit_file(self, window_lookup):
+        #TODO:  database file should NOT be hardcoded
         search_term = window_lookup.list[window_lookup.listbox.curselection()[0]] #this is the hostname of the line we want
 
         # Get connections to the databases
@@ -285,6 +292,7 @@ class WindowMain(Window):
             words = str_var.get().split(": ")
             #words[0] is the description of the item, "Hostname" for example. I am replacing the spaces with _ because the column names dont have spaces
             #words[1] is what comes after "Hostname: " -> so "grd123" for example
+            #TODO: can we check to see what has been altered so we dont resave everything?
             command = 'UPDATE machines SET \"' + words[0].replace(' ', '_').replace('/', '_') + "\" = \"" + words[1] + '\" WHERE Hostname = \"' + search_term + '\";' 
             text_cursor.execute(command)
         text_db.commit()
@@ -331,6 +339,7 @@ class WindowMain(Window):
         search_term = window_lookup.list[window_lookup.listbox.curselection()[0]] #this is the line 
         delete = tk.messagebox.askquestion ('Delete Entry','Are you sure you want to delete this entry permanently? This cannot be undone.', icon = 'warning')
         if delete == 'yes':
+            #TODO:  database file should NOT be hardcoded
             command = 'DELETE FROM machines WHERE Hostname = ' + '\"' + search_term + '\"' +  ';'
             # Get connections to the databases
             text_db = sqlite3.connect('machines.db')
