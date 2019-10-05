@@ -280,11 +280,11 @@ class WindowMain(Window):
     This function is called when we select "Edit this Entry" on window_lookup
     """
     def edit_file(self, window_lookup):
-        #TODO:  database file should NOT be hardcoded
+
         search_term = window_lookup.list[window_lookup.listbox.curselection()[0]] #this is the hostname of the line we want
 
         # Get connections to the databases
-        text_db = sqlite3.connect('machines.db')
+        text_db = sqlite3.connect(const.FILE_NAME)
 
         # Get the contents of a table
         text_cursor = text_db.cursor()
@@ -321,7 +321,7 @@ class WindowMain(Window):
         print_string = print_string + ")" 
 
         # Get connections to the databases
-        text_db = sqlite3.connect('machines.db')
+        text_db = sqlite3.connect(const.FILE_NAME)
         # Get the contents of a table
         text_cursor = text_db.cursor()
         command = command + print_string + ";"
@@ -339,10 +339,9 @@ class WindowMain(Window):
         search_term = window_lookup.list[window_lookup.listbox.curselection()[0]] #this is the line 
         delete = tk.messagebox.askquestion ('Delete Entry','Are you sure you want to delete this entry permanently? This cannot be undone.', icon = 'warning')
         if delete == 'yes':
-            #TODO:  database file should NOT be hardcoded
             command = 'DELETE FROM machines WHERE Hostname = ' + '\"' + search_term + '\"' +  ';'
             # Get connections to the databases
-            text_db = sqlite3.connect('machines.db')
+            text_db = sqlite3.connect(const.FILE_NAME)
 
             # Get the contents of a table
             text_cursor = text_db.cursor()
