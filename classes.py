@@ -2,6 +2,9 @@
 #and https://www.blog.pythonlibrary.org/2012/07/26/tkinter-how-to-show-hide-a-window/
 #Edited and built upon by Cameron Ridderikhoff for SRIT at the University of Alberta
 #Last edited May 25, 2019
+
+#TODO when deleting an entry, it does not automattically go off of the list of machines without refreshing
+#TODO when adding an entry, it does not automatically go onto the list of machines without refreshing
 from functools import partial
 import fileinput
 import tkinter as tk
@@ -142,8 +145,7 @@ class WindowLookup(Window):
         search_term = self.textboxes[0].get()
 
         # Get connections to the databases
-        #TODO database file should NOT be hardcoded
-        text_db = sqlite3.connect('machines.db')
+        text_db = sqlite3.connect(const.FILE_NAME)
 
         # Get the contents of a table
         text_cursor = text_db.cursor()
@@ -172,7 +174,7 @@ class WindowLookup(Window):
         line = self.list[self.listbox.curselection()[0]]
         
          # Get connections to the databases
-        text_db = sqlite3.connect('machines.db')
+        text_db = sqlite3.connect(const.FILE_NAME)
         # Get the contents of a table
         text_cursor = text_db.cursor()
         #TODO the method cant detect 2 machines with the same hostname
